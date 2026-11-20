@@ -1,0 +1,13 @@
+sequence: Fantasy_P1001
+run: 0
+seed: 0
+status: OK
+frames: 1238
+poses: 1238
+time_s: 32.0
+fps: 50.17
+frame_ms_mean: 19.93
+frame_ms_max: 66.82
+finished: 2026-10-20 11:25:48
+config: tartanground_diff
+imported_from: results/tartanground/Fantasy_P1001 (run_tartanground.sh)

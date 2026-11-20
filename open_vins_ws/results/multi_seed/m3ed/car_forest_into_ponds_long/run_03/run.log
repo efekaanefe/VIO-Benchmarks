@@ -1,0 +1,12 @@
+sequence: car_forest_into_ponds_long
+run: 3
+seed: 0
+status: OK
+frames: 10020
+poses: 10232
+time_s: 312.1
+fps: 45.24
+frame_ms_mean: 22.10
+frame_ms_max: 59.64
+finished: 2026-10-13 19:17:22
+config: m3ed_car_forest

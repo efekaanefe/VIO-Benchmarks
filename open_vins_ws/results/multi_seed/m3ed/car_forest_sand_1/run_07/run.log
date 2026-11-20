@@ -1,0 +1,12 @@
+sequence: car_forest_sand_1
+run: 7
+seed: 0
+status: OK
+frames: 3528
+poses: 3738
+time_s: 112.4
+fps: 46.71
+frame_ms_mean: 21.41
+frame_ms_max: 51.64
+finished: 2026-10-13 22:24:53
+config: m3ed_car_forest

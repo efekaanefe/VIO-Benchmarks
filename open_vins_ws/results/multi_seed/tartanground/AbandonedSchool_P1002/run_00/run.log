@@ -1,0 +1,13 @@
+sequence: AbandonedSchool_P1002
+run: 0
+seed: 0
+status: OK
+frames: 3046
+poses: 3046
+time_s: 77.0
+fps: 47.50
+frame_ms_mean: 21.05
+frame_ms_max: 70.76
+finished: 2026-10-20 10:49:13
+config: tartanground_diff
+imported_from: results/tartanground/AbandonedSchool_P1002 (run_tartanground.sh)

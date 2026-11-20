@@ -1,0 +1,13 @@
+# Dataset preparation on the host (no ROS or Docker needed)
+rosbags>=0.11
+numpy
+scipy
+pandas
+opencv-python-headless
+h5py
+fsspec
+aiohttp
+requests
+pyyaml
+tqdm
+tartanair

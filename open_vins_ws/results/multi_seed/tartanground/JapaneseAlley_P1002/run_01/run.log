@@ -1,0 +1,12 @@
+sequence: JapaneseAlley_P1002
+run: 1
+seed: 0
+status: OK
+frames: 1528
+poses: 1528
+time_s: 37.3
+fps: 51.62
+frame_ms_mean: 19.37
+frame_ms_max: 55.14
+finished: 2026-10-24 08:49:00
+config: tartanground_diff

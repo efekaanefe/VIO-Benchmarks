@@ -1,0 +1,12 @@
+sequence: Supermarket_P1000
+run: 1
+seed: 0
+status: OK
+frames: 1118
+poses: 1118
+time_s: 30.7
+fps: 49.96
+frame_ms_mean: 20.02
+frame_ms_max: 63.94
+finished: 2026-10-24 13:28:16
+config: tartanground_diff

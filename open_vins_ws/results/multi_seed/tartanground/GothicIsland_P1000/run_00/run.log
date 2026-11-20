@@ -1,0 +1,13 @@
+sequence: GothicIsland_P1000
+run: 0
+seed: 0
+status: OK
+frames: 1011
+poses: 1011
+time_s: 31.0
+fps: 41.20
+frame_ms_mean: 24.27
+frame_ms_max: 91.83
+finished: 2026-10-20 11:39:47
+config: tartanground_diff
+imported_from: results/tartanground/GothicIsland_P1000 (run_tartanground.sh)

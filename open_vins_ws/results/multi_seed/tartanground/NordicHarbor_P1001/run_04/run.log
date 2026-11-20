@@ -1,0 +1,12 @@
+sequence: NordicHarbor_P1001
+run: 4
+seed: 0
+status: OK
+frames: 3280
+poses: 3280
+time_s: 80.0
+fps: 48.29
+frame_ms_mean: 20.71
+frame_ms_max: 74.39
+finished: 2026-10-24 10:01:24
+config: tartanground_diff

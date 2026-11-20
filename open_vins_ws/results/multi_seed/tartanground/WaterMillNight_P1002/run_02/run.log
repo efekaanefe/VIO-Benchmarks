@@ -1,0 +1,12 @@
+sequence: WaterMillNight_P1002
+run: 2
+seed: 0
+status: OK
+frames: 650
+poses: 650
+time_s: 15.2
+fps: 67.11
+frame_ms_mean: 14.90
+frame_ms_max: 65.14
+finished: 2026-10-24 14:00:21
+config: tartanground_diff

@@ -1,0 +1,13 @@
+sequence: CoalMine_P1000
+run: 0
+seed: 0
+status: OK
+frames: 974
+poses: 974
+time_s: 27.0
+fps: 46.57
+frame_ms_mean: 21.47
+frame_ms_max: 61.21
+finished: 2026-10-20 11:05:26
+config: tartanground_diff
+imported_from: results/tartanground/CoalMine_P1000 (run_tartanground.sh)

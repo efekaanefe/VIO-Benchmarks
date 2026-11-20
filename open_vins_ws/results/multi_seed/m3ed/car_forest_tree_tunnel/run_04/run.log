@@ -1,0 +1,12 @@
+sequence: car_forest_tree_tunnel
+run: 4
+seed: 0
+status: OK
+frames: 2828
+poses: 2944
+time_s: 89.6
+fps: 45.56
+frame_ms_mean: 21.95
+frame_ms_max: 57.94
+finished: 2026-10-13 20:08:53
+config: m3ed_car_forest

@@ -1,0 +1,12 @@
+sequence: car_urban_night_ucity_small_loop
+run: 5
+seed: 0
+status: OK
+frames: 7932
+poses: 12182
+time_s: 294.3
+fps: 50.57
+frame_ms_mean: 19.77
+frame_ms_max: 54.61
+finished: 2026-10-13 21:29:39
+config: m3ed_car_urban_night

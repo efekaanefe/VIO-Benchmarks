@@ -1,0 +1,12 @@
+sequence: ModularNeighborhoodIntExt_P1001
+run: 1
+seed: 0
+status: OK
+frames: 718
+poses: 718
+time_s: 26.4
+fps: 40.35
+frame_ms_mean: 24.79
+frame_ms_max: 75.60
+finished: 2026-10-24 09:11:31
+config: tartanground_diff

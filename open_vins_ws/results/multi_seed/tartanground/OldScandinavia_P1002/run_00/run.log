@@ -1,0 +1,13 @@
+sequence: OldScandinavia_P1002
+run: 0
+seed: 0
+status: OK
+frames: 646
+poses: 646
+time_s: 23.0
+fps: 37.69
+frame_ms_mean: 26.53
+frame_ms_max: 80.38
+finished: 2026-10-20 13:07:51
+config: tartanground_diff
+imported_from: results/tartanground/OldScandinavia_P1002 (run_tartanground.sh)

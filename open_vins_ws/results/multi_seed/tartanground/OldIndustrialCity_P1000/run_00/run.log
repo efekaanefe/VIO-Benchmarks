@@ -1,0 +1,13 @@
+sequence: OldIndustrialCity_P1000
+run: 0
+seed: 0
+status: OK
+frames: 4444
+poses: 4444
+time_s: 126.0
+fps: 40.67
+frame_ms_mean: 24.59
+frame_ms_max: 80.86
+finished: 2026-10-20 12:54:27
+config: tartanground_diff
+imported_from: results/tartanground/OldIndustrialCity_P1000 (run_tartanground.sh)

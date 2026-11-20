@@ -1,0 +1,12 @@
+sequence: car_urban_day_ucity_small_loop
+run: 8
+seed: 0
+status: OK
+frames: 8170
+poses: 15981
+time_s: 348.8
+fps: 49.22
+frame_ms_mean: 20.32
+frame_ms_max: 56.97
+finished: 2026-10-13 23:29:22
+config: m3ed_car_urban_day

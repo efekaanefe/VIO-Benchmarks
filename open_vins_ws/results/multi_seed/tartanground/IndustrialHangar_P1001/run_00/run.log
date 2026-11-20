@@ -1,0 +1,13 @@
+sequence: IndustrialHangar_P1001
+run: 0
+seed: 0
+status: OK
+frames: 2795
+poses: 2795
+time_s: 71.0
+fps: 49.32
+frame_ms_mean: 20.27
+frame_ms_max: 71.09
+finished: 2026-10-20 12:10:22
+config: tartanground_diff
+imported_from: results/tartanground/IndustrialHangar_P1001 (run_tartanground.sh)

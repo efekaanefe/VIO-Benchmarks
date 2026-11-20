@@ -1,0 +1,12 @@
+sequence: OldIndustrialCity_P1002
+run: 4
+seed: 0
+status: OK
+frames: 7294
+poses: 7294
+time_s: 197.4
+fps: 41.84
+frame_ms_mean: 23.90
+frame_ms_max: 89.13
+finished: 2026-10-24 10:42:13
+config: tartanground_diff

@@ -1,0 +1,12 @@
+sequence: OldTownSummer_P1000
+run: 4
+seed: 0
+status: OK
+frames: 2068
+poses: 2068
+time_s: 50.4
+fps: 50.37
+frame_ms_mean: 19.85
+frame_ms_max: 66.92
+finished: 2026-10-24 11:07:59
+config: tartanground_diff

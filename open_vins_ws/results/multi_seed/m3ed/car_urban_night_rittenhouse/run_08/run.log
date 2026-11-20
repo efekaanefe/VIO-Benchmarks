@@ -1,0 +1,12 @@
+sequence: car_urban_night_rittenhouse
+run: 8
+seed: 0
+status: OK
+frames: 7580
+poses: 9200
+time_s: 252.9
+fps: 48.47
+frame_ms_mean: 20.63
+frame_ms_max: 75.88
+finished: 2026-10-13 23:41:33
+config: m3ed_car_urban_night

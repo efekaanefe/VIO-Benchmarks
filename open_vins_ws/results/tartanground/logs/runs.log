@@ -1,0 +1,235 @@
+AbandonedCable_P1000: 608 images, 6080 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedCable_P1000.bag
+[2026-10-20 10:38:00] [AbandonedCable_P1000] exit=0, bag 14s, run 20s, poses: 576
+AbandonedCable_P1001: 983 images, 9830 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedCable_P1001.bag
+[2026-10-20 10:38:50] [AbandonedCable_P1001] exit=0, bag 20s, run 30s, poses: 946
+AbandonedCable_P1002: 1621 images, 16210 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedCable_P1002.bag
+[2026-10-20 10:40:16] [AbandonedCable_P1002] exit=0, bag 44s, run 42s, poses: 1594
+AbandonedFactory2_P1000: 864 images, 8640 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedFactory2_P1000.bag
+[2026-10-20 10:40:59] [AbandonedFactory2_P1000] exit=0, bag 19s, run 24s, poses: 837
+AbandonedFactory2_P1001: 1173 images, 11730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedFactory2_P1001.bag
+[2026-10-20 10:42:00] [AbandonedFactory2_P1001] exit=0, bag 32s, run 29s, poses: 1146
+AbandonedFactory2_P1002: 1576 images, 15760 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedFactory2_P1002.bag
+[2026-10-20 10:43:19] [AbandonedFactory2_P1002] exit=0, bag 39s, run 40s, poses: 1549
+AbandonedSchool_P1000: 2424 images, 24240 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedSchool_P1000.bag
+[2026-10-20 10:45:21] [AbandonedSchool_P1000] exit=0, bag 61s, run 61s, poses: 2397
+AbandonedSchool_P1001: 1489 images, 14890 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedSchool_P1001.bag
+[2026-10-20 10:46:39] [AbandonedSchool_P1001] exit=0, bag 37s, run 41s, poses: 1462
+AbandonedSchool_P1002: 3073 images, 30730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedSchool_P1002.bag
+[2026-10-20 10:49:13] [AbandonedSchool_P1002] exit=0, bag 77s, run 77s, poses: 3046
+Antiquity3D_P1000: 2787 images, 27870 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Antiquity3D_P1000.bag
+[2026-10-20 10:51:23] [Antiquity3D_P1000] exit=0, bag 63s, run 67s, poses: 2760
+Antiquity3D_P1001: 1953 images, 19530 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Antiquity3D_P1001.bag
+[2026-10-20 10:53:00] [Antiquity3D_P1001] exit=0, bag 45s, run 52s, poses: 1915
+Antiquity3D_P1002: 2069 images, 20690 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Antiquity3D_P1002.bag
+[2026-10-20 10:54:39] [Antiquity3D_P1002] exit=0, bag 47s, run 51s, poses: 2041
+CarWelding_P1000: 632 images, 6320 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CarWelding_P1000.bag
+[2026-10-20 10:55:15] [CarWelding_P1000] exit=0, bag 16s, run 20s, poses: 605
+CarWelding_P1001: 918 images, 9180 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CarWelding_P1001.bag
+[2026-10-20 10:56:02] [CarWelding_P1001] exit=0, bag 22s, run 25s, poses: 867
+CarWelding_P1002: 1739 images, 17390 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CarWelding_P1002.bag
+[2026-10-20 10:57:29] [CarWelding_P1002] exit=0, bag 43s, run 44s, poses: 1712
+CastleFortress_P1000: 3060 images, 30600 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CastleFortress_P1000.bag
+[2026-10-20 11:00:09] [CastleFortress_P1000] exit=0, bag 73s, run 87s, poses: 3033
+CastleFortress_P1001: 2880 images, 28800 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CastleFortress_P1001.bag
+[2026-10-20 11:02:34] [CastleFortress_P1001] exit=0, bag 68s, run 77s, poses: 2844
+CastleFortress_P1002: 2193 images, 21930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CastleFortress_P1002.bag
+[2026-10-20 11:04:35] [CastleFortress_P1002] exit=0, bag 52s, run 69s, poses: 2131
+CoalMine_P1000: 1001 images, 10010 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CoalMine_P1000.bag
+[2026-10-20 11:05:26] [CoalMine_P1000] exit=0, bag 24s, run 27s, poses: 974
+CoalMine_P1001: 1206 images, 12060 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CoalMine_P1001.bag
+[2026-10-20 11:06:27] [CoalMine_P1001] exit=0, bag 29s, run 32s, poses: 1179
+ConstructionSite_P1000: 2544 images, 25440 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ConstructionSite_P1000.bag
+[2026-10-20 11:08:28] [ConstructionSite_P1000] exit=0, bag 62s, run 59s, poses: 2517
+ConstructionSite_P1001: 2129 images, 21290 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ConstructionSite_P1001.bag
+[2026-10-20 11:10:08] [ConstructionSite_P1001] exit=0, bag 50s, run 50s, poses: 2102
+ConstructionSite_P1002: 1815 images, 18150 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ConstructionSite_P1002.bag
+[2026-10-20 11:11:42] [ConstructionSite_P1002] exit=0, bag 49s, run 45s, poses: 1788
+CyberPunkDowntown_P1000: 1465 images, 14650 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CyberPunkDowntown_P1000.bag
+[2026-10-20 11:13:01] [CyberPunkDowntown_P1000] exit=0, bag 34s, run 45s, poses: 1438
+CyberPunkDowntown_P1001: 2004 images, 20040 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CyberPunkDowntown_P1001.bag
+[2026-10-20 11:14:51] [CyberPunkDowntown_P1001] exit=0, bag 54s, run 56s, poses: 1977
+CyberPunkDowntown_P1002: 1698 images, 16980 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CyberPunkDowntown_P1002.bag
+[2026-10-20 11:16:14] [CyberPunkDowntown_P1002] exit=0, bag 40s, run 43s, poses: 1664
+Downtown_P1000: 3488 images, 34880 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Downtown_P1000.bag
+[2026-10-20 11:19:05] [Downtown_P1000] exit=0, bag 86s, run 86s, poses: 3461
+Downtown_P1001: 2367 images, 23670 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Downtown_P1001.bag
+[2026-10-20 11:21:03] [Downtown_P1001] exit=0, bag 58s, run 59s, poses: 2340
+Downtown_P1002: 3053 images, 30530 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Downtown_P1002.bag
+[2026-10-20 11:23:30] [Downtown_P1002] exit=0, bag 78s, run 69s, poses: 3026
+Fantasy_P1000: 1593 images, 15930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Fantasy_P1000.bag
+[2026-10-20 11:24:47] [Fantasy_P1000] exit=0, bag 37s, run 40s, poses: 1565
+Fantasy_P1001: 1265 images, 12650 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Fantasy_P1001.bag
+[2026-10-20 11:25:48] [Fantasy_P1001] exit=0, bag 29s, run 32s, poses: 1238
+Fantasy_P1002: 1736 images, 17360 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Fantasy_P1002.bag
+[2026-10-20 11:27:14] [Fantasy_P1002] exit=0, bag 43s, run 43s, poses: 1662
+ForestEnv_P1000: 2060 images, 20600 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ForestEnv_P1000.bag
+[2026-10-20 11:29:13] [ForestEnv_P1000] exit=0, bag 59s, run 60s, poses: 2032
+ForestEnv_P1001: 809 images, 8090 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ForestEnv_P1001.bag
+[2026-10-20 11:30:05] [ForestEnv_P1001] exit=0, bag 23s, run 29s, poses: 781
+ForestEnv_P1002: 2256 images, 22560 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ForestEnv_P1002.bag
+[2026-10-20 11:32:26] [ForestEnv_P1002] exit=0, bag 67s, run 74s, poses: 2229
+Gascola_P1000: 3223 images, 32230 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Gascola_P1000.bag
+[2026-10-20 11:35:24] [Gascola_P1000] exit=0, bag 85s, run 93s, poses: 3196
+Gascola_P1001: 849 images, 8490 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Gascola_P1001.bag
+[2026-10-20 11:36:17] [Gascola_P1001] exit=0, bag 23s, run 30s, poses: 822
+Gascola_P1002: 2914 images, 29140 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Gascola_P1002.bag
+[2026-10-20 11:38:51] [Gascola_P1002] exit=0, bag 79s, run 75s, poses: 2849
+GothicIsland_P1000: 1038 images, 10380 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GothicIsland_P1000.bag
+[2026-10-20 11:39:47] [GothicIsland_P1000] exit=0, bag 25s, run 31s, poses: 1011
+GothicIsland_P1001: 1437 images, 14370 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GothicIsland_P1001.bag
+[2026-10-20 11:41:07] [GothicIsland_P1001] exit=0, bag 37s, run 43s, poses: 1395
+GothicIsland_P1002: 1405 images, 14050 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GothicIsland_P1002.bag
+[2026-10-20 11:42:25] [GothicIsland_P1002] exit=0, bag 38s, run 40s, poses: 1377
+GreatMarsh_P1000: 2610 images, 26100 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GreatMarsh_P1000.bag
+[2026-10-20 11:45:14] [GreatMarsh_P1000] exit=0, bag 67s, run 102s, poses: 2583
+GreatMarsh_P1001: 6725 images, 67250 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GreatMarsh_P1001.bag
+[2026-10-20 11:52:03] [GreatMarsh_P1001] exit=0, bag 177s, run 232s, poses: 5844
+GreatMarsh_P1002: 6122 images, 61220 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GreatMarsh_P1002.bag
+[2026-10-20 11:58:14] [GreatMarsh_P1002] exit=0, bag 159s, run 212s, poses: 6090
+Hospital_P1000: 3177 images, 31770 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Hospital_P1000.bag
+[2026-10-20 12:00:58] [Hospital_P1000] exit=0, bag 86s, run 78s, poses: 3150
+Hospital_P1001: 3325 images, 33250 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Hospital_P1001.bag
+[2026-10-20 12:03:49] [Hospital_P1001] exit=0, bag 91s, run 80s, poses: 3297
+Hospital_P1002: 2873 images, 28730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Hospital_P1002.bag
+[2026-10-20 12:06:12] [Hospital_P1002] exit=0, bag 72s, run 71s, poses: 2846
+IndustrialHangar_P1000: 2298 images, 22980 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/IndustrialHangar_P1000.bag
+[2026-10-20 12:07:58] [IndustrialHangar_P1000] exit=0, bag 53s, run 53s, poses: 2270
+IndustrialHangar_P1001: 3000 images, 30000 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/IndustrialHangar_P1001.bag
+[2026-10-20 12:10:22] [IndustrialHangar_P1001] exit=0, bag 73s, run 71s, poses: 2795
+IndustrialHangar_P1002: 2082 images, 20820 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/IndustrialHangar_P1002.bag
+[2026-10-20 12:12:09] [IndustrialHangar_P1002] exit=0, bag 50s, run 57s, poses: 2055
+JapaneseAlley_P1000: 1382 images, 13820 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/JapaneseAlley_P1000.bag
+[2026-10-20 12:13:21] [JapaneseAlley_P1000] exit=0, bag 38s, run 34s, poses: 1152
+JapaneseAlley_P1001: 1127 images, 11270 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/JapaneseAlley_P1001.bag
+[2026-10-20 12:14:21] [JapaneseAlley_P1001] exit=0, bag 30s, run 30s, poses: 1100
+JapaneseAlley_P1002: 1555 images, 15550 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/JapaneseAlley_P1002.bag
+[2026-10-20 12:15:42] [JapaneseAlley_P1002] exit=0, bag 43s, run 38s, poses: 1528
+MiddleEast_P1000: 1357 images, 13570 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/MiddleEast_P1000.bag
+[2026-10-20 12:16:49] [MiddleEast_P1000] exit=0, bag 35s, run 32s, poses: 1275
+MiddleEast_P1001: 799 images, 7990 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/MiddleEast_P1001.bag
+[2026-10-20 12:17:33] [MiddleEast_P1001] exit=0, bag 21s, run 23s, poses: 706
+MiddleEast_P1002: 1193 images, 11930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/MiddleEast_P1002.bag
+[2026-10-20 12:18:35] [MiddleEast_P1002] exit=0, bag 30s, run 32s, poses: 1166
+ModernCityDowntown_P1000: 1746 images, 17460 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModernCityDowntown_P1000.bag
+[2026-10-20 12:20:01] [ModernCityDowntown_P1000] exit=0, bag 44s, run 42s, poses: 1712
+ModernCityDowntown_P1001: 1858 images, 18580 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModernCityDowntown_P1001.bag
+[2026-10-20 12:21:33] [ModernCityDowntown_P1001] exit=0, bag 46s, run 46s, poses: 1829
+ModernCityDowntown_P1002: 1807 images, 18070 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModernCityDowntown_P1002.bag
+[2026-10-20 12:23:05] [ModernCityDowntown_P1002] exit=0, bag 46s, run 46s, poses: 1769
+ModularNeighborhoodIntExt_P1000: 569 images, 5690 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhoodIntExt_P1000.bag
+[2026-10-20 12:23:40] [ModularNeighborhoodIntExt_P1000] exit=0, bag 16s, run 19s, poses: 542
+ModularNeighborhoodIntExt_P1001: 758 images, 7580 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhoodIntExt_P1001.bag
+[2026-10-20 12:24:29] [ModularNeighborhoodIntExt_P1001] exit=0, bag 22s, run 27s, poses: 718
+ModularNeighborhoodIntExt_P1002: 945 images, 9450 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhoodIntExt_P1002.bag
+[2026-10-20 12:25:24] [ModularNeighborhoodIntExt_P1002] exit=0, bag 27s, run 28s, poses: 918
+ModularNeighborhood_P1000: 6093 images, 60930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhood_P1000.bag
+[2026-10-20 12:30:41] [ModularNeighborhood_P1000] exit=0, bag 165s, run 152s, poses: 6066
+ModularNeighborhood_P1001: 2743 images, 27430 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhood_P1001.bag
+[2026-10-20 12:33:03] [ModularNeighborhood_P1001] exit=0, bag 71s, run 71s, poses: 2716
+ModularNeighborhood_P1002: 5391 images, 53910 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhood_P1002.bag
+[2026-10-20 12:37:50] [ModularNeighborhood_P1002] exit=0, bag 145s, run 142s, poses: 5359
+NordicHarbor_P1000: 4362 images, 43620 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/NordicHarbor_P1000.bag
+[2026-10-20 12:41:48] [NordicHarbor_P1000] exit=0, bag 135s, run 103s, poses: 4149
+NordicHarbor_P1001: 3344 images, 33440 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/NordicHarbor_P1001.bag
+[2026-10-20 12:44:45] [NordicHarbor_P1001] exit=0, bag 96s, run 81s, poses: 3280
+NordicHarbor_P1002: 4928 images, 49280 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/NordicHarbor_P1002.bag
+[2026-10-20 12:49:48] [NordicHarbor_P1002] exit=0, bag 188s, run 115s, poses: 4822
+OldIndustrialCity_P1000: 4471 images, 44710 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldIndustrialCity_P1000.bag
+[2026-10-20 12:54:27] [OldIndustrialCity_P1000] exit=0, bag 153s, run 126s, poses: 4444
+OldIndustrialCity_P1001: 680 images, 6800 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldIndustrialCity_P1001.bag
+[2026-10-20 12:55:14] [OldIndustrialCity_P1001] exit=0, bag 23s, run 24s, poses: 653
+OldIndustrialCity_P1002: 7321 images, 73210 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldIndustrialCity_P1002.bag
+[2026-10-20 13:02:49] [OldIndustrialCity_P1002] exit=0, bag 256s, run 199s, poses: 7294
+OldScandinavia_P1000: 1090 images, 10900 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldScandinavia_P1000.bag
+[2026-10-20 13:03:56] [OldScandinavia_P1000] exit=0, bag 35s, run 32s, poses: 1063
+OldScandinavia_P1001: 3893 images, 38930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldScandinavia_P1001.bag
+[2026-10-20 13:07:02] [OldScandinavia_P1001] exit=0, bag 119s, run 67s, poses: 3839
+OldScandinavia_P1002: 673 images, 6730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldScandinavia_P1002.bag
+[2026-10-20 13:07:51] [OldScandinavia_P1002] exit=0, bag 26s, run 23s, poses: 646
+OldTownFall_P1000: 2582 images, 25820 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownFall_P1000.bag
+[2026-10-20 13:10:16] [OldTownFall_P1000] exit=0, bag 84s, run 61s, poses: 2555
+OldTownNight_P1000: 2529 images, 25290 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownNight_P1000.bag
+[2026-10-20 13:12:31] [OldTownNight_P1000] exit=0, bag 78s, run 57s, poses: 2501
+OldTownSummer_P1000: 2095 images, 20950 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownSummer_P1000.bag
+[2026-10-20 13:14:27] [OldTownSummer_P1000] exit=0, bag 65s, run 51s, poses: 2068
+OldTownSummer_P1001: 1303 images, 13030 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownSummer_P1001.bag
+[2026-10-20 13:15:44] [OldTownSummer_P1001] exit=0, bag 43s, run 34s, poses: 1276
+OldTownWinter_P1000: 1701 images, 17010 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownWinter_P1000.bag
+[2026-10-20 13:17:22] [OldTownWinter_P1000] exit=0, bag 57s, run 41s, poses: 1674
+OldTownWinter_P1001: 1597 images, 15970 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownWinter_P1001.bag
+[2026-10-20 13:18:46] [OldTownWinter_P1001] exit=0, bag 42s, run 42s, poses: 1557
+Prison_P1000: 4543 images, 45430 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Prison_P1000.bag
+[2026-10-20 13:22:26] [Prison_P1000] exit=0, bag 108s, run 112s, poses: 4473
+Prison_P1001: 2491 images, 24910 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Prison_P1001.bag
+[2026-10-20 13:24:46] [Prison_P1001] exit=0, bag 70s, run 70s, poses: 2464
+Prison_P1002: 4557 images, 45570 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Prison_P1002.bag
+[2026-10-20 13:28:56] [Prison_P1002] exit=0, bag 134s, run 116s, poses: 4528
+Rome_P1000: 1382 images, 13820 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Rome_P1000.bag
+[2026-10-20 13:30:16] [Rome_P1000] exit=0, bag 45s, run 35s, poses: 1355
+Rome_P1001: 1448 images, 14480 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Rome_P1001.bag
+[2026-10-20 13:31:42] [Rome_P1001] exit=0, bag 47s, run 39s, poses: 1421
+SeasideTown_P1000: 1038 images, 10380 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasideTown_P1000.bag
+[2026-10-20 13:32:36] [SeasideTown_P1000] exit=0, bag 29s, run 25s, poses: 1011
+SeasideTown_P1001: 454 images, 4540 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasideTown_P1001.bag
+[2026-10-20 13:33:02] [SeasideTown_P1001] exit=0, bag 12s, run 14s, poses: 422
+SeasonalForestAutumn_P1000: 1376 images, 13760 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestAutumn_P1000.bag
+[2026-10-20 13:34:37] [SeasonalForestAutumn_P1000] exit=0, bag 44s, run 51s, poses: 1349
+SeasonalForestAutumn_P1001: 2266 images, 22660 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestAutumn_P1001.bag
+[2026-10-20 13:36:43] [SeasonalForestAutumn_P1001] exit=0, bag 57s, run 69s, poses: 2232
+SeasonalForestAutumn_P1002: 531 images, 5310 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestAutumn_P1002.bag
+[2026-10-20 13:37:21] [SeasonalForestAutumn_P1002] exit=0, bag 17s, run 21s, poses: 504
+SeasonalForestSpring_P1000: 4827 images, 48270 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSpring_P1000.bag
+[2026-10-20 13:41:47] [SeasonalForestSpring_P1000] exit=0, bag 117s, run 149s, poses: 4800
+SeasonalForestSpring_P1001: 2273 images, 22730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSpring_P1001.bag
+[2026-10-20 13:44:13] [SeasonalForestSpring_P1001] exit=0, bag 67s, run 79s, poses: 2242
+SeasonalForestSpring_P1002: 1457 images, 14570 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSpring_P1002.bag
+[2026-10-20 13:45:35] [SeasonalForestSpring_P1002] exit=0, bag 46s, run 36s, poses: 1429
+SeasonalForestSummerNight_P1000: 3978 images, 39780 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSummerNight_P1000.bag
+[2026-10-20 13:49:13] [SeasonalForestSummerNight_P1000] exit=0, bag 104s, run 114s, poses: 3951
+SeasonalForestSummerNight_P1001: 2931 images, 29310 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSummerNight_P1001.bag
+[2026-10-20 13:52:07] [SeasonalForestSummerNight_P1001] exit=0, bag 77s, run 97s, poses: 2903
+SeasonalForestSummerNight_P1002: 1714 images, 17140 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSummerNight_P1002.bag
+[2026-10-20 13:53:59] [SeasonalForestSummerNight_P1002] exit=0, bag 55s, run 57s, poses: 1670
+SeasonalForestWinterNight_P1000: 3248 images, 32480 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinterNight_P1000.bag
+[2026-10-20 13:57:04] [SeasonalForestWinterNight_P1000] exit=0, bag 96s, run 89s, poses: 3221
+SeasonalForestWinterNight_P1001: 2257 images, 22570 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinterNight_P1001.bag
+[2026-10-20 13:59:14] [SeasonalForestWinterNight_P1001] exit=0, bag 71s, run 59s, poses: 2230
+SeasonalForestWinterNight_P1002: 3281 images, 32810 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinterNight_P1002.bag
+[2026-10-20 14:02:33] [SeasonalForestWinterNight_P1002] exit=0, bag 104s, run 95s, poses: 3242
+SeasonalForestWinter_P1000: 1337 images, 13370 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinter_P1000.bag
+[2026-10-20 14:03:45] [SeasonalForestWinter_P1000] exit=0, bag 34s, run 38s, poses: 1310
+SeasonalForestWinter_P1001: 3875 images, 38750 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinter_P1001.bag
+[2026-10-20 14:06:59] [SeasonalForestWinter_P1001] exit=0, bag 104s, run 90s, poses: 3842
+SeasonalForestWinter_P1002: 1483 images, 14830 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinter_P1002.bag
+[2026-10-20 14:08:33] [SeasonalForestWinter_P1002] exit=0, bag 49s, run 45s, poses: 1456
+Sewerage_P1000: 1122 images, 11220 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Sewerage_P1000.bag
+[2026-10-20 14:09:39] [Sewerage_P1000] exit=0, bag 36s, run 30s, poses: 1095
+Sewerage_P1001: 553 images, 5530 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Sewerage_P1001.bag
+[2026-10-20 14:10:08] [Sewerage_P1001] exit=0, bag 14s, run 15s, poses: 526
+Sewerage_P1002: 562 images, 5620 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Sewerage_P1002.bag
+[2026-10-20 14:10:39] [Sewerage_P1002] exit=0, bag 15s, run 16s, poses: 517
+Supermarket_P1000: 1330 images, 13300 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Supermarket_P1000.bag
+[2026-10-20 14:11:53] [Supermarket_P1000] exit=0, bag 43s, run 31s, poses: 1118
+Supermarket_P1001: 1118 images, 11180 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Supermarket_P1001.bag
+[2026-10-20 14:12:57] [Supermarket_P1001] exit=0, bag 36s, run 28s, poses: 1091
+Supermarket_P1002: 958 images, 9580 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Supermarket_P1002.bag
+[2026-10-20 14:13:52] [Supermarket_P1002] exit=0, bag 28s, run 27s, poses: 931
+UrbanConstruction_P1000: 2187 images, 21870 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/UrbanConstruction_P1000.bag
+[2026-10-20 14:15:55] [UrbanConstruction_P1000] exit=0, bag 65s, run 58s, poses: 2160
+UrbanConstruction_P1001: 2369 images, 23690 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/UrbanConstruction_P1001.bag
+[2026-10-20 14:18:02] [UrbanConstruction_P1001] exit=0, bag 69s, run 58s, poses: 2281
+UrbanConstruction_P1002: 2348 images, 23480 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/UrbanConstruction_P1002.bag
+[2026-10-20 14:19:58] [UrbanConstruction_P1002] exit=0, bag 60s, run 56s, poses: 2321
+WaterMillDay_P1000: 839 images, 8390 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillDay_P1000.bag
+[2026-10-20 14:20:42] [WaterMillDay_P1000] exit=0, bag 21s, run 23s, poses: 810
+WaterMillDay_P1001: 674 images, 6740 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillDay_P1001.bag
+[2026-10-20 14:21:21] [WaterMillDay_P1001] exit=0, bag 19s, run 20s, poses: 636
+WaterMillDay_P1002: 716 images, 7160 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillDay_P1002.bag
+[2026-10-20 14:21:59] [WaterMillDay_P1002] exit=0, bag 21s, run 17s, poses: 689
+WaterMillNight_P1000: 2073 images, 20730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillNight_P1000.bag
+[2026-10-20 14:23:42] [WaterMillNight_P1000] exit=0, bag 57s, run 46s, poses: 2038
+WaterMillNight_P1001: 735 images, 7350 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillNight_P1001.bag
+[2026-10-20 14:24:19] [WaterMillNight_P1001] exit=0, bag 18s, run 19s, poses: 708
+WaterMillNight_P1002: 680 images, 6800 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillNight_P1002.bag
+[2026-10-20 14:24:50] [WaterMillNight_P1002] exit=0, bag 15s, run 16s, poses: 650
+[2026-10-20 14:24:50] ALL DONE

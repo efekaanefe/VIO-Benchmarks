@@ -1,0 +1,12 @@
+sequence: CastleFortress_P1000
+run: 2
+seed: 0
+status: OK
+frames: 3033
+poses: 3033
+time_s: 84.8
+fps: 41.56
+frame_ms_mean: 24.06
+frame_ms_max: 79.52
+finished: 2026-10-24 05:36:33
+config: tartanground_diff

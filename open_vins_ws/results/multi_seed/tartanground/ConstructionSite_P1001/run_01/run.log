@@ -1,0 +1,12 @@
+sequence: ConstructionSite_P1001
+run: 1
+seed: 0
+status: OK
+frames: 2102
+poses: 2102
+time_s: 49.6
+fps: 52.05
+frame_ms_mean: 19.21
+frame_ms_max: 72.34
+finished: 2026-10-24 06:02:16
+config: tartanground_diff

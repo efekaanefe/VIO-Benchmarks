@@ -1,0 +1,12 @@
+sequence: UrbanConstruction_P1000
+run: 3
+seed: 0
+status: OK
+frames: 2160
+poses: 2160
+time_s: 56.2
+fps: 45.91
+frame_ms_mean: 21.78
+frame_ms_max: 73.35
+finished: 2026-10-24 13:38:24
+config: tartanground_diff

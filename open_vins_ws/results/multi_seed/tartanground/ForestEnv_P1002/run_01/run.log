@@ -1,0 +1,12 @@
+sequence: ForestEnv_P1002
+run: 1
+seed: 0
+status: OK
+frames: 2229
+poses: 2229
+time_s: 72.8
+fps: 35.23
+frame_ms_mean: 28.39
+frame_ms_max: 74.44
+finished: 2026-10-24 06:56:32
+config: tartanground_diff

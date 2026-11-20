@@ -1,0 +1,12 @@
+sequence: car_urban_day_city_hall
+run: 4
+seed: 0
+status: OK
+frames: 5496
+poses: 7126
+time_s: 178.0
+fps: 50.70
+frame_ms_mean: 19.72
+frame_ms_max: 53.82
+finished: 2026-10-13 20:11:51
+config: m3ed_car_urban_day

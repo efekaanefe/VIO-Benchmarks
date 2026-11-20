@@ -1,0 +1,13 @@
+sequence: SeasonalForestSummerNight_P1000
+run: 0
+seed: 0
+status: OK
+frames: 3951
+poses: 3951
+time_s: 114.0
+fps: 39.52
+frame_ms_mean: 25.31
+frame_ms_max: 72.02
+finished: 2026-10-20 13:49:13
+config: tartanground_diff
+imported_from: results/tartanground/SeasonalForestSummerNight_P1000 (run_tartanground.sh)

@@ -1,0 +1,12 @@
+sequence: SeasideTown_P1000
+run: 4
+seed: 0
+status: OK
+frames: 1011
+poses: 1011
+time_s: 24.4
+fps: 55.01
+frame_ms_mean: 18.18
+frame_ms_max: 57.16
+finished: 2026-10-24 11:51:26
+config: tartanground_diff

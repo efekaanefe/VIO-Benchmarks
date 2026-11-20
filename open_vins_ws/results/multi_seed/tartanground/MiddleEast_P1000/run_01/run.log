@@ -1,0 +1,12 @@
+sequence: MiddleEast_P1000
+run: 1
+seed: 0
+status: OK
+frames: 1275
+poses: 1275
+time_s: 31.8
+fps: 51.83
+frame_ms_mean: 19.29
+frame_ms_max: 58.76
+finished: 2026-10-24 08:51:59
+config: tartanground_diff

@@ -1,0 +1,12 @@
+sequence: WaterMillDay_P1002
+run: 1
+seed: 0
+status: OK
+frames: 689
+poses: 689
+time_s: 18.2
+fps: 55.57
+frame_ms_mean: 18.00
+frame_ms_max: 43.76
+finished: 2026-10-24 13:53:12
+config: tartanground_diff

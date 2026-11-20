@@ -1,0 +1,12 @@
+sequence: car_urban_day_penno_big_loop
+run: 4
+seed: 0
+status: OK
+frames: 7662
+poses: 7692
+time_s: 233.9
+fps: 45.72
+frame_ms_mean: 21.87
+frame_ms_max: 50.69
+finished: 2026-10-13 20:16:04
+config: m3ed_car_urban_day

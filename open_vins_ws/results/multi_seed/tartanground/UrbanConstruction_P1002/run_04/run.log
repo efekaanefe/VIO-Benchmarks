@@ -1,0 +1,12 @@
+sequence: UrbanConstruction_P1002
+run: 4
+seed: 0
+status: OK
+frames: 2321
+poses: 2321
+time_s: 55.2
+fps: 51.04
+frame_ms_mean: 19.59
+frame_ms_max: 73.63
+finished: 2026-10-24 13:48:58
+config: tartanground_diff

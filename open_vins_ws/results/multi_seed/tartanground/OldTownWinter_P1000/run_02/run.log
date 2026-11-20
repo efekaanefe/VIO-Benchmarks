@@ -1,0 +1,12 @@
+sequence: OldTownWinter_P1000
+run: 2
+seed: 0
+status: OK
+frames: 1674
+poses: 1674
+time_s: 41.6
+fps: 49.85
+frame_ms_mean: 20.06
+frame_ms_max: 74.14
+finished: 2026-10-24 11:13:17
+config: tartanground_diff

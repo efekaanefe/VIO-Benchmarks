@@ -1,0 +1,22 @@
+\begin{table}[t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{lccccccc}
+    \toprule
+     & & & \multicolumn{2}{c}{\textbf{ATE (\%)}} & \multicolumn{2}{c}{\textbf{RPE-t (\%)}} & \\
+    \cmidrule(lr){4-5}\cmidrule(lr){6-7}
+    \textbf{Dataset} & \textbf{Runs ($X{\times}N$)} & \textbf{Failed (\%)} & $SE(3)$ & $Sim(3)$ & $SE(3)$ & $Sim(3)$ & \textbf{Avg FPS} \\
+    \midrule
+    KITTI & $10{\times}1$ & 40.0 & 1.44 & 0.82 & 13.38 & 8.91 & 33.5 \\
+    M3ED & $16{\times}10$ & 0.0 & 0.72 & 0.51 & 4.46 & 3.43 & 48.0 \\
+    TartanGround & $117{\times}5$ & 7.5 & 0.31 & 0.21 & 1.58 & 1.32 & 45.8 \\
+    \bottomrule
+  \end{tabular}\par
+  \vspace{0.4cm}
+  {\footnotesize\color{gray} OpenVINS, monocular camera + IMU. $X$ sequences $\times$ $N$ runs per sequence.
+  ATE: RMSE in \% of the ground-truth path length; RPE-t: translational RMSE over 100 m
+  segments in \% of the segment length. Mean over the sequences of the per-sequence mean over the runs
+  that did not fail (no trajectory, or diverged: $Sim(3)$ ATE $>$ 10\,\% of the path
+  or scale outside 0.5--2). FPS: estimator processing rate.}
+\end{table}

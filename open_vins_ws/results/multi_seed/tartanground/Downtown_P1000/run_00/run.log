@@ -1,0 +1,13 @@
+sequence: Downtown_P1000
+run: 0
+seed: 0
+status: OK
+frames: 3461
+poses: 3461
+time_s: 86.0
+fps: 47.57
+frame_ms_mean: 21.02
+frame_ms_max: 85.63
+finished: 2026-10-20 11:19:05
+config: tartanground_diff
+imported_from: results/tartanground/Downtown_P1000 (run_tartanground.sh)

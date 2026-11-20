@@ -1,0 +1,12 @@
+sequence: Prison_P1000
+run: 4
+seed: 0
+status: OK
+frames: 4473
+poses: 4473
+time_s: 110.4
+fps: 47.52
+frame_ms_mean: 21.04
+frame_ms_max: 71.56
+finished: 2026-10-24 11:27:13
+config: tartanground_diff

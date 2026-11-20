@@ -1,0 +1,139 @@
+#!/usr/bin/env python3
+"""Evaluate the OpenVINS M3ED trajectories in results/m3ed with evo (ATE + RPE).
+
+Run on the host (needs evo and rosbags):  python3 eval_m3ed.py
+Writes per sequence: traj_estimate_tum.txt and groundtruth_tum.txt (8-column TUM files
+usable with the evo CLI) and for all sequences: results/m3ed/evo_results.csv
+"""
+import copy
+import csv
+import glob
+import os
+
+import numpy as np
+from evo.core import metrics
+from evo.core.trajectory import PoseTrajectory3D
+from evo.core.metrics import PoseRelation, Unit
+from evo.tools import file_interface
+from rosbags.rosbag1 import Reader
+from rosbags.typesys import Stores, get_typestore
+from scipy.spatial.transform import Rotation, Slerp
+
+WS = os.path.dirname(os.path.abspath(__file__))
+RES = os.path.join(WS, "results", "m3ed")
+BAGS = os.environ.get("BAG_HOST", "/media/efe/Data/datasets/VIO/M3ED/vins")
+MAX_GT_GAP = 0.15  # s, ground truth is 10 hz, estimates between poses further apart are dropped
+RPE_DELTAS_M = [10.0, 50.0, 100.0]  # distance travelled between pose pairs
+STATS = ["rmse", "mean", "median", "std", "min", "max"]
+TS = get_typestore(Stores.ROS1_NOETIC)
+
+
+def write_groundtruth(seq, out):
+    """gt.bag holds the IMU pose in the IMU frame at the trajectory origin."""
+    rows = []
+    with Reader(os.path.join(BAGS, seq, "gt.bag")) as bag:
+        conns = [c for c in bag.connections if c.topic == "/ground_truth/odometry"]
+        for conn, _, raw in bag.messages(connections=conns):
+            m = TS.deserialize_ros1(raw, conn.msgtype)
+            p, q = m.pose.pose.position, m.pose.pose.orientation
+            t = m.header.stamp.sec + m.header.stamp.nanosec * 1e-9
+            rows.append([t, p.x, p.y, p.z, q.x, q.y, q.z, q.w])
+    np.savetxt(out, np.array(rows), fmt="%.6f")
+
+
+def associate(traj_ref, traj_est):
+    """Ground truth timestamps (lidar) do not coincide with the camera timestamps of the
+    estimate, so interpolate the ground truth at the estimate timestamps."""
+    t_ref, t_est = traj_ref.timestamps, traj_est.timestamps
+    i = np.searchsorted(t_ref, t_est)  # t_ref[i-1] <= t_est < t_ref[i]
+    ok = (i > 0) & (i < len(t_ref))
+    ok[ok] &= (t_ref[i[ok]] - t_ref[i[ok] - 1]) < MAX_GT_GAP
+    t = t_est[ok]
+    xyz = np.column_stack([np.interp(t, t_ref, traj_ref.positions_xyz[:, k]) for k in range(3)])
+    quat = Slerp(t_ref, Rotation.from_quat(traj_ref.orientations_quat_wxyz[:, [1, 2, 3, 0]]))(t).as_quat()
+    ref = PoseTrajectory3D(xyz, quat[:, [3, 0, 1, 2]], t)
+    est = PoseTrajectory3D(traj_est.positions_xyz[ok], traj_est.orientations_quat_wxyz[ok], t)
+    return ref, est
+
+
+def stats(metric, data):
+    metric.process_data(data)
+    s = metric.get_all_statistics()
+    return {k: s[k] for k in STATS}, len(metric.error)
+
+
+rows = []
+for est_file in sorted(glob.glob(os.path.join(RES, "*", "traj_estimate.txt"))):
+    seq = os.path.basename(os.path.dirname(est_file))
+    est = np.loadtxt(est_file, ndmin=2)
+    if len(est) < 10:
+        print(f"{seq}: only {len(est)} poses, skipped")
+        continue
+    # ov_eval writes pose + covariance columns, evo wants plain TUM
+    tum_file = est_file.replace(".txt", "_tum.txt")
+    np.savetxt(tum_file, est[:, :8], fmt="%.6f")
+    gt_file = os.path.join(RES, seq, "groundtruth_tum.txt")
+    write_groundtruth(seq, gt_file)
+
+    traj_ref = file_interface.read_tum_trajectory_file(gt_file)
+    traj_est = file_interface.read_tum_trajectory_file(tum_file)
+    gt_dur = traj_ref.timestamps[-1] - traj_ref.timestamps[0]
+    gt_path = traj_ref.path_length
+    est_t0 = traj_est.timestamps[0] - traj_ref.timestamps[0]
+    traj_ref, traj_est = associate(traj_ref, traj_est)
+
+    # ATE: SE(3) Umeyama alignment without scale, the IMU makes monocular VIO metric
+    aligned = copy.deepcopy(traj_est)
+    aligned.align(traj_ref, correct_scale=False)
+    # the scale a Sim(3) alignment would apply tells how far off the estimated scale is
+    scaled = copy.deepcopy(traj_est)
+    _, _, scale = scaled.align(traj_ref, correct_scale=True)
+    info = {
+        "sequence": seq,
+        "gt_duration_s": gt_dur,
+        "gt_path_m": gt_path,
+        "est_start_s": est_t0,
+        "matched": traj_est.num_poses,
+        "matched_path_m": traj_ref.path_length,
+        "est_path_m": traj_est.path_length,
+        "sim3_scale": scale,
+    }
+    for name, rel, est_traj in [
+        ("ATE trans [m]", PoseRelation.translation_part, aligned),
+        ("ATE rot [deg]", PoseRelation.rotation_angle_deg, aligned),
+        ("ATE trans Sim3 [m]", PoseRelation.translation_part, scaled),
+    ]:
+        s, n = stats(metrics.APE(rel), (traj_ref, est_traj))
+        rows.append({**info, "metric": name, "pairs": n, **s})
+
+    # RPE: drift over fixed travelled distances, all pose pairs
+    for d in RPE_DELTAS_M:
+        for name, rel in [
+            (f"RPE trans @{d:g}m [m]", PoseRelation.translation_part),
+            (f"RPE rot @{d:g}m [deg]", PoseRelation.rotation_angle_deg),
+        ]:
+            m = metrics.RPE(rel, delta=d, delta_unit=Unit.meters, all_pairs=True)
+            try:
+                s, n = stats(m, (traj_ref, traj_est))
+            except Exception as e:  # sequence shorter than the delta
+                print(f"{seq}: {name} failed: {e}")
+                continue
+            rows.append({**info, "metric": name, "pairs": n, **s})
+
+out = os.path.join(RES, "evo_results.csv")
+with open(out, "w", newline="") as f:
+    w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+    w.writeheader()
+    w.writerows(rows)
+
+seen = set()
+for r in rows:
+    if r["sequence"] not in seen:
+        seen.add(r["sequence"])
+        print(f"\n{r['sequence']}: gt {r['gt_duration_s']:.1f} s / {r['gt_path_m']:.0f} m, "
+              f"estimate starts at {r['est_start_s']:.1f} s, {r['matched']} matched poses, "
+              f"path gt {r['matched_path_m']:.0f} m vs est {r['est_path_m']:.0f} m, "
+              f"Sim3 scale {r['sim3_scale']:.3f}")
+        print(f"  {'metric':24s} {'pairs':>6s} " + " ".join(f"{k:>9s}" for k in STATS))
+    print(f"  {r['metric']:24s} {r['pairs']:6d} " + " ".join(f"{r[k]:9.3f}" for k in STATS))
+print("\nsaved", out)

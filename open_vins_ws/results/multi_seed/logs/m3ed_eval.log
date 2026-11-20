@@ -1,0 +1,17 @@
+car_forest_into_ponds_long: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_forest_into_ponds_short: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_forest_sand_1: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_forest_tree_tunnel: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_day_city_hall: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_day_horse: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_day_penno_big_loop: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_day_penno_small_loop: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_day_rittenhouse: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_day_ucity_small_loop: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_night_city_hall: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_night_penno_big_loop: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_night_penno_small_loop: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_night_penno_small_loop_darker: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_night_rittenhouse: 10 ok, 0 diverged, 0 no_init, 0 crashed
+car_urban_night_ucity_small_loop: 10 ok, 0 diverged, 0 no_init, 0 crashed
+saved /home/efe/coding/VIO/open_vins_ws/results/multi_seed/m3ed/REPORT.md

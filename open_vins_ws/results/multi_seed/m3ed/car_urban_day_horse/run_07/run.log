@@ -1,0 +1,12 @@
+sequence: car_urban_day_horse
+run: 7
+seed: 0
+status: OK
+frames: 406
+poses: 408
+time_s: 18.7
+fps: 49.77
+frame_ms_mean: 20.09
+frame_ms_max: 46.01
+finished: 2026-10-13 22:29:38
+config: m3ed_car_urban_day

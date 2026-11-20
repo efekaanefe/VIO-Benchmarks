@@ -1,0 +1,12 @@
+sequence: GreatMarsh_P1001
+run: 2
+seed: 0
+status: OK
+frames: 5844
+poses: 5844
+time_s: 229.0
+fps: 31.48
+frame_ms_mean: 31.77
+frame_ms_max: 74.87
+finished: 2026-10-24 07:43:49
+config: tartanground_diff

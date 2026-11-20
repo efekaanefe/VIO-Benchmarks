@@ -1,0 +1,444 @@
+\documentclass[11pt,aspectratio=169,xcolor=table]{beamer}
+\usefonttheme{serif}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+
+% ------------------------------------------
+% Simple, clean look
+% ------------------------------------------
+\definecolor{accent}{RGB}{25,60,115}
+\setbeamercolor{structure}{fg=accent}
+\setbeamercolor{frametitle}{fg=accent}
+\setbeamercolor{title}{fg=accent}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{itemize subitem}{\textendash}
+\setbeamertemplate{footline}{%
+  \hfill{\scriptsize\color{gray}\insertframenumber}\hspace{1.2em}\vspace{0.8em}}
+
+% Section label inside a frame
+\newcommand{\head}[1]{\vspace{3pt}{\color{accent}\textbf{#1}}\par\vspace{1pt}}
+
+% Tight equation spacing
+\AtBeginDocument{%
+  \setlength\abovedisplayskip{3pt}
+  \setlength\belowdisplayskip{3pt}
+  \setlength\abovedisplayshortskip{1pt}
+  \setlength\belowdisplayshortskip{3pt}
+}
+
+% Shared results table
+\newcommand{\resultstable}{%
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{lccccccc}
+    \toprule
+     & & & \multicolumn{2}{c}{\textbf{ATE (\%)}} & \multicolumn{2}{c}{\textbf{RPE-t (\%)}} & \\
+    \cmidrule(lr){4-5}\cmidrule(lr){6-7}
+    \textbf{Dataset} & \textbf{Runs ($X{\times}N$)} & \textbf{Failed (\%)} & $SE(3)$ & $Sim(3)$ & $SE(3)$ & $Sim(3)$ & \textbf{Avg FPS} \\
+    \midrule
+    KITTI & -- & -- & -- & -- & -- & -- & -- \\
+    M3ED  & -- & -- & -- & -- & -- & -- & -- \\
+    \bottomrule
+  \end{tabular}\par
+  \vspace{0.4cm}
+  {\footnotesize\color{gray} Averaged over $N$ runs per sequence}
+}
+
+% Trajectory plot placeholder
+\newcommand{\trajplaceholder}{%
+  \centering
+  \fbox{\parbox[c][5.5cm][c]{0.85\textwidth}{\centering\color{gray}\textit{Ground truth vs.\ estimated trajectory}}}
+}
+
+\title{Evaluation of SOTA VIO Algorithms}
+\subtitle{VINS-Mono, DPVO, and OpenVINS}
+\author{Ahmet Efekaan Efe}
+\date{October 2026}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+% ==========================================
+% INTRODUCTION
+% ==========================================
+\section{Introduction}
+\begin{frame}{Introduction \& Evaluation Setup}
+  \head{Objective}
+  \begin{itemize}
+    \item Benchmark of SOTA visual(-inertial) odometry
+    \item VINS-Mono (optimization) \textbullet\ DPVO (deep learning) \textbullet\ OpenVINS (filter)
+  \end{itemize}
+  \head{Setup}
+  \begin{itemize}
+    \item Datasets: KITTI, M3ED
+    \item Metrics: ATE, RPE-t \textendash\ \% of trajectory length
+    \item Alignment: $SE(3)$ and $Sim(3)$
+    \item Each sequence $\times N$ runs $\rightarrow$ avg.\ metrics, FPS, failure rate
+  \end{itemize}
+\end{frame}
+
+% ==========================================
+% VINS-MONO
+% ==========================================
+\section{VINS-Mono}
+
+\begin{frame}{VINS-Mono: Overview \& Preprocessing}
+  \head{Optimization-based, 4 subsystems}
+  \begin{itemize}
+    \item Measurement preprocessing
+    \item Loosely-coupled estimator initialization
+    \item Tightly-coupled sliding-window VIO
+    \item Relocalization \& global pose graph optimization
+  \end{itemize}
+  \head{Visual front-end}
+  \begin{itemize}
+    \item KLT sparse optical flow for feature tracking
+    \item Min.\ pixel separation $\rightarrow$ uniform feature distribution
+    \item Keyframe if: avg.\ parallax above threshold, or too few tracked features
+  \end{itemize}
+  \head{IMU pre-integration}
+  \begin{itemize}
+    \item Many high-rate IMU readings $\rightarrow$ one relative-motion block between frames
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{VINS-Mono: Estimator Initialization}
+  \head{Goal}
+  \begin{itemize}
+    \item Up-to-scale, vision-only structure $\rightarrow$ metric state vector
+    \item Sequential solve: gyro bias $\rightarrow$ scale $\rightarrow$ gravity $\rightarrow$ velocity
+  \end{itemize}
+  \head{Vision-only SfM (sliding window)}
+  \begin{itemize}
+    \item Five-point algorithm $\rightarrow$ PnP $\rightarrow$ global BA
+    \item Output: up-to-scale camera poses + triangulated 3D features
+  \end{itemize}
+  \head{Visual-inertial alignment}
+  \begin{itemize}
+    \item Up-to-scale poses aligned with IMU pre-integration
+    \item Output: metric state variables
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{VINS-Mono: Tightly-Coupled Sliding-Window VIO}
+  \head{MAP nonlinear optimization, jointly over}
+  \begin{itemize}
+    \item Recent keyframe states
+    \item Camera--IMU extrinsics
+    \item 3D feature positions
+  \end{itemize}
+  \head{Cost function}
+  \begin{itemize}
+    \item IMU residual: predicted motion between frames vs.\ pre-integrated IMU
+    \item Visual residual: observed vs.\ predicted feature location
+  \end{itemize}
+  \head{Marginalization}
+  \begin{itemize}
+    \item Schur complement $\rightarrow$ old information kept as prior for future windows
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{VINS-Mono: Relocalization \& Pose Graph}
+  \head{Relocalization}
+  \begin{itemize}
+    \item Current window aligned to previously visited places
+    \item Drift only in 4-DOF ($x, y, z$, yaw); roll \& pitch observable via gravity
+    \item Loop detection: DBoW2 + BRIEF descriptors
+    \item VIO cost + extra loop-closure feature term
+  \end{itemize}
+  \head{Global pose graph optimization}
+  \begin{itemize}
+    \item Asynchronous, whole past trajectory
+    \item Global consistency
+    \item Spatial downsampling of redundant keyframes $\rightarrow$ bounded compute
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Results: VINS-Mono}
+\begin{table}[htbp]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{lccccccc}
+  \toprule
+  & & & \multicolumn{2}{c}{\textbf{ATE (\%)}} & \multicolumn{2}{c}{\textbf{RPE-t (\%)}} & \\
+  \cmidrule(lr){4-5}\cmidrule(lr){6-7}
+  \textbf{Dataset} & \textbf{Runs ($X{\times}N$)} & \textbf{Failed (\%)} & $SE(3)$ & $Sim(3)$ & $SE(3)$ & $Sim(3)$ & \textbf{Avg FPS} \\
+  \midrule
+  % KITTI: 10x10 runs on the second PC (unchanged). M3ED, TartanGround: VINS-Mono/results/multi_seed via results/make_table.py
+    KITTI & 10$\times$10 & 30 & 6.7 & 2.03 & 33.3 & 18.8 & 9.63 \\
+    M3ED & 16$\times$10 & 12.5 & 0.40 & 0.31 & 2.11 & 1.89 & 10.0 \\
+  TartanGround & $117{\times}5$ & 0.3 & 0.31 & 0.24 & 1.15 & 1.18 & 10.0 \\
+  \bottomrule
+  \end{tabular}\par
+  \vspace{0.4cm}
+  % {\footnotesize\color{gray} Averaged over $N$ runs per sequence, then over the $X$
+  % sequences. ATE is a percentage of the ground-truth path length and RPE-t of a
+  % 100\,m segment. A run counts as failed if the estimator reinitialised; failed runs
+  % are excluded from every error column. Avg FPS is the sustained pose output rate against a
+  % 10\,Hz image stream played in real time.}
+  % \caption{VINS-Mono results}
+  % \label{tab:results}
+\end{table}
+\end{frame}
+
+\begin{frame}{Trajectories: VINS-Mono KITTI vs M3ED}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/13_oct/vinsmono/09_2011_09_30_drive_0033_traj.png}
+                \caption{KITTI}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/13_oct/vinsmono/car_urban_day_penno_big_loop_run_00_traj.png}
+                \caption{M3ED}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% ==========================================
+% DPVO
+% ==========================================
+\section{DPVO}
+
+\begin{frame}{DPVO: Overview \& Representation}
+  \head{Learning-based monocular VO, 3 parts}
+  \begin{itemize}
+    \item Feature \& patch extraction
+    \item Recurrent update operator
+    \item Differentiable bundle adjustment
+  \end{itemize}
+  \head{Scene representation}
+  \begin{itemize}
+    \item Camera poses $T \in SE(3)^N$ + sparse square image patches
+    \item Patch: pixel coordinates + inverse depth $d$, constant depth per patch
+      \[ P_k = [x, y, 1, d]^T \in \mathbb{R}^{4 \times p^2} \]
+    \item Patch graph: edges between patches and nearby frames
+    \item Projection of patch $k$ (from frame $i$) into frame $j$:
+      \[ P_{kj}' \sim K \, T_j \, T_i^{-1} K^{-1} P_k \]
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{DPVO: Feature Extraction \& Update Operator}
+  \head{Front-end}
+  \begin{itemize}
+    \item Two ResNets: context features + matching features
+    \item Random pixel sampling $\rightarrow$ $p \times p$ patch crops 
+  \end{itemize}
+  \head{Recurrent update operator}
+  \begin{itemize}
+    \item Correlation: patch vs.\ target-frame features, $7 \times 7$ window around prediction
+      \[ C_{uv\alpha\beta} = \langle g_{uv}, \, f(P_{kj}'(u,v) + \Delta_{\alpha\beta}) \rangle \]
+    \item Temporal convolution + Spatial aggregation
+    \item Transition block: gated memory, stable over iterations
+    \item Factor head: flow correction $\delta_{kj}$ + confidence $\Sigma_{kj}$
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{DPVO: Differentiable BA \& System Logic}
+  \head{Differentiable bundle adjustment}
+  \begin{itemize}
+    \item Flow corrections $\rightarrow$ consistent poses \& depths
+      \[ \sum_{(k,j)} \big\| \omega_{ij}(T, P_k) - (\hat{P}_{kj}' + \delta_{kj}) \big\|_{\Sigma_{kj}}^2 \]
+    \item Gauss--Newton + Schur complement
+    \item Fully differentiable $\rightarrow$ end-to-end training
+  \end{itemize}
+  % \head{System logic}
+  % \begin{itemize}
+  %   \item Initialization: 8 frames with enough motion
+  %   \item New frame: constant-velocity pose guess
+  %   \item Edges limited to recent frames $\rightarrow$ bounded latency
+  %   \item Redundant keyframes removed when motion is small
+  % \end{itemize}
+\end{frame}
+
+\begin{frame}{Results: DPVO}
+\begin{table}[htbp]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{lccccccc}
+  \toprule
+  & & & \multicolumn{2}{c}{\textbf{ATE (\%)}} & \multicolumn{2}{c}{\textbf{RPE-t (\%)}} & \\
+  \cmidrule(lr){4-5}\cmidrule(lr){6-7}
+  \textbf{Dataset} & \textbf{Runs ($X{\times}N$)} & \textbf{Failed (\%)} & $SE(3)$ & $Sim(3)$ & $SE(3)$ & $Sim(3)$ & \textbf{Avg FPS} \\
+  \midrule
+  % All rows: DPVO/results/multi_seed via make_table.py (TartanGround row added)
+      KITTI & 10$\times$10 & 0 & 12.3 & 2.94 & 82.7 & 31.7 & 4.76 \\
+      M3ED  & 16$\times$10 & 0 & 12.7 & 0.91 & 75.1 & 6.0 & 5.10 \\
+      TartanGround & 117$\times$5 & 0.2 & 9.1 & 2.89 & 37.7 & 14.3 & 4.78 \\
+  \bottomrule
+  \end{tabular}\par
+  \vspace{0.4cm}
+  % {\footnotesize\color{gray} Averaged over $N$ runs per sequence}
+  % \caption{DPVO results on KITTI and M3ED}
+  \label{tab:results}
+\end{table}
+\end{frame}
+
+\begin{frame}{Trajectories: DPVO KITTI vs M3ED}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/13_oct/dpvo/09_2011_09_30_drive_0033_traj.png}
+                \caption{KITTI}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/13_oct/dpvo/car_urban_day_penno_big_loop_traj.png}
+                \caption{M3ED}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+% ==========================================
+% OPENVINS
+% ==========================================
+\section{OpenVINS}
+ 
+
+\begin{frame}{OpenVINS: Method Overview}
+  \head{MSCKF (EKF-based VIO)}
+  \begin{itemize}
+    \item State: IMU + sliding window of past poses
+  \end{itemize}
+
+  \head{Propagation}
+  \begin{itemize}
+    \item IMU integration $\rightarrow$ predicted pose
+  \end{itemize}
+
+  \head{EKF update}
+  \begin{itemize}
+    \item Feature tracking 
+    \item Track ends $\rightarrow$ triangulate point
+    \item Reprojection vs.\ measurement $\rightarrow$ residual
+    \item Correct poses + IMU state
+    \item Features not in state $\rightarrow$ small, fast filter
+  \end{itemize}
+\end{frame}
+
+
+% \section{OpenVINS}
+
+% \begin{frame}{OpenVINS: Architecture \& Front-End}
+%   \head{Architecture}
+%   \begin{itemize}
+%     \item MSCKF-based EKF, sliding window of pose clones
+%     \item State: IMU (pose, vel., biases) + clones (+ SLAM features)
+%     \item No iterative back-end
+%   \end{itemize}
+%   \head{Front-end}
+%   \begin{itemize}
+%     \item IMU propagation: continuous-time, RK4
+%     \item Tracking: KLT or descriptor matching
+%     \item Short tracks $\rightarrow$ MSCKF \textbullet\ Long tracks $\rightarrow$ SLAM features
+%   \end{itemize}
+%   \head{Initialization}
+%   \begin{itemize}
+%     \item Static: gravity alignment + bias averaging
+%     \item Dynamic: analytical scale / gravity solve
+%   \end{itemize}
+% \end{frame}
+
+% \begin{frame}{OpenVINS: Update \& Consistency}
+%   \head{MSCKF update}
+%   \begin{itemize}
+%     \item Null-space projection $\rightarrow$ removes feature from residual
+%   \end{itemize}
+%   \[ r = H_x \tilde{x} + H_f \tilde{p}_f + n \;\;\Rightarrow\;\; N^T r = N^T H_x \tilde{x} + N^T n \]
+%   \begin{itemize}
+%     \item Pose-only EKF update
+%     \item Delayed use: features processed on leaving window $\rightarrow$ max.\ baseline
+%   \end{itemize}
+%   \head{Consistency \& cost}
+%   \begin{itemize}
+%     \item FEJ: fixed linearization points $\rightarrow$ no false info in yaw / position
+%     \item No iterative optimization $\rightarrow$ very high FPS, low compute
+%   \end{itemize}
+% \end{frame}
+
+\begin{frame}{Results: OpenVINS}
+  \begin{table}[htbp]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{lccccccc}
+  \toprule
+  & & & \multicolumn{2}{c}{\textbf{ATE (\%)}} & \multicolumn{2}{c}{\textbf{RPE-t (\%)}} & \\
+  \cmidrule(lr){4-5}\cmidrule(lr){6-7}
+  \textbf{Dataset} & \textbf{Runs ($X{\times}N$)} & \textbf{Failed (\%)} & $SE(3)$ & $Sim(3)$ & $SE(3)$ & $Sim(3)$ & \textbf{Avg FPS} \\
+  \midrule
+  % KITTI: 10x10 runs on the second PC (unchanged). M3ED, TartanGround: open_vins_ws/results/multi_seed via make_table.py
+      KITTI & 10$\times$10 & 30 & 3.69 & 3.00 & 20.0 & 17.6 & 81.5 \\
+      M3ED & 16$\times$10 & 0 & 0.72 & 0.51 & 4.46 & 3.43 & 48.0 \\
+      TartanGround & $117{\times}5$ & 7.5 & 0.31 & 0.21 & 1.58 & 1.32 & 45.8 \\
+  \bottomrule
+  \end{tabular}\par
+  \vspace{0.4cm}
+  % {\footnotesize\color{gray} $X$ sequences $\times$ $N$ runs each.  Errors averaged over the completed runs of the sequences that completed in every run
+  % (01, 05, 06, 07, 08, 09, 10). ATE as \% of path length, RPE-t over 100\,m segments. KITTI runs and M3ED runs are from different PCs}
+  % \caption{OpenVINS results}
+  % \label{tab:results_openvins}
+\end{table}
+\end{frame}
+
+\begin{frame}{Trajectories: OpenVINS KITTI vs M3ED}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/13_oct/openvins/09_2011_09_30_drive_0033_traj.png}
+                \caption{KITTI}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/13_oct/openvins/car_urban_day_penno_big_loop_traj.png}
+                \caption{M3ED}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% ==========================================
+% WHAT'S NEXT
+% ==========================================
+\section{What's Next}
+
+\begin{frame}{What's Next}
+  \head{TartanGround}
+  \begin{itemize}
+    \item Aggressive motion, illumination changes, weather
+    \item Stress test for feature tracking \& learned correlation
+  \end{itemize}
+  \head{AirSim}
+  \begin{itemize}
+    \item Simulation, perfect ground truth
+    \item Repeatable drone flight profiles $\rightarrow$ IMU \& keyframing stress tests
+  \end{itemize}
+\end{frame}
+
+\end{document}
+

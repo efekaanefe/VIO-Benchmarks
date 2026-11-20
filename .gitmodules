@@ -1,0 +1,12 @@
+[submodule "VINS-Mono"]
+	path = VINS-Mono
+	url = https://github.com/efekaanefe/VINS-Mono.git
+	branch = vio-benchmarks
+[submodule "DPVO"]
+	path = DPVO
+	url = https://github.com/efekaanefe/DPVO.git
+	branch = vio-benchmarks
+[submodule "open_vins_ws/src/open_vins"]
+	path = open_vins_ws/src/open_vins
+	url = https://github.com/efekaanefe/open_vins.git
+	branch = vio-benchmarks

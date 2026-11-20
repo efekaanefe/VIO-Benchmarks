@@ -1,0 +1,13 @@
+sequence: OldTownNight_P1000
+run: 0
+seed: 0
+status: OK
+frames: 2501
+poses: 2501
+time_s: 57.0
+fps: 54.02
+frame_ms_mean: 18.51
+frame_ms_max: 69.09
+finished: 2026-10-20 13:12:31
+config: tartanground_diff
+imported_from: results/tartanground/OldTownNight_P1000 (run_tartanground.sh)

@@ -1,0 +1,13 @@
+sequence: Prison_P1001
+run: 0
+seed: 0
+status: OK
+frames: 2464
+poses: 2464
+time_s: 70.0
+fps: 41.02
+frame_ms_mean: 24.38
+frame_ms_max: 79.05
+finished: 2026-10-20 13:24:46
+config: tartanground_diff
+imported_from: results/tartanground/Prison_P1001 (run_tartanground.sh)

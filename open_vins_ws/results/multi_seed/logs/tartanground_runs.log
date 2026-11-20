@@ -1,0 +1,1172 @@
+[2026-10-24 04:42:21] 468 runs to do, 1 at a time, sequence by sequence
+AbandonedCable_P1000: 608 images, 6080 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedCable_P1000.bag
+[2026-10-24 04:42:37] BAG AbandonedCable_P1000 16s
+[2026-10-24 04:42:37] START AbandonedCable_P1000 run_01
+[2026-10-24 04:42:58] END AbandonedCable_P1000 run_01 OK poses=576 time=20s
+[2026-10-24 04:42:58] START AbandonedCable_P1000 run_02
+[2026-10-24 04:43:17] END AbandonedCable_P1000 run_02 OK poses=576 time=20s
+[2026-10-24 04:43:17] START AbandonedCable_P1000 run_03
+[2026-10-24 04:43:37] END AbandonedCable_P1000 run_03 OK poses=576 time=20s
+[2026-10-24 04:43:37] START AbandonedCable_P1000 run_04
+[2026-10-24 04:43:57] END AbandonedCable_P1000 run_04 OK poses=576 time=20s
+AbandonedCable_P1001: 983 images, 9830 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedCable_P1001.bag
+[2026-10-24 04:44:22] BAG AbandonedCable_P1001 25s
+[2026-10-24 04:44:22] START AbandonedCable_P1001 run_01
+[2026-10-24 04:44:53] END AbandonedCable_P1001 run_01 OK poses=946 time=30s
+[2026-10-24 04:44:53] START AbandonedCable_P1001 run_02
+[2026-10-24 04:45:23] END AbandonedCable_P1001 run_02 OK poses=946 time=30s
+[2026-10-24 04:45:23] START AbandonedCable_P1001 run_03
+[2026-10-24 04:45:53] END AbandonedCable_P1001 run_03 OK poses=946 time=30s
+[2026-10-24 04:45:53] START AbandonedCable_P1001 run_04
+[2026-10-24 04:46:23] END AbandonedCable_P1001 run_04 OK poses=946 time=30s
+AbandonedCable_P1002: 1621 images, 16210 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedCable_P1002.bag
+[2026-10-24 04:47:12] BAG AbandonedCable_P1002 49s
+[2026-10-24 04:47:12] START AbandonedCable_P1002 run_01
+[2026-10-24 04:47:53] END AbandonedCable_P1002 run_01 OK poses=1594 time=41s
+[2026-10-24 04:47:53] START AbandonedCable_P1002 run_02
+[2026-10-24 04:48:34] END AbandonedCable_P1002 run_02 OK poses=1594 time=41s
+[2026-10-24 04:48:34] START AbandonedCable_P1002 run_03
+[2026-10-24 04:49:14] END AbandonedCable_P1002 run_03 OK poses=1594 time=41s
+[2026-10-24 04:49:14] START AbandonedCable_P1002 run_04
+[2026-10-24 04:49:56] END AbandonedCable_P1002 run_04 OK poses=1594 time=42s
+AbandonedFactory2_P1000: 864 images, 8640 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedFactory2_P1000.bag
+[2026-10-24 04:50:19] BAG AbandonedFactory2_P1000 23s
+[2026-10-24 04:50:19] START AbandonedFactory2_P1000 run_01
+[2026-10-24 04:50:42] END AbandonedFactory2_P1000 run_01 OK poses=837 time=23s
+[2026-10-24 04:50:42] START AbandonedFactory2_P1000 run_02
+[2026-10-24 04:51:05] END AbandonedFactory2_P1000 run_02 OK poses=837 time=23s
+[2026-10-24 04:51:05] START AbandonedFactory2_P1000 run_03
+[2026-10-24 04:51:28] END AbandonedFactory2_P1000 run_03 OK poses=837 time=23s
+[2026-10-24 04:51:28] START AbandonedFactory2_P1000 run_04
+[2026-10-24 04:51:50] END AbandonedFactory2_P1000 run_04 OK poses=837 time=23s
+AbandonedFactory2_P1001: 1173 images, 11730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedFactory2_P1001.bag
+[2026-10-24 04:52:25] BAG AbandonedFactory2_P1001 34s
+[2026-10-24 04:52:25] START AbandonedFactory2_P1001 run_01
+[2026-10-24 04:52:54] END AbandonedFactory2_P1001 run_01 OK poses=1146 time=29s
+[2026-10-24 04:52:54] START AbandonedFactory2_P1001 run_02
+[2026-10-24 04:53:23] END AbandonedFactory2_P1001 run_02 OK poses=1146 time=29s
+[2026-10-24 04:53:23] START AbandonedFactory2_P1001 run_03
+[2026-10-24 04:53:52] END AbandonedFactory2_P1001 run_03 OK poses=1146 time=29s
+[2026-10-24 04:53:52] START AbandonedFactory2_P1001 run_04
+[2026-10-24 04:54:21] END AbandonedFactory2_P1001 run_04 OK poses=1146 time=29s
+AbandonedFactory2_P1002: 1576 images, 15760 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedFactory2_P1002.bag
+[2026-10-24 04:54:59] BAG AbandonedFactory2_P1002 38s
+[2026-10-24 04:54:59] START AbandonedFactory2_P1002 run_01
+[2026-10-24 04:55:38] END AbandonedFactory2_P1002 run_01 OK poses=1549 time=39s
+[2026-10-24 04:55:38] START AbandonedFactory2_P1002 run_02
+[2026-10-24 04:56:18] END AbandonedFactory2_P1002 run_02 OK poses=1549 time=40s
+[2026-10-24 04:56:18] START AbandonedFactory2_P1002 run_03
+[2026-10-24 04:56:57] END AbandonedFactory2_P1002 run_03 OK poses=1549 time=39s
+[2026-10-24 04:56:57] START AbandonedFactory2_P1002 run_04
+[2026-10-24 04:57:36] END AbandonedFactory2_P1002 run_04 OK poses=1549 time=39s
+AbandonedSchool_P1000: 2424 images, 24240 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedSchool_P1000.bag
+[2026-10-24 04:58:34] BAG AbandonedSchool_P1000 58s
+[2026-10-24 04:58:34] START AbandonedSchool_P1000 run_01
+[2026-10-24 04:59:35] END AbandonedSchool_P1000 run_01 OK poses=2397 time=60s
+[2026-10-24 04:59:35] START AbandonedSchool_P1000 run_02
+[2026-10-24 05:00:34] END AbandonedSchool_P1000 run_02 OK poses=2397 time=59s
+[2026-10-24 05:00:34] START AbandonedSchool_P1000 run_03
+[2026-10-24 05:01:34] END AbandonedSchool_P1000 run_03 OK poses=2397 time=60s
+[2026-10-24 05:01:34] START AbandonedSchool_P1000 run_04
+[2026-10-24 05:02:34] END AbandonedSchool_P1000 run_04 OK poses=2397 time=60s
+AbandonedSchool_P1001: 1489 images, 14890 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedSchool_P1001.bag
+[2026-10-24 05:03:10] BAG AbandonedSchool_P1001 36s
+[2026-10-24 05:03:10] START AbandonedSchool_P1001 run_01
+[2026-10-24 05:03:49] END AbandonedSchool_P1001 run_01 OK poses=1462 time=39s
+[2026-10-24 05:03:49] START AbandonedSchool_P1001 run_02
+[2026-10-24 05:04:28] END AbandonedSchool_P1001 run_02 OK poses=1462 time=39s
+[2026-10-24 05:04:28] START AbandonedSchool_P1001 run_03
+[2026-10-24 05:05:07] END AbandonedSchool_P1001 run_03 OK poses=1462 time=39s
+[2026-10-24 05:05:07] START AbandonedSchool_P1001 run_04
+[2026-10-24 05:05:46] END AbandonedSchool_P1001 run_04 OK poses=1462 time=39s
+AbandonedSchool_P1002: 3073 images, 30730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/AbandonedSchool_P1002.bag
+[2026-10-24 05:07:00] BAG AbandonedSchool_P1002 74s
+[2026-10-24 05:07:00] START AbandonedSchool_P1002 run_01
+[2026-10-24 05:08:16] END AbandonedSchool_P1002 run_01 OK poses=3046 time=76s
+[2026-10-24 05:08:16] START AbandonedSchool_P1002 run_02
+[2026-10-24 05:09:31] END AbandonedSchool_P1002 run_02 OK poses=3046 time=75s
+[2026-10-24 05:09:31] START AbandonedSchool_P1002 run_03
+[2026-10-24 05:10:48] END AbandonedSchool_P1002 run_03 OK poses=3046 time=76s
+[2026-10-24 05:10:48] START AbandonedSchool_P1002 run_04
+[2026-10-24 05:12:03] END AbandonedSchool_P1002 run_04 OK poses=3046 time=76s
+Antiquity3D_P1000: 2787 images, 27870 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Antiquity3D_P1000.bag
+[2026-10-24 05:13:07] BAG Antiquity3D_P1000 63s
+[2026-10-24 05:13:07] START Antiquity3D_P1000 run_01
+[2026-10-24 05:14:12] END Antiquity3D_P1000 run_01 OK poses=2760 time=65s
+[2026-10-24 05:14:12] START Antiquity3D_P1000 run_02
+[2026-10-24 05:15:17] END Antiquity3D_P1000 run_02 OK poses=2760 time=65s
+[2026-10-24 05:15:17] START Antiquity3D_P1000 run_03
+[2026-10-24 05:16:21] END Antiquity3D_P1000 run_03 OK poses=2760 time=64s
+[2026-10-24 05:16:21] START Antiquity3D_P1000 run_04
+[2026-10-24 05:17:24] END Antiquity3D_P1000 run_04 OK poses=2760 time=63s
+Antiquity3D_P1001: 1953 images, 19530 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Antiquity3D_P1001.bag
+[2026-10-24 05:18:08] BAG Antiquity3D_P1001 44s
+[2026-10-24 05:18:08] START Antiquity3D_P1001 run_01
+[2026-10-24 05:18:58] END Antiquity3D_P1001 run_01 OK poses=1915 time=50s
+[2026-10-24 05:18:58] START Antiquity3D_P1001 run_02
+[2026-10-24 05:19:49] END Antiquity3D_P1001 run_02 OK poses=1915 time=51s
+[2026-10-24 05:19:49] START Antiquity3D_P1001 run_03
+[2026-10-24 05:20:39] END Antiquity3D_P1001 run_03 OK poses=1915 time=50s
+[2026-10-24 05:20:39] START Antiquity3D_P1001 run_04
+[2026-10-24 05:21:29] END Antiquity3D_P1001 run_04 OK poses=1915 time=49s
+Antiquity3D_P1002: 2069 images, 20690 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Antiquity3D_P1002.bag
+[2026-10-24 05:22:15] BAG Antiquity3D_P1002 46s
+[2026-10-24 05:22:15] START Antiquity3D_P1002 run_01
+[2026-10-24 05:23:04] END Antiquity3D_P1002 run_01 OK poses=2041 time=49s
+[2026-10-24 05:23:04] START Antiquity3D_P1002 run_02
+[2026-10-24 05:23:53] END Antiquity3D_P1002 run_02 OK poses=2041 time=49s
+[2026-10-24 05:23:53] START Antiquity3D_P1002 run_03
+[2026-10-24 05:24:42] END Antiquity3D_P1002 run_03 OK poses=2041 time=49s
+[2026-10-24 05:24:42] START Antiquity3D_P1002 run_04
+[2026-10-24 05:25:32] END Antiquity3D_P1002 run_04 OK poses=2041 time=49s
+CarWelding_P1000: 632 images, 6320 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CarWelding_P1000.bag
+[2026-10-24 05:25:47] BAG CarWelding_P1000 16s
+[2026-10-24 05:25:47] START CarWelding_P1000 run_01
+[2026-10-24 05:26:05] END CarWelding_P1000 run_01 OK poses=605 time=18s
+[2026-10-24 05:26:05] START CarWelding_P1000 run_02
+[2026-10-24 05:26:23] END CarWelding_P1000 run_02 OK poses=605 time=18s
+[2026-10-24 05:26:23] START CarWelding_P1000 run_03
+[2026-10-24 05:26:41] END CarWelding_P1000 run_03 OK poses=605 time=18s
+[2026-10-24 05:26:41] START CarWelding_P1000 run_04
+[2026-10-24 05:26:59] END CarWelding_P1000 run_04 OK poses=605 time=18s
+CarWelding_P1001: 918 images, 9180 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CarWelding_P1001.bag
+[2026-10-24 05:27:20] BAG CarWelding_P1001 22s
+[2026-10-24 05:27:20] START CarWelding_P1001 run_01
+[2026-10-24 05:27:45] END CarWelding_P1001 run_01 OK poses=867 time=24s
+[2026-10-24 05:27:45] START CarWelding_P1001 run_02
+[2026-10-24 05:28:09] END CarWelding_P1001 run_02 OK poses=867 time=24s
+[2026-10-24 05:28:09] START CarWelding_P1001 run_03
+[2026-10-24 05:28:33] END CarWelding_P1001 run_03 OK poses=867 time=24s
+[2026-10-24 05:28:33] START CarWelding_P1001 run_04
+[2026-10-24 05:28:58] END CarWelding_P1001 run_04 OK poses=867 time=25s
+CarWelding_P1002: 1739 images, 17390 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CarWelding_P1002.bag
+[2026-10-24 05:29:41] BAG CarWelding_P1002 43s
+[2026-10-24 05:29:41] START CarWelding_P1002 run_01
+[2026-10-24 05:30:23] END CarWelding_P1002 run_01 OK poses=1712 time=42s
+[2026-10-24 05:30:23] START CarWelding_P1002 run_02
+[2026-10-24 05:31:06] END CarWelding_P1002 run_02 OK poses=1712 time=43s
+[2026-10-24 05:31:06] START CarWelding_P1002 run_03
+[2026-10-24 05:31:48] END CarWelding_P1002 run_03 OK poses=1712 time=42s
+[2026-10-24 05:31:48] START CarWelding_P1002 run_04
+[2026-10-24 05:32:30] END CarWelding_P1002 run_04 OK poses=1712 time=42s
+CastleFortress_P1000: 3060 images, 30600 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CastleFortress_P1000.bag
+[2026-10-24 05:33:44] BAG CastleFortress_P1000 74s
+[2026-10-24 05:33:44] START CastleFortress_P1000 run_01
+[2026-10-24 05:35:09] END CastleFortress_P1000 run_01 OK poses=3033 time=85s
+[2026-10-24 05:35:09] START CastleFortress_P1000 run_02
+[2026-10-24 05:36:33] END CastleFortress_P1000 run_02 OK poses=3033 time=85s
+[2026-10-24 05:36:33] START CastleFortress_P1000 run_03
+[2026-10-24 05:37:57] END CastleFortress_P1000 run_03 OK poses=3033 time=84s
+[2026-10-24 05:37:57] START CastleFortress_P1000 run_04
+[2026-10-24 05:39:22] END CastleFortress_P1000 run_04 OK poses=3033 time=84s
+CastleFortress_P1001: 2880 images, 28800 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CastleFortress_P1001.bag
+[2026-10-24 05:40:29] BAG CastleFortress_P1001 68s
+[2026-10-24 05:40:29] START CastleFortress_P1001 run_01
+[2026-10-24 05:41:44] END CastleFortress_P1001 run_01 OK poses=2844 time=74s
+[2026-10-24 05:41:44] START CastleFortress_P1001 run_02
+[2026-10-24 05:43:00] END CastleFortress_P1001 run_02 OK poses=2844 time=76s
+[2026-10-24 05:43:00] START CastleFortress_P1001 run_03
+[2026-10-24 05:44:14] END CastleFortress_P1001 run_03 OK poses=2844 time=75s
+[2026-10-24 05:44:14] START CastleFortress_P1001 run_04
+[2026-10-24 05:45:30] END CastleFortress_P1001 run_04 OK poses=2844 time=76s
+CastleFortress_P1002: 2193 images, 21930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CastleFortress_P1002.bag
+[2026-10-24 05:46:22] BAG CastleFortress_P1002 52s
+[2026-10-24 05:46:22] START CastleFortress_P1002 run_01
+[2026-10-24 05:47:30] END CastleFortress_P1002 run_01 OK poses=2131 time=68s
+[2026-10-24 05:47:30] START CastleFortress_P1002 run_02
+[2026-10-24 05:48:37] END CastleFortress_P1002 run_02 OK poses=2131 time=67s
+[2026-10-24 05:48:37] START CastleFortress_P1002 run_03
+[2026-10-24 05:49:44] END CastleFortress_P1002 run_03 OK poses=2131 time=67s
+[2026-10-24 05:49:44] START CastleFortress_P1002 run_04
+[2026-10-24 05:50:51] END CastleFortress_P1002 run_04 OK poses=2131 time=68s
+CoalMine_P1000: 1001 images, 10010 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CoalMine_P1000.bag
+[2026-10-24 05:51:15] BAG CoalMine_P1000 24s
+[2026-10-24 05:51:15] START CoalMine_P1000 run_01
+[2026-10-24 05:51:42] END CoalMine_P1000 run_01 OK poses=974 time=27s
+[2026-10-24 05:51:42] START CoalMine_P1000 run_02
+[2026-10-24 05:52:09] END CoalMine_P1000 run_02 OK poses=974 time=27s
+[2026-10-24 05:52:09] START CoalMine_P1000 run_03
+[2026-10-24 05:52:36] END CoalMine_P1000 run_03 OK poses=974 time=27s
+[2026-10-24 05:52:36] START CoalMine_P1000 run_04
+[2026-10-24 05:53:02] END CoalMine_P1000 run_04 OK poses=974 time=26s
+CoalMine_P1001: 1206 images, 12060 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CoalMine_P1001.bag
+[2026-10-24 05:53:31] BAG CoalMine_P1001 29s
+[2026-10-24 05:53:31] START CoalMine_P1001 run_01
+[2026-10-24 05:54:02] END CoalMine_P1001 run_01 OK poses=1179 time=32s
+[2026-10-24 05:54:02] START CoalMine_P1001 run_02
+[2026-10-24 05:54:34] END CoalMine_P1001 run_02 OK poses=1179 time=31s
+[2026-10-24 05:54:34] START CoalMine_P1001 run_03
+[2026-10-24 05:55:06] END CoalMine_P1001 run_03 OK poses=1179 time=32s
+[2026-10-24 05:55:06] START CoalMine_P1001 run_04
+[2026-10-24 05:55:37] END CoalMine_P1001 run_04 OK poses=1179 time=31s
+ConstructionSite_P1000: 2544 images, 25440 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ConstructionSite_P1000.bag
+[2026-10-24 05:56:41] BAG ConstructionSite_P1000 64s
+[2026-10-24 05:56:41] START ConstructionSite_P1000 run_01
+[2026-10-24 05:57:39] END ConstructionSite_P1000 run_01 OK poses=2517 time=58s
+[2026-10-24 05:57:39] START ConstructionSite_P1000 run_02
+[2026-10-24 05:58:37] END ConstructionSite_P1000 run_02 OK poses=2517 time=58s
+[2026-10-24 05:58:37] START ConstructionSite_P1000 run_03
+[2026-10-24 05:59:35] END ConstructionSite_P1000 run_03 OK poses=2517 time=58s
+[2026-10-24 05:59:35] START ConstructionSite_P1000 run_04
+[2026-10-24 06:00:34] END ConstructionSite_P1000 run_04 OK poses=2517 time=58s
+ConstructionSite_P1001: 2129 images, 21290 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ConstructionSite_P1001.bag
+[2026-10-24 06:01:26] BAG ConstructionSite_P1001 53s
+[2026-10-24 06:01:26] START ConstructionSite_P1001 run_01
+[2026-10-24 06:02:16] END ConstructionSite_P1001 run_01 OK poses=2102 time=50s
+[2026-10-24 06:02:16] START ConstructionSite_P1001 run_02
+[2026-10-24 06:03:04] END ConstructionSite_P1001 run_02 OK poses=2102 time=48s
+[2026-10-24 06:03:04] START ConstructionSite_P1001 run_03
+[2026-10-24 06:03:53] END ConstructionSite_P1001 run_03 OK poses=2102 time=48s
+[2026-10-24 06:03:53] START ConstructionSite_P1001 run_04
+[2026-10-24 06:04:42] END ConstructionSite_P1001 run_04 OK poses=2102 time=49s
+ConstructionSite_P1002: 1815 images, 18150 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ConstructionSite_P1002.bag
+[2026-10-24 06:05:29] BAG ConstructionSite_P1002 47s
+[2026-10-24 06:05:29] START ConstructionSite_P1002 run_01
+[2026-10-24 06:06:13] END ConstructionSite_P1002 run_01 OK poses=1788 time=44s
+[2026-10-24 06:06:13] START ConstructionSite_P1002 run_02
+[2026-10-24 06:06:57] END ConstructionSite_P1002 run_02 OK poses=1788 time=44s
+[2026-10-24 06:06:57] START ConstructionSite_P1002 run_03
+[2026-10-24 06:07:41] END ConstructionSite_P1002 run_03 OK poses=1788 time=44s
+[2026-10-24 06:07:41] START ConstructionSite_P1002 run_04
+[2026-10-24 06:08:25] END ConstructionSite_P1002 run_04 OK poses=1788 time=44s
+CyberPunkDowntown_P1000: 1465 images, 14650 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CyberPunkDowntown_P1000.bag
+[2026-10-24 06:09:00] BAG CyberPunkDowntown_P1000 35s
+[2026-10-24 06:09:00] START CyberPunkDowntown_P1000 run_01
+[2026-10-24 06:09:42] END CyberPunkDowntown_P1000 run_01 OK poses=1438 time=42s
+[2026-10-24 06:09:42] START CyberPunkDowntown_P1000 run_02
+[2026-10-24 06:10:26] END CyberPunkDowntown_P1000 run_02 OK poses=1438 time=43s
+[2026-10-24 06:10:26] START CyberPunkDowntown_P1000 run_03
+[2026-10-24 06:11:08] END CyberPunkDowntown_P1000 run_03 OK poses=1438 time=42s
+[2026-10-24 06:11:08] START CyberPunkDowntown_P1000 run_04
+[2026-10-24 06:11:51] END CyberPunkDowntown_P1000 run_04 OK poses=1438 time=43s
+CyberPunkDowntown_P1001: 2004 images, 20040 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CyberPunkDowntown_P1001.bag
+[2026-10-24 06:12:43] BAG CyberPunkDowntown_P1001 52s
+[2026-10-24 06:12:43] START CyberPunkDowntown_P1001 run_01
+[2026-10-24 06:13:37] END CyberPunkDowntown_P1001 run_01 OK poses=1977 time=54s
+[2026-10-24 06:13:37] START CyberPunkDowntown_P1001 run_02
+[2026-10-24 06:14:30] END CyberPunkDowntown_P1001 run_02 OK poses=1977 time=54s
+[2026-10-24 06:14:30] START CyberPunkDowntown_P1001 run_03
+[2026-10-24 06:15:25] END CyberPunkDowntown_P1001 run_03 OK poses=1977 time=55s
+[2026-10-24 06:15:25] START CyberPunkDowntown_P1001 run_04
+[2026-10-24 06:16:20] END CyberPunkDowntown_P1001 run_04 OK poses=1977 time=55s
+CyberPunkDowntown_P1002: 1698 images, 16980 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/CyberPunkDowntown_P1002.bag
+[2026-10-24 06:17:01] BAG CyberPunkDowntown_P1002 41s
+[2026-10-24 06:17:01] START CyberPunkDowntown_P1002 run_01
+[2026-10-24 06:17:44] END CyberPunkDowntown_P1002 run_01 OK poses=1664 time=43s
+[2026-10-24 06:17:44] START CyberPunkDowntown_P1002 run_02
+[2026-10-24 06:18:25] END CyberPunkDowntown_P1002 run_02 OK poses=1664 time=42s
+[2026-10-24 06:18:25] START CyberPunkDowntown_P1002 run_03
+[2026-10-24 06:19:07] END CyberPunkDowntown_P1002 run_03 OK poses=1664 time=42s
+[2026-10-24 06:19:07] START CyberPunkDowntown_P1002 run_04
+[2026-10-24 06:19:50] END CyberPunkDowntown_P1002 run_04 OK poses=1664 time=42s
+Downtown_P1000: 3488 images, 34880 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Downtown_P1000.bag
+[2026-10-24 06:21:18] BAG Downtown_P1000 88s
+[2026-10-24 06:21:18] START Downtown_P1000 run_01
+[2026-10-24 06:22:43] END Downtown_P1000 run_01 OK poses=3461 time=85s
+[2026-10-24 06:22:43] START Downtown_P1000 run_02
+[2026-10-24 06:24:08] END Downtown_P1000 run_02 OK poses=3461 time=85s
+[2026-10-24 06:24:08] START Downtown_P1000 run_03
+[2026-10-24 06:25:32] END Downtown_P1000 run_03 OK poses=3461 time=85s
+[2026-10-24 06:25:32] START Downtown_P1000 run_04
+[2026-10-24 06:26:56] END Downtown_P1000 run_04 OK poses=3461 time=84s
+Downtown_P1001: 2367 images, 23670 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Downtown_P1001.bag
+[2026-10-24 06:27:55] BAG Downtown_P1001 58s
+[2026-10-24 06:27:55] START Downtown_P1001 run_01
+[2026-10-24 06:28:54] END Downtown_P1001 run_01 OK poses=2340 time=59s
+[2026-10-24 06:28:54] START Downtown_P1001 run_02
+[2026-10-24 06:29:52] END Downtown_P1001 run_02 OK poses=2340 time=58s
+[2026-10-24 06:29:52] START Downtown_P1001 run_03
+[2026-10-24 06:30:51] END Downtown_P1001 run_03 OK poses=2340 time=59s
+[2026-10-24 06:30:51] START Downtown_P1001 run_04
+[2026-10-24 06:31:50] END Downtown_P1001 run_04 OK poses=2340 time=59s
+Downtown_P1002: 3053 images, 30530 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Downtown_P1002.bag
+[2026-10-24 06:33:08] BAG Downtown_P1002 78s
+[2026-10-24 06:33:08] START Downtown_P1002 run_01
+[2026-10-24 06:34:17] END Downtown_P1002 run_01 OK poses=3026 time=69s
+[2026-10-24 06:34:17] START Downtown_P1002 run_02
+[2026-10-24 06:35:24] END Downtown_P1002 run_02 OK poses=3026 time=67s
+[2026-10-24 06:35:24] START Downtown_P1002 run_03
+[2026-10-24 06:36:32] END Downtown_P1002 run_03 OK poses=3026 time=67s
+[2026-10-24 06:36:32] START Downtown_P1002 run_04
+[2026-10-24 06:37:40] END Downtown_P1002 run_04 OK poses=3026 time=68s
+Fantasy_P1000: 1593 images, 15930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Fantasy_P1000.bag
+[2026-10-24 06:38:18] BAG Fantasy_P1000 38s
+[2026-10-24 06:38:18] START Fantasy_P1000 run_01
+[2026-10-24 06:38:56] END Fantasy_P1000 run_01 OK poses=1565 time=38s
+[2026-10-24 06:38:56] START Fantasy_P1000 run_02
+[2026-10-24 06:39:35] END Fantasy_P1000 run_02 OK poses=1565 time=38s
+[2026-10-24 06:39:35] START Fantasy_P1000 run_03
+[2026-10-24 06:40:15] END Fantasy_P1000 run_03 OK poses=1565 time=40s
+[2026-10-24 06:40:15] START Fantasy_P1000 run_04
+[2026-10-24 06:40:53] END Fantasy_P1000 run_04 OK poses=1565 time=38s
+Fantasy_P1001: 1265 images, 12650 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Fantasy_P1001.bag
+[2026-10-24 06:41:23] BAG Fantasy_P1001 30s
+[2026-10-24 06:41:23] START Fantasy_P1001 run_01
+[2026-10-24 06:41:54] END Fantasy_P1001 run_01 OK poses=1238 time=31s
+[2026-10-24 06:41:54] START Fantasy_P1001 run_02
+[2026-10-24 06:42:25] END Fantasy_P1001 run_02 OK poses=1238 time=31s
+[2026-10-24 06:42:25] START Fantasy_P1001 run_03
+[2026-10-24 06:42:56] END Fantasy_P1001 run_03 OK poses=1238 time=31s
+[2026-10-24 06:42:56] START Fantasy_P1001 run_04
+[2026-10-24 06:43:27] END Fantasy_P1001 run_04 OK poses=1238 time=31s
+Fantasy_P1002: 1736 images, 17360 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Fantasy_P1002.bag
+[2026-10-24 06:44:09] BAG Fantasy_P1002 42s
+[2026-10-24 06:44:09] START Fantasy_P1002 run_01
+[2026-10-24 06:44:52] END Fantasy_P1002 run_01 OK poses=1662 time=43s
+[2026-10-24 06:44:52] START Fantasy_P1002 run_02
+[2026-10-24 06:45:34] END Fantasy_P1002 run_02 OK poses=1662 time=42s
+[2026-10-24 06:45:34] START Fantasy_P1002 run_03
+[2026-10-24 06:46:16] END Fantasy_P1002 run_03 OK poses=1662 time=43s
+[2026-10-24 06:46:16] START Fantasy_P1002 run_04
+[2026-10-24 06:46:58] END Fantasy_P1002 run_04 OK poses=1662 time=42s
+ForestEnv_P1000: 2060 images, 20600 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ForestEnv_P1000.bag
+[2026-10-24 06:48:01] BAG ForestEnv_P1000 63s
+[2026-10-24 06:48:01] START ForestEnv_P1000 run_01
+[2026-10-24 06:49:00] END ForestEnv_P1000 run_01 OK poses=2032 time=59s
+[2026-10-24 06:49:00] START ForestEnv_P1000 run_02
+[2026-10-24 06:49:59] END ForestEnv_P1000 run_02 OK poses=2032 time=59s
+[2026-10-24 06:49:59] START ForestEnv_P1000 run_03
+[2026-10-24 06:50:58] END ForestEnv_P1000 run_03 OK poses=2032 time=59s
+[2026-10-24 06:50:58] START ForestEnv_P1000 run_04
+[2026-10-24 06:51:56] END ForestEnv_P1000 run_04 OK poses=2032 time=58s
+ForestEnv_P1001: 809 images, 8090 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ForestEnv_P1001.bag
+[2026-10-24 06:52:20] BAG ForestEnv_P1001 24s
+[2026-10-24 06:52:20] START ForestEnv_P1001 run_01
+[2026-10-24 06:52:48] END ForestEnv_P1001 run_01 OK poses=781 time=28s
+[2026-10-24 06:52:48] START ForestEnv_P1001 run_02
+[2026-10-24 06:53:15] END ForestEnv_P1001 run_02 OK poses=781 time=28s
+[2026-10-24 06:53:15] START ForestEnv_P1001 run_03
+[2026-10-24 06:53:43] END ForestEnv_P1001 run_03 OK poses=781 time=28s
+[2026-10-24 06:53:43] START ForestEnv_P1001 run_04
+[2026-10-24 06:54:11] END ForestEnv_P1001 run_04 OK poses=781 time=28s
+ForestEnv_P1002: 2256 images, 22560 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ForestEnv_P1002.bag
+[2026-10-24 06:55:19] BAG ForestEnv_P1002 68s
+[2026-10-24 06:55:19] START ForestEnv_P1002 run_01
+[2026-10-24 06:56:32] END ForestEnv_P1002 run_01 OK poses=2229 time=73s
+[2026-10-24 06:56:32] START ForestEnv_P1002 run_02
+[2026-10-24 06:57:43] END ForestEnv_P1002 run_02 OK poses=2229 time=71s
+[2026-10-24 06:57:43] START ForestEnv_P1002 run_03
+[2026-10-24 06:58:56] END ForestEnv_P1002 run_03 OK poses=2229 time=73s
+[2026-10-24 06:58:56] START ForestEnv_P1002 run_04
+[2026-10-24 07:00:08] END ForestEnv_P1002 run_04 OK poses=2229 time=72s
+Gascola_P1000: 3223 images, 32230 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Gascola_P1000.bag
+[2026-10-24 07:01:35] BAG Gascola_P1000 87s
+[2026-10-24 07:01:35] START Gascola_P1000 run_01
+[2026-10-24 07:03:06] END Gascola_P1000 run_01 OK poses=3196 time=91s
+[2026-10-24 07:03:06] START Gascola_P1000 run_02
+[2026-10-24 07:04:37] END Gascola_P1000 run_02 OK poses=3196 time=91s
+[2026-10-24 07:04:37] START Gascola_P1000 run_03
+[2026-10-24 07:06:08] END Gascola_P1000 run_03 OK poses=3196 time=91s
+[2026-10-24 07:06:08] START Gascola_P1000 run_04
+[2026-10-24 07:07:39] END Gascola_P1000 run_04 OK poses=3196 time=90s
+Gascola_P1001: 849 images, 8490 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Gascola_P1001.bag
+[2026-10-24 07:08:02] BAG Gascola_P1001 24s
+[2026-10-24 07:08:02] START Gascola_P1001 run_01
+[2026-10-24 07:08:31] END Gascola_P1001 run_01 OK poses=822 time=28s
+[2026-10-24 07:08:31] START Gascola_P1001 run_02
+[2026-10-24 07:08:59] END Gascola_P1001 run_02 OK poses=822 time=28s
+[2026-10-24 07:08:59] START Gascola_P1001 run_03
+[2026-10-24 07:09:27] END Gascola_P1001 run_03 OK poses=822 time=28s
+[2026-10-24 07:09:27] START Gascola_P1001 run_04
+[2026-10-24 07:09:55] END Gascola_P1001 run_04 OK poses=822 time=28s
+Gascola_P1002: 2914 images, 29140 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Gascola_P1002.bag
+[2026-10-24 07:11:15] BAG Gascola_P1002 80s
+[2026-10-24 07:11:15] START Gascola_P1002 run_01
+[2026-10-24 07:12:29] END Gascola_P1002 run_01 OK poses=2849 time=74s
+[2026-10-24 07:12:29] START Gascola_P1002 run_02
+[2026-10-24 07:13:43] END Gascola_P1002 run_02 OK poses=2849 time=73s
+[2026-10-24 07:13:43] START Gascola_P1002 run_03
+[2026-10-24 07:14:57] END Gascola_P1002 run_03 OK poses=2849 time=74s
+[2026-10-24 07:14:57] START Gascola_P1002 run_04
+[2026-10-24 07:16:11] END Gascola_P1002 run_04 OK poses=2849 time=74s
+GothicIsland_P1000: 1038 images, 10380 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GothicIsland_P1000.bag
+[2026-10-24 07:16:37] BAG GothicIsland_P1000 27s
+[2026-10-24 07:16:37] START GothicIsland_P1000 run_01
+[2026-10-24 07:17:08] END GothicIsland_P1000 run_01 OK poses=1011 time=30s
+[2026-10-24 07:17:08] START GothicIsland_P1000 run_02
+[2026-10-24 07:17:38] END GothicIsland_P1000 run_02 OK poses=1011 time=30s
+[2026-10-24 07:17:38] START GothicIsland_P1000 run_03
+[2026-10-24 07:18:08] END GothicIsland_P1000 run_03 OK poses=1011 time=30s
+[2026-10-24 07:18:08] START GothicIsland_P1000 run_04
+[2026-10-24 07:18:38] END GothicIsland_P1000 run_04 OK poses=1011 time=30s
+GothicIsland_P1001: 1437 images, 14370 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GothicIsland_P1001.bag
+[2026-10-24 07:19:16] BAG GothicIsland_P1001 37s
+[2026-10-24 07:19:16] START GothicIsland_P1001 run_01
+[2026-10-24 07:19:58] END GothicIsland_P1001 run_01 OK poses=1395 time=42s
+[2026-10-24 07:19:58] START GothicIsland_P1001 run_02
+[2026-10-24 07:20:41] END GothicIsland_P1001 run_02 OK poses=1395 time=43s
+[2026-10-24 07:20:41] START GothicIsland_P1001 run_03
+[2026-10-24 07:21:24] END GothicIsland_P1001 run_03 OK poses=1395 time=43s
+[2026-10-24 07:21:24] START GothicIsland_P1001 run_04
+[2026-10-24 07:22:06] END GothicIsland_P1001 run_04 OK poses=1395 time=42s
+GothicIsland_P1002: 1405 images, 14050 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GothicIsland_P1002.bag
+[2026-10-24 07:22:44] BAG GothicIsland_P1002 38s
+[2026-10-24 07:22:44] START GothicIsland_P1002 run_01
+[2026-10-24 07:23:23] END GothicIsland_P1002 run_01 OK poses=1377 time=39s
+[2026-10-24 07:23:23] START GothicIsland_P1002 run_02
+[2026-10-24 07:24:02] END GothicIsland_P1002 run_02 OK poses=1377 time=39s
+[2026-10-24 07:24:02] START GothicIsland_P1002 run_03
+[2026-10-24 07:24:42] END GothicIsland_P1002 run_03 OK poses=1377 time=40s
+[2026-10-24 07:24:42] START GothicIsland_P1002 run_04
+[2026-10-24 07:25:21] END GothicIsland_P1002 run_04 OK poses=1377 time=39s
+GreatMarsh_P1000: 2610 images, 26100 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GreatMarsh_P1000.bag
+[2026-10-24 07:26:30] BAG GreatMarsh_P1000 68s
+[2026-10-24 07:26:30] START GreatMarsh_P1000 run_01
+[2026-10-24 07:28:11] END GreatMarsh_P1000 run_01 OK poses=2583 time=101s
+[2026-10-24 07:28:11] START GreatMarsh_P1000 run_02
+[2026-10-24 07:29:54] END GreatMarsh_P1000 run_02 OK poses=2583 time=103s
+[2026-10-24 07:29:54] START GreatMarsh_P1000 run_03
+[2026-10-24 07:31:35] END GreatMarsh_P1000 run_03 OK poses=2583 time=101s
+[2026-10-24 07:31:35] START GreatMarsh_P1000 run_04
+[2026-10-24 07:33:16] END GreatMarsh_P1000 run_04 OK poses=2583 time=100s
+GreatMarsh_P1001: 6725 images, 67250 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GreatMarsh_P1001.bag
+[2026-10-24 07:36:09] BAG GreatMarsh_P1001 174s
+[2026-10-24 07:36:09] START GreatMarsh_P1001 run_01
+[2026-10-24 07:40:00] END GreatMarsh_P1001 run_01 OK poses=5844 time=230s
+[2026-10-24 07:40:00] START GreatMarsh_P1001 run_02
+[2026-10-24 07:43:49] END GreatMarsh_P1001 run_02 OK poses=5844 time=229s
+[2026-10-24 07:43:49] START GreatMarsh_P1001 run_03
+[2026-10-24 07:47:41] END GreatMarsh_P1001 run_03 OK poses=5844 time=232s
+[2026-10-24 07:47:41] START GreatMarsh_P1001 run_04
+[2026-10-24 07:51:31] END GreatMarsh_P1001 run_04 OK poses=5844 time=229s
+GreatMarsh_P1002: 6122 images, 61220 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/GreatMarsh_P1002.bag
+[2026-10-24 07:54:12] BAG GreatMarsh_P1002 161s
+[2026-10-24 07:54:12] START GreatMarsh_P1002 run_01
+[2026-10-24 07:57:41] END GreatMarsh_P1002 run_01 OK poses=6090 time=209s
+[2026-10-24 07:57:41] START GreatMarsh_P1002 run_02
+[2026-10-24 08:01:11] END GreatMarsh_P1002 run_02 OK poses=6090 time=210s
+[2026-10-24 08:01:11] START GreatMarsh_P1002 run_03
+[2026-10-24 08:04:39] END GreatMarsh_P1002 run_03 OK poses=6090 time=207s
+[2026-10-24 08:04:39] START GreatMarsh_P1002 run_04
+[2026-10-24 08:08:07] END GreatMarsh_P1002 run_04 OK poses=6090 time=208s
+Hospital_P1000: 3177 images, 31770 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Hospital_P1000.bag
+[2026-10-24 08:09:32] BAG Hospital_P1000 85s
+[2026-10-24 08:09:32] START Hospital_P1000 run_01
+[2026-10-24 08:10:50] END Hospital_P1000 run_01 OK poses=3150 time=78s
+[2026-10-24 08:10:50] START Hospital_P1000 run_02
+[2026-10-24 08:12:07] END Hospital_P1000 run_02 OK poses=3150 time=77s
+[2026-10-24 08:12:07] START Hospital_P1000 run_03
+[2026-10-24 08:13:24] END Hospital_P1000 run_03 OK poses=3150 time=78s
+[2026-10-24 08:13:24] START Hospital_P1000 run_04
+[2026-10-24 08:14:42] END Hospital_P1000 run_04 OK poses=3150 time=78s
+Hospital_P1001: 3325 images, 33250 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Hospital_P1001.bag
+[2026-10-24 08:16:12] BAG Hospital_P1001 90s
+[2026-10-24 08:16:12] START Hospital_P1001 run_01
+[2026-10-24 08:17:31] END Hospital_P1001 run_01 OK poses=3297 time=80s
+[2026-10-24 08:17:31] START Hospital_P1001 run_02
+[2026-10-24 08:18:51] END Hospital_P1001 run_02 OK poses=3297 time=80s
+[2026-10-24 08:18:51] START Hospital_P1001 run_03
+[2026-10-24 08:20:10] END Hospital_P1001 run_03 OK poses=3297 time=79s
+[2026-10-24 08:20:10] START Hospital_P1001 run_04
+[2026-10-24 08:21:28] END Hospital_P1001 run_04 OK poses=3297 time=78s
+Hospital_P1002: 2873 images, 28730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Hospital_P1002.bag
+[2026-10-24 08:22:42] BAG Hospital_P1002 74s
+[2026-10-24 08:22:42] START Hospital_P1002 run_01
+[2026-10-24 08:23:52] END Hospital_P1002 run_01 OK poses=2846 time=70s
+[2026-10-24 08:23:52] START Hospital_P1002 run_02
+[2026-10-24 08:25:03] END Hospital_P1002 run_02 OK poses=2846 time=71s
+[2026-10-24 08:25:03] START Hospital_P1002 run_03
+[2026-10-24 08:26:14] END Hospital_P1002 run_03 OK poses=2846 time=71s
+[2026-10-24 08:26:14] START Hospital_P1002 run_04
+[2026-10-24 08:27:25] END Hospital_P1002 run_04 OK poses=2846 time=71s
+IndustrialHangar_P1000: 2298 images, 22980 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/IndustrialHangar_P1000.bag
+[2026-10-24 08:28:17] BAG IndustrialHangar_P1000 52s
+[2026-10-24 08:28:17] START IndustrialHangar_P1000 run_01
+[2026-10-24 08:29:10] END IndustrialHangar_P1000 run_01 OK poses=2270 time=53s
+[2026-10-24 08:29:10] START IndustrialHangar_P1000 run_02
+[2026-10-24 08:30:03] END IndustrialHangar_P1000 run_02 OK poses=2270 time=53s
+[2026-10-24 08:30:03] START IndustrialHangar_P1000 run_03
+[2026-10-24 08:30:56] END IndustrialHangar_P1000 run_03 OK poses=2270 time=53s
+[2026-10-24 08:30:56] START IndustrialHangar_P1000 run_04
+[2026-10-24 08:31:49] END IndustrialHangar_P1000 run_04 OK poses=2270 time=53s
+IndustrialHangar_P1001: 3000 images, 30000 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/IndustrialHangar_P1001.bag
+[2026-10-24 08:33:02] BAG IndustrialHangar_P1001 73s
+[2026-10-24 08:33:02] START IndustrialHangar_P1001 run_01
+[2026-10-24 08:34:13] END IndustrialHangar_P1001 run_01 OK poses=2795 time=71s
+[2026-10-24 08:34:13] START IndustrialHangar_P1001 run_02
+[2026-10-24 08:35:23] END IndustrialHangar_P1001 run_02 OK poses=2795 time=70s
+[2026-10-24 08:35:23] START IndustrialHangar_P1001 run_03
+[2026-10-24 08:36:34] END IndustrialHangar_P1001 run_03 OK poses=2795 time=71s
+[2026-10-24 08:36:34] START IndustrialHangar_P1001 run_04
+[2026-10-24 08:37:44] END IndustrialHangar_P1001 run_04 OK poses=2795 time=70s
+IndustrialHangar_P1002: 2082 images, 20820 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/IndustrialHangar_P1002.bag
+[2026-10-24 08:38:34] BAG IndustrialHangar_P1002 50s
+[2026-10-24 08:38:34] START IndustrialHangar_P1002 run_01
+[2026-10-24 08:39:31] END IndustrialHangar_P1002 run_01 OK poses=2055 time=57s
+[2026-10-24 08:39:31] START IndustrialHangar_P1002 run_02
+[2026-10-24 08:40:28] END IndustrialHangar_P1002 run_02 OK poses=2055 time=57s
+[2026-10-24 08:40:28] START IndustrialHangar_P1002 run_03
+[2026-10-24 08:41:25] END IndustrialHangar_P1002 run_03 OK poses=2055 time=57s
+[2026-10-24 08:41:25] START IndustrialHangar_P1002 run_04
+[2026-10-24 08:42:22] END IndustrialHangar_P1002 run_04 OK poses=2055 time=57s
+JapaneseAlley_P1000: 1382 images, 13820 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/JapaneseAlley_P1000.bag
+[2026-10-24 08:43:00] BAG JapaneseAlley_P1000 38s
+[2026-10-24 08:43:00] START JapaneseAlley_P1000 run_01
+[2026-10-24 08:43:33] END JapaneseAlley_P1000 run_01 OK poses=1152 time=33s
+[2026-10-24 08:43:33] START JapaneseAlley_P1000 run_02
+[2026-10-24 08:44:06] END JapaneseAlley_P1000 run_02 OK poses=1152 time=33s
+[2026-10-24 08:44:06] START JapaneseAlley_P1000 run_03
+[2026-10-24 08:44:40] END JapaneseAlley_P1000 run_03 OK poses=1152 time=33s
+[2026-10-24 08:44:40] START JapaneseAlley_P1000 run_04
+[2026-10-24 08:45:13] END JapaneseAlley_P1000 run_04 OK poses=1152 time=33s
+JapaneseAlley_P1001: 1127 images, 11270 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/JapaneseAlley_P1001.bag
+[2026-10-24 08:45:43] BAG JapaneseAlley_P1001 30s
+[2026-10-24 08:45:43] START JapaneseAlley_P1001 run_01
+[2026-10-24 08:46:12] END JapaneseAlley_P1001 run_01 OK poses=1100 time=29s
+[2026-10-24 08:46:12] START JapaneseAlley_P1001 run_02
+[2026-10-24 08:46:41] END JapaneseAlley_P1001 run_02 OK poses=1100 time=29s
+[2026-10-24 08:46:41] START JapaneseAlley_P1001 run_03
+[2026-10-24 08:47:10] END JapaneseAlley_P1001 run_03 OK poses=1100 time=29s
+[2026-10-24 08:47:10] START JapaneseAlley_P1001 run_04
+[2026-10-24 08:47:39] END JapaneseAlley_P1001 run_04 OK poses=1100 time=29s
+JapaneseAlley_P1002: 1555 images, 15550 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/JapaneseAlley_P1002.bag
+[2026-10-24 08:48:22] BAG JapaneseAlley_P1002 43s
+[2026-10-24 08:48:22] START JapaneseAlley_P1002 run_01
+[2026-10-24 08:49:00] END JapaneseAlley_P1002 run_01 OK poses=1528 time=37s
+[2026-10-24 08:49:00] START JapaneseAlley_P1002 run_02
+[2026-10-24 08:49:37] END JapaneseAlley_P1002 run_02 OK poses=1528 time=38s
+[2026-10-24 08:49:37] START JapaneseAlley_P1002 run_03
+[2026-10-24 08:50:16] END JapaneseAlley_P1002 run_03 OK poses=1528 time=38s
+[2026-10-24 08:50:16] START JapaneseAlley_P1002 run_04
+[2026-10-24 08:50:52] END JapaneseAlley_P1002 run_04 OK poses=1528 time=37s
+MiddleEast_P1000: 1357 images, 13570 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/MiddleEast_P1000.bag
+[2026-10-24 08:51:27] BAG MiddleEast_P1000 35s
+[2026-10-24 08:51:27] START MiddleEast_P1000 run_01
+[2026-10-24 08:51:59] END MiddleEast_P1000 run_01 OK poses=1275 time=32s
+[2026-10-24 08:51:59] START MiddleEast_P1000 run_02
+[2026-10-24 08:52:31] END MiddleEast_P1000 run_02 OK poses=1275 time=32s
+[2026-10-24 08:52:31] START MiddleEast_P1000 run_03
+[2026-10-24 08:53:04] END MiddleEast_P1000 run_03 OK poses=1275 time=33s
+[2026-10-24 08:53:04] START MiddleEast_P1000 run_04
+[2026-10-24 08:53:37] END MiddleEast_P1000 run_04 OK poses=1275 time=32s
+MiddleEast_P1001: 799 images, 7990 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/MiddleEast_P1001.bag
+[2026-10-24 08:53:57] BAG MiddleEast_P1001 20s
+[2026-10-24 08:53:57] START MiddleEast_P1001 run_01
+[2026-10-24 08:54:20] END MiddleEast_P1001 run_01 OK poses=706 time=23s
+[2026-10-24 08:54:20] START MiddleEast_P1001 run_02
+[2026-10-24 08:54:43] END MiddleEast_P1001 run_02 OK poses=706 time=23s
+[2026-10-24 08:54:43] START MiddleEast_P1001 run_03
+[2026-10-24 08:55:07] END MiddleEast_P1001 run_03 OK poses=706 time=23s
+[2026-10-24 08:55:07] START MiddleEast_P1001 run_04
+[2026-10-24 08:55:31] END MiddleEast_P1001 run_04 OK poses=706 time=24s
+MiddleEast_P1002: 1193 images, 11930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/MiddleEast_P1002.bag
+[2026-10-24 08:56:01] BAG MiddleEast_P1002 31s
+[2026-10-24 08:56:01] START MiddleEast_P1002 run_01
+[2026-10-24 08:56:33] END MiddleEast_P1002 run_01 OK poses=1166 time=32s
+[2026-10-24 08:56:33] START MiddleEast_P1002 run_02
+[2026-10-24 08:57:05] END MiddleEast_P1002 run_02 OK poses=1166 time=32s
+[2026-10-24 08:57:05] START MiddleEast_P1002 run_03
+[2026-10-24 08:57:37] END MiddleEast_P1002 run_03 OK poses=1166 time=32s
+[2026-10-24 08:57:37] START MiddleEast_P1002 run_04
+[2026-10-24 08:58:10] END MiddleEast_P1002 run_04 OK poses=1166 time=32s
+ModernCityDowntown_P1000: 1746 images, 17460 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModernCityDowntown_P1000.bag
+[2026-10-24 08:58:54] BAG ModernCityDowntown_P1000 45s
+[2026-10-24 08:58:54] START ModernCityDowntown_P1000 run_01
+[2026-10-24 08:59:36] END ModernCityDowntown_P1000 run_01 OK poses=1712 time=41s
+[2026-10-24 08:59:36] START ModernCityDowntown_P1000 run_02
+[2026-10-24 09:00:17] END ModernCityDowntown_P1000 run_02 OK poses=1712 time=42s
+[2026-10-24 09:00:17] START ModernCityDowntown_P1000 run_03
+[2026-10-24 09:00:58] END ModernCityDowntown_P1000 run_03 OK poses=1712 time=40s
+[2026-10-24 09:00:58] START ModernCityDowntown_P1000 run_04
+[2026-10-24 09:01:40] END ModernCityDowntown_P1000 run_04 OK poses=1712 time=42s
+ModernCityDowntown_P1001: 1858 images, 18580 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModernCityDowntown_P1001.bag
+[2026-10-24 09:02:27] BAG ModernCityDowntown_P1001 47s
+[2026-10-24 09:02:27] START ModernCityDowntown_P1001 run_01
+[2026-10-24 09:03:12] END ModernCityDowntown_P1001 run_01 OK poses=1829 time=45s
+[2026-10-24 09:03:12] START ModernCityDowntown_P1001 run_02
+[2026-10-24 09:03:56] END ModernCityDowntown_P1001 run_02 OK poses=1829 time=44s
+[2026-10-24 09:03:56] START ModernCityDowntown_P1001 run_03
+[2026-10-24 09:04:41] END ModernCityDowntown_P1001 run_03 OK poses=1829 time=45s
+[2026-10-24 09:04:41] START ModernCityDowntown_P1001 run_04
+[2026-10-24 09:05:25] END ModernCityDowntown_P1001 run_04 OK poses=1829 time=45s
+ModernCityDowntown_P1002: 1807 images, 18070 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModernCityDowntown_P1002.bag
+[2026-10-24 09:06:12] BAG ModernCityDowntown_P1002 47s
+[2026-10-24 09:06:12] START ModernCityDowntown_P1002 run_01
+[2026-10-24 09:06:57] END ModernCityDowntown_P1002 run_01 OK poses=1769 time=45s
+[2026-10-24 09:06:57] START ModernCityDowntown_P1002 run_02
+[2026-10-24 09:07:43] END ModernCityDowntown_P1002 run_02 OK poses=1769 time=45s
+[2026-10-24 09:07:43] START ModernCityDowntown_P1002 run_03
+[2026-10-24 09:08:28] END ModernCityDowntown_P1002 run_03 OK poses=1769 time=46s
+[2026-10-24 09:08:28] START ModernCityDowntown_P1002 run_04
+[2026-10-24 09:09:14] END ModernCityDowntown_P1002 run_04 OK poses=1769 time=46s
+ModularNeighborhoodIntExt_P1000: 569 images, 5690 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhoodIntExt_P1000.bag
+[2026-10-24 09:09:30] BAG ModularNeighborhoodIntExt_P1000 16s
+[2026-10-24 09:09:30] START ModularNeighborhoodIntExt_P1000 run_01
+[2026-10-24 09:09:48] END ModularNeighborhoodIntExt_P1000 run_01 OK poses=542 time=18s
+[2026-10-24 09:09:48] START ModularNeighborhoodIntExt_P1000 run_02
+[2026-10-24 09:10:06] END ModularNeighborhoodIntExt_P1000 run_02 OK poses=542 time=18s
+[2026-10-24 09:10:06] START ModularNeighborhoodIntExt_P1000 run_03
+[2026-10-24 09:10:24] END ModularNeighborhoodIntExt_P1000 run_03 OK poses=542 time=18s
+[2026-10-24 09:10:24] START ModularNeighborhoodIntExt_P1000 run_04
+[2026-10-24 09:10:43] END ModularNeighborhoodIntExt_P1000 run_04 OK poses=542 time=18s
+ModularNeighborhoodIntExt_P1001: 758 images, 7580 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhoodIntExt_P1001.bag
+[2026-10-24 09:11:05] BAG ModularNeighborhoodIntExt_P1001 22s
+[2026-10-24 09:11:05] START ModularNeighborhoodIntExt_P1001 run_01
+[2026-10-24 09:11:31] END ModularNeighborhoodIntExt_P1001 run_01 OK poses=718 time=26s
+[2026-10-24 09:11:31] START ModularNeighborhoodIntExt_P1001 run_02
+[2026-10-24 09:11:57] END ModularNeighborhoodIntExt_P1001 run_02 OK poses=718 time=26s
+[2026-10-24 09:11:57] START ModularNeighborhoodIntExt_P1001 run_03
+[2026-10-24 09:12:23] END ModularNeighborhoodIntExt_P1001 run_03 OK poses=718 time=26s
+[2026-10-24 09:12:23] START ModularNeighborhoodIntExt_P1001 run_04
+[2026-10-24 09:12:49] END ModularNeighborhoodIntExt_P1001 run_04 OK poses=718 time=26s
+ModularNeighborhoodIntExt_P1002: 945 images, 9450 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhoodIntExt_P1002.bag
+[2026-10-24 09:13:16] BAG ModularNeighborhoodIntExt_P1002 27s
+[2026-10-24 09:13:16] START ModularNeighborhoodIntExt_P1002 run_01
+[2026-10-24 09:13:43] END ModularNeighborhoodIntExt_P1002 run_01 OK poses=918 time=26s
+[2026-10-24 09:13:43] START ModularNeighborhoodIntExt_P1002 run_02
+[2026-10-24 09:14:09] END ModularNeighborhoodIntExt_P1002 run_02 OK poses=918 time=27s
+[2026-10-24 09:14:09] START ModularNeighborhoodIntExt_P1002 run_03
+[2026-10-24 09:14:36] END ModularNeighborhoodIntExt_P1002 run_03 OK poses=918 time=27s
+[2026-10-24 09:14:36] START ModularNeighborhoodIntExt_P1002 run_04
+[2026-10-24 09:15:02] END ModularNeighborhoodIntExt_P1002 run_04 OK poses=918 time=26s
+ModularNeighborhood_P1000: 6093 images, 60930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhood_P1000.bag
+[2026-10-24 09:17:47] BAG ModularNeighborhood_P1000 165s
+[2026-10-24 09:17:47] START ModularNeighborhood_P1000 run_01
+[2026-10-24 09:20:17] END ModularNeighborhood_P1000 run_01 OK poses=6066 time=149s
+[2026-10-24 09:20:17] START ModularNeighborhood_P1000 run_02
+[2026-10-24 09:22:49] END ModularNeighborhood_P1000 run_02 OK poses=6066 time=152s
+[2026-10-24 09:22:49] START ModularNeighborhood_P1000 run_03
+[2026-10-24 09:25:18] END ModularNeighborhood_P1000 run_03 OK poses=6066 time=149s
+[2026-10-24 09:25:18] START ModularNeighborhood_P1000 run_04
+[2026-10-24 09:27:48] END ModularNeighborhood_P1000 run_04 OK poses=6066 time=150s
+ModularNeighborhood_P1001: 2743 images, 27430 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhood_P1001.bag
+[2026-10-24 09:28:59] BAG ModularNeighborhood_P1001 71s
+[2026-10-24 09:28:59] START ModularNeighborhood_P1001 run_01
+[2026-10-24 09:30:10] END ModularNeighborhood_P1001 run_01 OK poses=2716 time=71s
+[2026-10-24 09:30:10] START ModularNeighborhood_P1001 run_02
+[2026-10-24 09:31:20] END ModularNeighborhood_P1001 run_02 OK poses=2716 time=70s
+[2026-10-24 09:31:20] START ModularNeighborhood_P1001 run_03
+[2026-10-24 09:32:31] END ModularNeighborhood_P1001 run_03 OK poses=2716 time=71s
+[2026-10-24 09:32:31] START ModularNeighborhood_P1001 run_04
+[2026-10-24 09:33:42] END ModularNeighborhood_P1001 run_04 OK poses=2716 time=71s
+ModularNeighborhood_P1002: 5391 images, 53910 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/ModularNeighborhood_P1002.bag
+[2026-10-24 09:36:08] BAG ModularNeighborhood_P1002 146s
+[2026-10-24 09:36:08] START ModularNeighborhood_P1002 run_01
+[2026-10-24 09:38:28] END ModularNeighborhood_P1002 run_01 OK poses=5359 time=140s
+[2026-10-24 09:38:28] START ModularNeighborhood_P1002 run_02
+[2026-10-24 09:40:48] END ModularNeighborhood_P1002 run_02 OK poses=5359 time=140s
+[2026-10-24 09:40:48] START ModularNeighborhood_P1002 run_03
+[2026-10-24 09:43:08] END ModularNeighborhood_P1002 run_03 OK poses=5359 time=140s
+[2026-10-24 09:43:08] START ModularNeighborhood_P1002 run_04
+[2026-10-24 09:45:28] END ModularNeighborhood_P1002 run_04 OK poses=5359 time=140s
+NordicHarbor_P1000: 4362 images, 43620 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/NordicHarbor_P1000.bag
+[2026-10-24 09:47:43] BAG NordicHarbor_P1000 135s
+[2026-10-24 09:47:43] START NordicHarbor_P1000 run_01
+[2026-10-24 09:49:24] END NordicHarbor_P1000 run_01 OK poses=4149 time=101s
+[2026-10-24 09:49:24] START NordicHarbor_P1000 run_02
+[2026-10-24 09:51:05] END NordicHarbor_P1000 run_02 OK poses=4149 time=101s
+[2026-10-24 09:51:05] START NordicHarbor_P1000 run_03
+[2026-10-24 09:52:46] END NordicHarbor_P1000 run_03 OK poses=4149 time=101s
+[2026-10-24 09:52:46] START NordicHarbor_P1000 run_04
+[2026-10-24 09:54:29] END NordicHarbor_P1000 run_04 OK poses=4149 time=102s
+NordicHarbor_P1001: 3344 images, 33440 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/NordicHarbor_P1001.bag
+[2026-10-24 09:56:06] BAG NordicHarbor_P1001 97s
+[2026-10-24 09:56:06] START NordicHarbor_P1001 run_01
+[2026-10-24 09:57:25] END NordicHarbor_P1001 run_01 OK poses=3280 time=79s
+[2026-10-24 09:57:25] START NordicHarbor_P1001 run_02
+[2026-10-24 09:58:44] END NordicHarbor_P1001 run_02 OK poses=3280 time=80s
+[2026-10-24 09:58:44] START NordicHarbor_P1001 run_03
+[2026-10-24 10:00:04] END NordicHarbor_P1001 run_03 OK poses=3280 time=80s
+[2026-10-24 10:00:04] START NordicHarbor_P1001 run_04
+[2026-10-24 10:01:24] END NordicHarbor_P1001 run_04 OK poses=3280 time=80s
+NordicHarbor_P1002: 4928 images, 49280 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/NordicHarbor_P1002.bag
+[2026-10-24 10:04:33] BAG NordicHarbor_P1002 189s
+[2026-10-24 10:04:33] START NordicHarbor_P1002 run_01
+[2026-10-24 10:06:25] END NordicHarbor_P1002 run_01 OK poses=4822 time=112s
+[2026-10-24 10:06:25] START NordicHarbor_P1002 run_02
+[2026-10-24 10:08:19] END NordicHarbor_P1002 run_02 OK poses=4822 time=114s
+[2026-10-24 10:08:19] START NordicHarbor_P1002 run_03
+[2026-10-24 10:10:11] END NordicHarbor_P1002 run_03 OK poses=4822 time=112s
+[2026-10-24 10:10:11] START NordicHarbor_P1002 run_04
+[2026-10-24 10:12:03] END NordicHarbor_P1002 run_04 OK poses=4822 time=113s
+OldIndustrialCity_P1000: 4471 images, 44710 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldIndustrialCity_P1000.bag
+[2026-10-24 10:14:34] BAG OldIndustrialCity_P1000 150s
+[2026-10-24 10:14:34] START OldIndustrialCity_P1000 run_01
+[2026-10-24 10:16:39] END OldIndustrialCity_P1000 run_01 OK poses=4444 time=125s
+[2026-10-24 10:16:39] START OldIndustrialCity_P1000 run_02
+[2026-10-24 10:18:44] END OldIndustrialCity_P1000 run_02 OK poses=4444 time=125s
+[2026-10-24 10:18:44] START OldIndustrialCity_P1000 run_03
+[2026-10-24 10:20:49] END OldIndustrialCity_P1000 run_03 OK poses=4444 time=126s
+[2026-10-24 10:20:49] START OldIndustrialCity_P1000 run_04
+[2026-10-24 10:22:54] END OldIndustrialCity_P1000 run_04 OK poses=4444 time=125s
+OldIndustrialCity_P1001: 680 images, 6800 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldIndustrialCity_P1001.bag
+[2026-10-24 10:23:17] BAG OldIndustrialCity_P1001 23s
+[2026-10-24 10:23:17] START OldIndustrialCity_P1001 run_01
+[2026-10-24 10:23:40] END OldIndustrialCity_P1001 run_01 OK poses=653 time=24s
+[2026-10-24 10:23:40] START OldIndustrialCity_P1001 run_02
+[2026-10-24 10:24:05] END OldIndustrialCity_P1001 run_02 OK poses=653 time=25s
+[2026-10-24 10:24:05] START OldIndustrialCity_P1001 run_03
+[2026-10-24 10:24:29] END OldIndustrialCity_P1001 run_03 OK poses=653 time=24s
+[2026-10-24 10:24:29] START OldIndustrialCity_P1001 run_04
+[2026-10-24 10:24:52] END OldIndustrialCity_P1001 run_04 OK poses=653 time=24s
+OldIndustrialCity_P1002: 7321 images, 73210 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldIndustrialCity_P1002.bag
+[2026-10-24 10:29:01] BAG OldIndustrialCity_P1002 249s
+[2026-10-24 10:29:01] START OldIndustrialCity_P1002 run_01
+[2026-10-24 10:32:22] END OldIndustrialCity_P1002 run_01 OK poses=7294 time=201s
+[2026-10-24 10:32:22] START OldIndustrialCity_P1002 run_02
+[2026-10-24 10:35:39] END OldIndustrialCity_P1002 run_02 OK poses=7294 time=197s
+[2026-10-24 10:35:39] START OldIndustrialCity_P1002 run_03
+[2026-10-24 10:38:56] END OldIndustrialCity_P1002 run_03 OK poses=7294 time=197s
+[2026-10-24 10:38:56] START OldIndustrialCity_P1002 run_04
+[2026-10-24 10:42:13] END OldIndustrialCity_P1002 run_04 OK poses=7294 time=197s
+OldScandinavia_P1000: 1090 images, 10900 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldScandinavia_P1000.bag
+[2026-10-24 10:42:48] BAG OldScandinavia_P1000 35s
+[2026-10-24 10:42:48] START OldScandinavia_P1000 run_01
+[2026-10-24 10:43:20] END OldScandinavia_P1000 run_01 OK poses=1063 time=31s
+[2026-10-24 10:43:20] START OldScandinavia_P1000 run_02
+[2026-10-24 10:43:51] END OldScandinavia_P1000 run_02 OK poses=1063 time=31s
+[2026-10-24 10:43:51] START OldScandinavia_P1000 run_03
+[2026-10-24 10:44:23] END OldScandinavia_P1000 run_03 OK poses=1063 time=31s
+[2026-10-24 10:44:23] START OldScandinavia_P1000 run_04
+[2026-10-24 10:44:54] END OldScandinavia_P1000 run_04 OK poses=1063 time=32s
+OldScandinavia_P1001: 3893 images, 38930 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldScandinavia_P1001.bag
+[2026-10-24 10:46:52] BAG OldScandinavia_P1001 118s
+[2026-10-24 10:46:52] START OldScandinavia_P1001 run_01
+[2026-10-24 10:47:58] END OldScandinavia_P1001 run_01 OK poses=3839 time=66s
+[2026-10-24 10:47:58] START OldScandinavia_P1001 run_02
+[2026-10-24 10:49:04] END OldScandinavia_P1001 run_02 OK poses=3839 time=66s
+[2026-10-24 10:49:04] START OldScandinavia_P1001 run_03
+[2026-10-24 10:50:10] END OldScandinavia_P1001 run_03 OK poses=3839 time=66s
+[2026-10-24 10:50:10] START OldScandinavia_P1001 run_04
+[2026-10-24 10:51:16] END OldScandinavia_P1001 run_04 OK poses=3839 time=66s
+OldScandinavia_P1002: 673 images, 6730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldScandinavia_P1002.bag
+[2026-10-24 10:51:42] BAG OldScandinavia_P1002 26s
+[2026-10-24 10:51:42] START OldScandinavia_P1002 run_01
+[2026-10-24 10:52:05] END OldScandinavia_P1002 run_01 OK poses=646 time=22s
+[2026-10-24 10:52:05] START OldScandinavia_P1002 run_02
+[2026-10-24 10:52:26] END OldScandinavia_P1002 run_02 OK poses=646 time=22s
+[2026-10-24 10:52:26] START OldScandinavia_P1002 run_03
+[2026-10-24 10:52:48] END OldScandinavia_P1002 run_03 OK poses=646 time=22s
+[2026-10-24 10:52:48] START OldScandinavia_P1002 run_04
+[2026-10-24 10:53:11] END OldScandinavia_P1002 run_04 OK poses=646 time=23s
+OldTownFall_P1000: 2582 images, 25820 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownFall_P1000.bag
+[2026-10-24 10:54:33] BAG OldTownFall_P1000 82s
+[2026-10-24 10:54:33] START OldTownFall_P1000 run_01
+[2026-10-24 10:55:33] END OldTownFall_P1000 run_01 OK poses=2555 time=60s
+[2026-10-24 10:55:33] START OldTownFall_P1000 run_02
+[2026-10-24 10:56:33] END OldTownFall_P1000 run_02 OK poses=2555 time=60s
+[2026-10-24 10:56:33] START OldTownFall_P1000 run_03
+[2026-10-24 10:57:34] END OldTownFall_P1000 run_03 OK poses=2555 time=61s
+[2026-10-24 10:57:34] START OldTownFall_P1000 run_04
+[2026-10-24 10:58:35] END OldTownFall_P1000 run_04 OK poses=2555 time=61s
+OldTownNight_P1000: 2529 images, 25290 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownNight_P1000.bag
+[2026-10-24 10:59:51] BAG OldTownNight_P1000 76s
+[2026-10-24 10:59:51] START OldTownNight_P1000 run_01
+[2026-10-24 11:00:46] END OldTownNight_P1000 run_01 OK poses=2501 time=56s
+[2026-10-24 11:00:46] START OldTownNight_P1000 run_02
+[2026-10-24 11:01:42] END OldTownNight_P1000 run_02 OK poses=2501 time=56s
+[2026-10-24 11:01:42] START OldTownNight_P1000 run_03
+[2026-10-24 11:02:37] END OldTownNight_P1000 run_03 OK poses=2501 time=55s
+[2026-10-24 11:02:37] START OldTownNight_P1000 run_04
+[2026-10-24 11:03:32] END OldTownNight_P1000 run_04 OK poses=2501 time=55s
+OldTownSummer_P1000: 2095 images, 20950 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownSummer_P1000.bag
+[2026-10-24 11:04:37] BAG OldTownSummer_P1000 64s
+[2026-10-24 11:04:37] START OldTownSummer_P1000 run_01
+[2026-10-24 11:05:28] END OldTownSummer_P1000 run_01 OK poses=2068 time=51s
+[2026-10-24 11:05:28] START OldTownSummer_P1000 run_02
+[2026-10-24 11:06:18] END OldTownSummer_P1000 run_02 OK poses=2068 time=50s
+[2026-10-24 11:06:18] START OldTownSummer_P1000 run_03
+[2026-10-24 11:07:08] END OldTownSummer_P1000 run_03 OK poses=2068 time=50s
+[2026-10-24 11:07:08] START OldTownSummer_P1000 run_04
+[2026-10-24 11:07:59] END OldTownSummer_P1000 run_04 OK poses=2068 time=50s
+OldTownSummer_P1001: 1303 images, 13030 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownSummer_P1001.bag
+[2026-10-24 11:08:42] BAG OldTownSummer_P1001 43s
+[2026-10-24 11:08:42] START OldTownSummer_P1001 run_01
+[2026-10-24 11:09:17] END OldTownSummer_P1001 run_01 OK poses=1276 time=35s
+[2026-10-24 11:09:17] START OldTownSummer_P1001 run_02
+[2026-10-24 11:09:51] END OldTownSummer_P1001 run_02 OK poses=1276 time=34s
+[2026-10-24 11:09:51] START OldTownSummer_P1001 run_03
+[2026-10-24 11:10:24] END OldTownSummer_P1001 run_03 OK poses=1276 time=34s
+[2026-10-24 11:10:24] START OldTownSummer_P1001 run_04
+[2026-10-24 11:10:57] END OldTownSummer_P1001 run_04 OK poses=1276 time=33s
+OldTownWinter_P1000: 1701 images, 17010 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownWinter_P1000.bag
+[2026-10-24 11:11:54] BAG OldTownWinter_P1000 57s
+[2026-10-24 11:11:54] START OldTownWinter_P1000 run_01
+[2026-10-24 11:12:35] END OldTownWinter_P1000 run_01 OK poses=1674 time=41s
+[2026-10-24 11:12:35] START OldTownWinter_P1000 run_02
+[2026-10-24 11:13:17] END OldTownWinter_P1000 run_02 OK poses=1674 time=42s
+[2026-10-24 11:13:17] START OldTownWinter_P1000 run_03
+[2026-10-24 11:13:58] END OldTownWinter_P1000 run_03 OK poses=1674 time=41s
+[2026-10-24 11:13:58] START OldTownWinter_P1000 run_04
+[2026-10-24 11:14:40] END OldTownWinter_P1000 run_04 OK poses=1674 time=42s
+OldTownWinter_P1001: 1597 images, 15970 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/OldTownWinter_P1001.bag
+[2026-10-24 11:15:21] BAG OldTownWinter_P1001 42s
+[2026-10-24 11:15:21] START OldTownWinter_P1001 run_01
+[2026-10-24 11:16:03] END OldTownWinter_P1001 run_01 OK poses=1557 time=41s
+[2026-10-24 11:16:03] START OldTownWinter_P1001 run_02
+[2026-10-24 11:16:44] END OldTownWinter_P1001 run_02 OK poses=1557 time=41s
+[2026-10-24 11:16:44] START OldTownWinter_P1001 run_03
+[2026-10-24 11:17:26] END OldTownWinter_P1001 run_03 OK poses=1557 time=41s
+[2026-10-24 11:17:26] START OldTownWinter_P1001 run_04
+[2026-10-24 11:18:07] END OldTownWinter_P1001 run_04 OK poses=1557 time=42s
+Prison_P1000: 4543 images, 45430 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Prison_P1000.bag
+[2026-10-24 11:19:53] BAG Prison_P1000 105s
+[2026-10-24 11:19:53] START Prison_P1000 run_01
+[2026-10-24 11:21:42] END Prison_P1000 run_01 OK poses=4473 time=109s
+[2026-10-24 11:21:42] START Prison_P1000 run_02
+[2026-10-24 11:23:32] END Prison_P1000 run_02 OK poses=4473 time=110s
+[2026-10-24 11:23:32] START Prison_P1000 run_03
+[2026-10-24 11:25:22] END Prison_P1000 run_03 OK poses=4473 time=110s
+[2026-10-24 11:25:22] START Prison_P1000 run_04
+[2026-10-24 11:27:13] END Prison_P1000 run_04 OK poses=4473 time=110s
+Prison_P1001: 2491 images, 24910 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Prison_P1001.bag
+[2026-10-24 11:28:22] BAG Prison_P1001 70s
+[2026-10-24 11:28:22] START Prison_P1001 run_01
+[2026-10-24 11:29:33] END Prison_P1001 run_01 OK poses=2464 time=70s
+[2026-10-24 11:29:33] START Prison_P1001 run_02
+[2026-10-24 11:30:42] END Prison_P1001 run_02 OK poses=2464 time=69s
+[2026-10-24 11:30:42] START Prison_P1001 run_03
+[2026-10-24 11:31:52] END Prison_P1001 run_03 OK poses=2464 time=71s
+[2026-10-24 11:31:52] START Prison_P1001 run_04
+[2026-10-24 11:33:03] END Prison_P1001 run_04 OK poses=2464 time=70s
+Prison_P1002: 4557 images, 45570 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Prison_P1002.bag
+[2026-10-24 11:35:14] BAG Prison_P1002 131s
+[2026-10-24 11:35:14] START Prison_P1002 run_01
+[2026-10-24 11:37:08] END Prison_P1002 run_01 OK poses=4528 time=114s
+[2026-10-24 11:37:08] START Prison_P1002 run_02
+[2026-10-24 11:39:02] END Prison_P1002 run_02 OK poses=4528 time=114s
+[2026-10-24 11:39:02] START Prison_P1002 run_03
+[2026-10-24 11:40:57] END Prison_P1002 run_03 OK poses=4528 time=115s
+[2026-10-24 11:40:57] START Prison_P1002 run_04
+[2026-10-24 11:42:51] END Prison_P1002 run_04 OK poses=4528 time=114s
+Rome_P1000: 1382 images, 13820 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Rome_P1000.bag
+[2026-10-24 11:43:36] BAG Rome_P1000 45s
+[2026-10-24 11:43:36] START Rome_P1000 run_01
+[2026-10-24 11:44:11] END Rome_P1000 run_01 OK poses=1355 time=34s
+[2026-10-24 11:44:11] START Rome_P1000 run_02
+[2026-10-24 11:44:46] END Rome_P1000 run_02 OK poses=1355 time=35s
+[2026-10-24 11:44:46] START Rome_P1000 run_03
+[2026-10-24 11:45:21] END Rome_P1000 run_03 OK poses=1355 time=35s
+[2026-10-24 11:45:21] START Rome_P1000 run_04
+[2026-10-24 11:45:56] END Rome_P1000 run_04 OK poses=1355 time=35s
+Rome_P1001: 1448 images, 14480 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Rome_P1001.bag
+[2026-10-24 11:46:43] BAG Rome_P1001 47s
+[2026-10-24 11:46:43] START Rome_P1001 run_01
+[2026-10-24 11:47:22] END Rome_P1001 run_01 OK poses=1421 time=40s
+[2026-10-24 11:47:22] START Rome_P1001 run_02
+[2026-10-24 11:48:01] END Rome_P1001 run_02 OK poses=1421 time=39s
+[2026-10-24 11:48:01] START Rome_P1001 run_03
+[2026-10-24 11:48:41] END Rome_P1001 run_03 OK poses=1421 time=39s
+[2026-10-24 11:48:41] START Rome_P1001 run_04
+[2026-10-24 11:49:20] END Rome_P1001 run_04 OK poses=1421 time=39s
+SeasideTown_P1000: 1038 images, 10380 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasideTown_P1000.bag
+[2026-10-24 11:49:48] BAG SeasideTown_P1000 28s
+[2026-10-24 11:49:48] START SeasideTown_P1000 run_01
+[2026-10-24 11:50:12] END SeasideTown_P1000 run_01 OK poses=1011 time=24s
+[2026-10-24 11:50:12] START SeasideTown_P1000 run_02
+[2026-10-24 11:50:37] END SeasideTown_P1000 run_02 OK poses=1011 time=25s
+[2026-10-24 11:50:37] START SeasideTown_P1000 run_03
+[2026-10-24 11:51:02] END SeasideTown_P1000 run_03 OK poses=1011 time=25s
+[2026-10-24 11:51:02] START SeasideTown_P1000 run_04
+[2026-10-24 11:51:26] END SeasideTown_P1000 run_04 OK poses=1011 time=24s
+SeasideTown_P1001: 454 images, 4540 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasideTown_P1001.bag
+[2026-10-24 11:51:39] BAG SeasideTown_P1001 13s
+[2026-10-24 11:51:39] START SeasideTown_P1001 run_01
+[2026-10-24 11:51:54] END SeasideTown_P1001 run_01 OK poses=422 time=14s
+[2026-10-24 11:51:54] START SeasideTown_P1001 run_02
+[2026-10-24 11:52:08] END SeasideTown_P1001 run_02 OK poses=422 time=14s
+[2026-10-24 11:52:08] START SeasideTown_P1001 run_03
+[2026-10-24 11:52:22] END SeasideTown_P1001 run_03 OK poses=422 time=14s
+[2026-10-24 11:52:22] START SeasideTown_P1001 run_04
+[2026-10-24 11:52:36] END SeasideTown_P1001 run_04 OK poses=423 time=14s
+SeasonalForestAutumn_P1000: 1376 images, 13760 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestAutumn_P1000.bag
+[2026-10-24 11:53:20] BAG SeasonalForestAutumn_P1000 44s
+[2026-10-24 11:53:20] START SeasonalForestAutumn_P1000 run_01
+[2026-10-24 11:54:11] END SeasonalForestAutumn_P1000 run_01 OK poses=1349 time=51s
+[2026-10-24 11:54:11] START SeasonalForestAutumn_P1000 run_02
+[2026-10-24 11:55:01] END SeasonalForestAutumn_P1000 run_02 OK poses=1349 time=50s
+[2026-10-24 11:55:01] START SeasonalForestAutumn_P1000 run_03
+[2026-10-24 11:55:51] END SeasonalForestAutumn_P1000 run_03 OK poses=1349 time=50s
+[2026-10-24 11:55:51] START SeasonalForestAutumn_P1000 run_04
+[2026-10-24 11:56:42] END SeasonalForestAutumn_P1000 run_04 OK poses=1349 time=50s
+SeasonalForestAutumn_P1001: 2266 images, 22660 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestAutumn_P1001.bag
+[2026-10-24 11:57:37] BAG SeasonalForestAutumn_P1001 56s
+[2026-10-24 11:57:37] START SeasonalForestAutumn_P1001 run_01
+[2026-10-24 11:58:46] END SeasonalForestAutumn_P1001 run_01 OK poses=2232 time=68s
+[2026-10-24 11:58:46] START SeasonalForestAutumn_P1001 run_02
+[2026-10-24 11:59:54] END SeasonalForestAutumn_P1001 run_02 OK poses=2232 time=68s
+[2026-10-24 11:59:54] START SeasonalForestAutumn_P1001 run_03
+[2026-10-24 12:01:02] END SeasonalForestAutumn_P1001 run_03 OK poses=2232 time=68s
+[2026-10-24 12:01:02] START SeasonalForestAutumn_P1001 run_04
+[2026-10-24 12:02:10] END SeasonalForestAutumn_P1001 run_04 OK poses=2232 time=68s
+SeasonalForestAutumn_P1002: 531 images, 5310 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestAutumn_P1002.bag
+[2026-10-24 12:02:27] BAG SeasonalForestAutumn_P1002 17s
+[2026-10-24 12:02:27] START SeasonalForestAutumn_P1002 run_01
+[2026-10-24 12:02:48] END SeasonalForestAutumn_P1002 run_01 OK poses=504 time=21s
+[2026-10-24 12:02:48] START SeasonalForestAutumn_P1002 run_02
+[2026-10-24 12:03:09] END SeasonalForestAutumn_P1002 run_02 OK poses=504 time=21s
+[2026-10-24 12:03:09] START SeasonalForestAutumn_P1002 run_03
+[2026-10-24 12:03:30] END SeasonalForestAutumn_P1002 run_03 OK poses=504 time=21s
+[2026-10-24 12:03:30] START SeasonalForestAutumn_P1002 run_04
+[2026-10-24 12:03:50] END SeasonalForestAutumn_P1002 run_04 OK poses=504 time=20s
+SeasonalForestSpring_P1000: 4827 images, 48270 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSpring_P1000.bag
+[2026-10-24 12:05:45] BAG SeasonalForestSpring_P1000 115s
+[2026-10-24 12:05:45] START SeasonalForestSpring_P1000 run_01
+[2026-10-24 12:08:13] END SeasonalForestSpring_P1000 run_01 OK poses=4800 time=148s
+[2026-10-24 12:08:13] START SeasonalForestSpring_P1000 run_02
+[2026-10-24 12:10:42] END SeasonalForestSpring_P1000 run_02 OK poses=4800 time=149s
+[2026-10-24 12:10:42] START SeasonalForestSpring_P1000 run_03
+[2026-10-24 12:13:12] END SeasonalForestSpring_P1000 run_03 OK poses=4800 time=150s
+[2026-10-24 12:13:12] START SeasonalForestSpring_P1000 run_04
+[2026-10-24 12:15:40] END SeasonalForestSpring_P1000 run_04 OK poses=4800 time=147s
+SeasonalForestSpring_P1001: 2273 images, 22730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSpring_P1001.bag
+[2026-10-24 12:16:46] BAG SeasonalForestSpring_P1001 66s
+[2026-10-24 12:16:46] START SeasonalForestSpring_P1001 run_01
+[2026-10-24 12:18:04] END SeasonalForestSpring_P1001 run_01 OK poses=2242 time=78s
+[2026-10-24 12:18:04] START SeasonalForestSpring_P1001 run_02
+[2026-10-24 12:19:24] END SeasonalForestSpring_P1001 run_02 OK poses=2242 time=80s
+[2026-10-24 12:19:24] START SeasonalForestSpring_P1001 run_03
+[2026-10-24 12:20:43] END SeasonalForestSpring_P1001 run_03 OK poses=2242 time=79s
+[2026-10-24 12:20:43] START SeasonalForestSpring_P1001 run_04
+[2026-10-24 12:22:02] END SeasonalForestSpring_P1001 run_04 OK poses=2242 time=79s
+SeasonalForestSpring_P1002: 1457 images, 14570 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSpring_P1002.bag
+[2026-10-24 12:22:47] BAG SeasonalForestSpring_P1002 45s
+[2026-10-24 12:22:47] START SeasonalForestSpring_P1002 run_01
+[2026-10-24 12:23:23] END SeasonalForestSpring_P1002 run_01 OK poses=1429 time=36s
+[2026-10-24 12:23:23] START SeasonalForestSpring_P1002 run_02
+[2026-10-24 12:23:59] END SeasonalForestSpring_P1002 run_02 OK poses=1429 time=36s
+[2026-10-24 12:23:59] START SeasonalForestSpring_P1002 run_03
+[2026-10-24 12:24:36] END SeasonalForestSpring_P1002 run_03 OK poses=1429 time=36s
+[2026-10-24 12:24:36] START SeasonalForestSpring_P1002 run_04
+[2026-10-24 12:25:12] END SeasonalForestSpring_P1002 run_04 OK poses=1429 time=36s
+SeasonalForestSummerNight_P1000: 3978 images, 39780 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSummerNight_P1000.bag
+[2026-10-24 12:26:54] BAG SeasonalForestSummerNight_P1000 102s
+[2026-10-24 12:26:54] START SeasonalForestSummerNight_P1000 run_01
+[2026-10-24 12:28:48] END SeasonalForestSummerNight_P1000 run_01 OK poses=3951 time=114s
+[2026-10-24 12:28:48] START SeasonalForestSummerNight_P1000 run_02
+[2026-10-24 12:30:41] END SeasonalForestSummerNight_P1000 run_02 OK poses=3951 time=113s
+[2026-10-24 12:30:41] START SeasonalForestSummerNight_P1000 run_03
+[2026-10-24 12:32:35] END SeasonalForestSummerNight_P1000 run_03 OK poses=3951 time=114s
+[2026-10-24 12:32:35] START SeasonalForestSummerNight_P1000 run_04
+[2026-10-24 12:34:29] END SeasonalForestSummerNight_P1000 run_04 OK poses=3951 time=114s
+SeasonalForestSummerNight_P1001: 2931 images, 29310 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSummerNight_P1001.bag
+[2026-10-24 12:35:43] BAG SeasonalForestSummerNight_P1001 75s
+[2026-10-24 12:35:43] START SeasonalForestSummerNight_P1001 run_01
+[2026-10-24 12:37:20] END SeasonalForestSummerNight_P1001 run_01 OK poses=2903 time=96s
+[2026-10-24 12:37:20] START SeasonalForestSummerNight_P1001 run_02
+[2026-10-24 12:38:57] END SeasonalForestSummerNight_P1001 run_02 OK poses=2903 time=97s
+[2026-10-24 12:38:57] START SeasonalForestSummerNight_P1001 run_03
+[2026-10-24 12:40:32] END SeasonalForestSummerNight_P1001 run_03 OK poses=2903 time=96s
+[2026-10-24 12:40:32] START SeasonalForestSummerNight_P1001 run_04
+[2026-10-24 12:42:09] END SeasonalForestSummerNight_P1001 run_04 OK poses=2903 time=97s
+SeasonalForestSummerNight_P1002: 1714 images, 17140 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestSummerNight_P1002.bag
+[2026-10-24 12:43:03] BAG SeasonalForestSummerNight_P1002 53s
+[2026-10-24 12:43:03] START SeasonalForestSummerNight_P1002 run_01
+[2026-10-24 12:44:00] END SeasonalForestSummerNight_P1002 run_01 OK poses=1670 time=57s
+[2026-10-24 12:44:00] START SeasonalForestSummerNight_P1002 run_02
+[2026-10-24 12:44:57] END SeasonalForestSummerNight_P1002 run_02 OK poses=1670 time=57s
+[2026-10-24 12:44:57] START SeasonalForestSummerNight_P1002 run_03
+[2026-10-24 12:45:53] END SeasonalForestSummerNight_P1002 run_03 OK poses=1670 time=56s
+[2026-10-24 12:45:53] START SeasonalForestSummerNight_P1002 run_04
+[2026-10-24 12:46:51] END SeasonalForestSummerNight_P1002 run_04 OK poses=1670 time=58s
+SeasonalForestWinterNight_P1000: 3248 images, 32480 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinterNight_P1000.bag
+[2026-10-24 12:48:25] BAG SeasonalForestWinterNight_P1000 94s
+[2026-10-24 12:48:25] START SeasonalForestWinterNight_P1000 run_01
+[2026-10-24 12:49:53] END SeasonalForestWinterNight_P1000 run_01 OK poses=3221 time=88s
+[2026-10-24 12:49:53] START SeasonalForestWinterNight_P1000 run_02
+[2026-10-24 12:51:21] END SeasonalForestWinterNight_P1000 run_02 OK poses=3221 time=88s
+[2026-10-24 12:51:21] START SeasonalForestWinterNight_P1000 run_03
+[2026-10-24 12:52:48] END SeasonalForestWinterNight_P1000 run_03 OK poses=3221 time=87s
+[2026-10-24 12:52:48] START SeasonalForestWinterNight_P1000 run_04
+[2026-10-24 12:54:16] END SeasonalForestWinterNight_P1000 run_04 OK poses=3221 time=88s
+SeasonalForestWinterNight_P1001: 2257 images, 22570 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinterNight_P1001.bag
+[2026-10-24 12:55:27] BAG SeasonalForestWinterNight_P1001 70s
+[2026-10-24 12:55:27] START SeasonalForestWinterNight_P1001 run_01
+[2026-10-24 12:56:26] END SeasonalForestWinterNight_P1001 run_01 OK poses=2230 time=59s
+[2026-10-24 12:56:26] START SeasonalForestWinterNight_P1001 run_02
+[2026-10-24 12:57:25] END SeasonalForestWinterNight_P1001 run_02 OK poses=2230 time=59s
+[2026-10-24 12:57:25] START SeasonalForestWinterNight_P1001 run_03
+[2026-10-24 12:58:24] END SeasonalForestWinterNight_P1001 run_03 OK poses=2230 time=59s
+[2026-10-24 12:58:24] START SeasonalForestWinterNight_P1001 run_04
+[2026-10-24 12:59:22] END SeasonalForestWinterNight_P1001 run_04 OK poses=2230 time=58s
+SeasonalForestWinterNight_P1002: 3281 images, 32810 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinterNight_P1002.bag
+[2026-10-24 13:01:06] BAG SeasonalForestWinterNight_P1002 103s
+[2026-10-24 13:01:06] START SeasonalForestWinterNight_P1002 run_01
+[2026-10-24 13:02:38] END SeasonalForestWinterNight_P1002 run_01 OK poses=3242 time=93s
+[2026-10-24 13:02:38] START SeasonalForestWinterNight_P1002 run_02
+[2026-10-24 13:04:13] END SeasonalForestWinterNight_P1002 run_02 OK poses=3242 time=94s
+[2026-10-24 13:04:13] START SeasonalForestWinterNight_P1002 run_03
+[2026-10-24 13:05:46] END SeasonalForestWinterNight_P1002 run_03 OK poses=3242 time=93s
+[2026-10-24 13:05:46] START SeasonalForestWinterNight_P1002 run_04
+[2026-10-24 13:07:19] END SeasonalForestWinterNight_P1002 run_04 OK poses=3242 time=93s
+SeasonalForestWinter_P1000: 1337 images, 13370 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinter_P1000.bag
+[2026-10-24 13:07:54] BAG SeasonalForestWinter_P1000 35s
+[2026-10-24 13:07:54] START SeasonalForestWinter_P1000 run_01
+[2026-10-24 13:08:31] END SeasonalForestWinter_P1000 run_01 OK poses=1310 time=37s
+[2026-10-24 13:08:31] START SeasonalForestWinter_P1000 run_02
+[2026-10-24 13:09:08] END SeasonalForestWinter_P1000 run_02 OK poses=1310 time=37s
+[2026-10-24 13:09:08] START SeasonalForestWinter_P1000 run_03
+[2026-10-24 13:09:45] END SeasonalForestWinter_P1000 run_03 OK poses=1310 time=37s
+[2026-10-24 13:09:45] START SeasonalForestWinter_P1000 run_04
+[2026-10-24 13:10:22] END SeasonalForestWinter_P1000 run_04 OK poses=1310 time=37s
+SeasonalForestWinter_P1001: 3875 images, 38750 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinter_P1001.bag
+[2026-10-24 13:12:05] BAG SeasonalForestWinter_P1001 103s
+[2026-10-24 13:12:05] START SeasonalForestWinter_P1001 run_01
+[2026-10-24 13:13:33] END SeasonalForestWinter_P1001 run_01 OK poses=3842 time=89s
+[2026-10-24 13:13:33] START SeasonalForestWinter_P1001 run_02
+[2026-10-24 13:15:03] END SeasonalForestWinter_P1001 run_02 OK poses=3842 time=90s
+[2026-10-24 13:15:03] START SeasonalForestWinter_P1001 run_03
+[2026-10-24 13:16:33] END SeasonalForestWinter_P1001 run_03 OK poses=3842 time=90s
+[2026-10-24 13:16:33] START SeasonalForestWinter_P1001 run_04
+[2026-10-24 13:18:02] END SeasonalForestWinter_P1001 run_04 OK poses=3842 time=89s
+SeasonalForestWinter_P1002: 1483 images, 14830 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/SeasonalForestWinter_P1002.bag
+[2026-10-24 13:18:50] BAG SeasonalForestWinter_P1002 48s
+[2026-10-24 13:18:50] START SeasonalForestWinter_P1002 run_01
+[2026-10-24 13:19:35] END SeasonalForestWinter_P1002 run_01 OK poses=1456 time=45s
+[2026-10-24 13:19:35] START SeasonalForestWinter_P1002 run_02
+[2026-10-24 13:20:20] END SeasonalForestWinter_P1002 run_02 OK poses=1456 time=44s
+[2026-10-24 13:20:20] START SeasonalForestWinter_P1002 run_03
+[2026-10-24 13:21:04] END SeasonalForestWinter_P1002 run_03 OK poses=1456 time=44s
+[2026-10-24 13:21:04] START SeasonalForestWinter_P1002 run_04
+[2026-10-24 13:21:49] END SeasonalForestWinter_P1002 run_04 OK poses=1456 time=45s
+Sewerage_P1000: 1122 images, 11220 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Sewerage_P1000.bag
+[2026-10-24 13:22:25] BAG Sewerage_P1000 36s
+[2026-10-24 13:22:25] START Sewerage_P1000 run_01
+[2026-10-24 13:22:55] END Sewerage_P1000 run_01 OK poses=1095 time=30s
+[2026-10-24 13:22:55] START Sewerage_P1000 run_02
+[2026-10-24 13:23:25] END Sewerage_P1000 run_02 OK poses=1095 time=30s
+[2026-10-24 13:23:25] START Sewerage_P1000 run_03
+[2026-10-24 13:23:56] END Sewerage_P1000 run_03 OK poses=1095 time=31s
+[2026-10-24 13:23:56] START Sewerage_P1000 run_04
+[2026-10-24 13:24:26] END Sewerage_P1000 run_04 OK poses=1095 time=30s
+Sewerage_P1001: 553 images, 5530 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Sewerage_P1001.bag
+[2026-10-24 13:24:39] BAG Sewerage_P1001 13s
+[2026-10-24 13:24:39] START Sewerage_P1001 run_01
+[2026-10-24 13:24:55] END Sewerage_P1001 run_01 OK poses=526 time=16s
+[2026-10-24 13:24:55] START Sewerage_P1001 run_02
+[2026-10-24 13:25:11] END Sewerage_P1001 run_02 OK poses=526 time=16s
+[2026-10-24 13:25:11] START Sewerage_P1001 run_03
+[2026-10-24 13:25:27] END Sewerage_P1001 run_03 OK poses=526 time=16s
+[2026-10-24 13:25:27] START Sewerage_P1001 run_04
+[2026-10-24 13:25:43] END Sewerage_P1001 run_04 OK poses=526 time=16s
+Sewerage_P1002: 562 images, 5620 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Sewerage_P1002.bag
+[2026-10-24 13:25:57] BAG Sewerage_P1002 14s
+[2026-10-24 13:25:57] START Sewerage_P1002 run_01
+[2026-10-24 13:26:13] END Sewerage_P1002 run_01 OK poses=517 time=16s
+[2026-10-24 13:26:13] START Sewerage_P1002 run_02
+[2026-10-24 13:26:30] END Sewerage_P1002 run_02 OK poses=517 time=17s
+[2026-10-24 13:26:30] START Sewerage_P1002 run_03
+[2026-10-24 13:26:46] END Sewerage_P1002 run_03 OK poses=517 time=16s
+[2026-10-24 13:26:46] START Sewerage_P1002 run_04
+[2026-10-24 13:27:03] END Sewerage_P1002 run_04 OK poses=517 time=17s
+Supermarket_P1000: 1330 images, 13300 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Supermarket_P1000.bag
+[2026-10-24 13:27:45] BAG Supermarket_P1000 43s
+[2026-10-24 13:27:45] START Supermarket_P1000 run_01
+[2026-10-24 13:28:16] END Supermarket_P1000 run_01 OK poses=1118 time=31s
+[2026-10-24 13:28:16] START Supermarket_P1000 run_02
+[2026-10-24 13:28:47] END Supermarket_P1000 run_02 OK poses=1118 time=31s
+[2026-10-24 13:28:47] START Supermarket_P1000 run_03
+[2026-10-24 13:29:18] END Supermarket_P1000 run_03 OK poses=1118 time=31s
+[2026-10-24 13:29:18] START Supermarket_P1000 run_04
+[2026-10-24 13:29:48] END Supermarket_P1000 run_04 OK poses=1118 time=31s
+Supermarket_P1001: 1118 images, 11180 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Supermarket_P1001.bag
+[2026-10-24 13:30:24] BAG Supermarket_P1001 36s
+[2026-10-24 13:30:24] START Supermarket_P1001 run_01
+[2026-10-24 13:30:52] END Supermarket_P1001 run_01 OK poses=1091 time=28s
+[2026-10-24 13:30:52] START Supermarket_P1001 run_02
+[2026-10-24 13:31:20] END Supermarket_P1001 run_02 OK poses=1091 time=28s
+[2026-10-24 13:31:20] START Supermarket_P1001 run_03
+[2026-10-24 13:31:48] END Supermarket_P1001 run_03 OK poses=1091 time=28s
+[2026-10-24 13:31:48] START Supermarket_P1001 run_04
+[2026-10-24 13:32:16] END Supermarket_P1001 run_04 OK poses=1091 time=28s
+Supermarket_P1002: 958 images, 9580 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/Supermarket_P1002.bag
+[2026-10-24 13:32:44] BAG Supermarket_P1002 28s
+[2026-10-24 13:32:44] START Supermarket_P1002 run_01
+[2026-10-24 13:33:10] END Supermarket_P1002 run_01 OK poses=931 time=27s
+[2026-10-24 13:33:10] START Supermarket_P1002 run_02
+[2026-10-24 13:33:37] END Supermarket_P1002 run_02 OK poses=931 time=27s
+[2026-10-24 13:33:37] START Supermarket_P1002 run_03
+[2026-10-24 13:34:04] END Supermarket_P1002 run_03 OK poses=931 time=27s
+[2026-10-24 13:34:04] START Supermarket_P1002 run_04
+[2026-10-24 13:34:31] END Supermarket_P1002 run_04 OK poses=931 time=27s
+UrbanConstruction_P1000: 2187 images, 21870 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/UrbanConstruction_P1000.bag
+[2026-10-24 13:35:35] BAG UrbanConstruction_P1000 64s
+[2026-10-24 13:35:35] START UrbanConstruction_P1000 run_01
+[2026-10-24 13:36:31] END UrbanConstruction_P1000 run_01 OK poses=2160 time=56s
+[2026-10-24 13:36:31] START UrbanConstruction_P1000 run_02
+[2026-10-24 13:37:28] END UrbanConstruction_P1000 run_02 OK poses=2160 time=57s
+[2026-10-24 13:37:28] START UrbanConstruction_P1000 run_03
+[2026-10-24 13:38:24] END UrbanConstruction_P1000 run_03 OK poses=2160 time=56s
+[2026-10-24 13:38:24] START UrbanConstruction_P1000 run_04
+[2026-10-24 13:39:20] END UrbanConstruction_P1000 run_04 OK poses=2160 time=56s
+UrbanConstruction_P1001: 2369 images, 23690 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/UrbanConstruction_P1001.bag
+[2026-10-24 13:40:29] BAG UrbanConstruction_P1001 69s
+[2026-10-24 13:40:29] START UrbanConstruction_P1001 run_01
+[2026-10-24 13:41:27] END UrbanConstruction_P1001 run_01 OK poses=2281 time=58s
+[2026-10-24 13:41:27] START UrbanConstruction_P1001 run_02
+[2026-10-24 13:42:25] END UrbanConstruction_P1001 run_02 OK poses=2281 time=57s
+[2026-10-24 13:42:25] START UrbanConstruction_P1001 run_03
+[2026-10-24 13:43:23] END UrbanConstruction_P1001 run_03 OK poses=2281 time=58s
+[2026-10-24 13:43:23] START UrbanConstruction_P1001 run_04
+[2026-10-24 13:44:20] END UrbanConstruction_P1001 run_04 OK poses=2281 time=58s
+UrbanConstruction_P1002: 2348 images, 23480 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/UrbanConstruction_P1002.bag
+[2026-10-24 13:45:19] BAG UrbanConstruction_P1002 59s
+[2026-10-24 13:45:19] START UrbanConstruction_P1002 run_01
+[2026-10-24 13:46:14] END UrbanConstruction_P1002 run_01 OK poses=2321 time=54s
+[2026-10-24 13:46:14] START UrbanConstruction_P1002 run_02
+[2026-10-24 13:47:08] END UrbanConstruction_P1002 run_02 OK poses=2321 time=54s
+[2026-10-24 13:47:08] START UrbanConstruction_P1002 run_03
+[2026-10-24 13:48:03] END UrbanConstruction_P1002 run_03 OK poses=2321 time=55s
+[2026-10-24 13:48:03] START UrbanConstruction_P1002 run_04
+[2026-10-24 13:48:58] END UrbanConstruction_P1002 run_04 OK poses=2321 time=55s
+WaterMillDay_P1000: 839 images, 8390 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillDay_P1000.bag
+[2026-10-24 13:49:20] BAG WaterMillDay_P1000 21s
+[2026-10-24 13:49:20] START WaterMillDay_P1000 run_01
+[2026-10-24 13:49:44] END WaterMillDay_P1000 run_01 OK poses=810 time=24s
+[2026-10-24 13:49:44] START WaterMillDay_P1000 run_02
+[2026-10-24 13:50:07] END WaterMillDay_P1000 run_02 OK poses=810 time=23s
+[2026-10-24 13:50:07] START WaterMillDay_P1000 run_03
+[2026-10-24 13:50:29] END WaterMillDay_P1000 run_03 OK poses=810 time=23s
+[2026-10-24 13:50:29] START WaterMillDay_P1000 run_04
+[2026-10-24 13:50:52] END WaterMillDay_P1000 run_04 OK poses=810 time=23s
+WaterMillDay_P1001: 674 images, 6740 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillDay_P1001.bag
+[2026-10-24 13:51:11] BAG WaterMillDay_P1001 19s
+[2026-10-24 13:51:11] START WaterMillDay_P1001 run_01
+[2026-10-24 13:51:32] END WaterMillDay_P1001 run_01 OK poses=636 time=21s
+[2026-10-24 13:51:32] START WaterMillDay_P1001 run_02
+[2026-10-24 13:51:52] END WaterMillDay_P1001 run_02 OK poses=636 time=20s
+[2026-10-24 13:51:52] START WaterMillDay_P1001 run_03
+[2026-10-24 13:52:13] END WaterMillDay_P1001 run_03 OK poses=636 time=21s
+[2026-10-24 13:52:13] START WaterMillDay_P1001 run_04
+[2026-10-24 13:52:33] END WaterMillDay_P1001 run_04 OK poses=636 time=20s
+WaterMillDay_P1002: 716 images, 7160 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillDay_P1002.bag
+[2026-10-24 13:52:54] BAG WaterMillDay_P1002 21s
+[2026-10-24 13:52:54] START WaterMillDay_P1002 run_01
+[2026-10-24 13:53:12] END WaterMillDay_P1002 run_01 OK poses=689 time=18s
+[2026-10-24 13:53:12] START WaterMillDay_P1002 run_02
+[2026-10-24 13:53:29] END WaterMillDay_P1002 run_02 OK poses=689 time=17s
+[2026-10-24 13:53:29] START WaterMillDay_P1002 run_03
+[2026-10-24 13:53:47] END WaterMillDay_P1002 run_03 OK poses=689 time=18s
+[2026-10-24 13:53:47] START WaterMillDay_P1002 run_04
+[2026-10-24 13:54:05] END WaterMillDay_P1002 run_04 OK poses=689 time=18s
+WaterMillNight_P1000: 2073 images, 20730 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillNight_P1000.bag
+[2026-10-24 13:55:02] BAG WaterMillNight_P1000 56s
+[2026-10-24 13:55:02] START WaterMillNight_P1000 run_01
+[2026-10-24 13:55:47] END WaterMillNight_P1000 run_01 OK poses=2038 time=45s
+[2026-10-24 13:55:47] START WaterMillNight_P1000 run_02
+[2026-10-24 13:56:33] END WaterMillNight_P1000 run_02 OK poses=2038 time=46s
+[2026-10-24 13:56:33] START WaterMillNight_P1000 run_03
+[2026-10-24 13:57:18] END WaterMillNight_P1000 run_03 OK poses=2038 time=45s
+[2026-10-24 13:57:18] START WaterMillNight_P1000 run_04
+[2026-10-24 13:58:05] END WaterMillNight_P1000 run_04 OK poses=2038 time=46s
+WaterMillNight_P1001: 735 images, 7350 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillNight_P1001.bag
+[2026-10-24 13:58:22] BAG WaterMillNight_P1001 18s
+[2026-10-24 13:58:22] START WaterMillNight_P1001 run_01
+[2026-10-24 13:58:41] END WaterMillNight_P1001 run_01 OK poses=708 time=18s
+[2026-10-24 13:58:41] START WaterMillNight_P1001 run_02
+[2026-10-24 13:58:59] END WaterMillNight_P1001 run_02 OK poses=708 time=18s
+[2026-10-24 13:58:59] START WaterMillNight_P1001 run_03
+[2026-10-24 13:59:18] END WaterMillNight_P1001 run_03 OK poses=708 time=19s
+[2026-10-24 13:59:18] START WaterMillNight_P1001 run_04
+[2026-10-24 13:59:36] END WaterMillNight_P1001 run_04 OK poses=708 time=18s
+WaterMillNight_P1002: 680 images, 6800 imu -> /home/efe/coding/VIO/open_vins_ws/tmp_bags/WaterMillNight_P1002.bag
+[2026-10-24 13:59:51] BAG WaterMillNight_P1002 15s
+[2026-10-24 13:59:51] START WaterMillNight_P1002 run_01
+[2026-10-24 14:00:06] END WaterMillNight_P1002 run_01 OK poses=650 time=15s
+[2026-10-24 14:00:06] START WaterMillNight_P1002 run_02
+[2026-10-24 14:00:21] END WaterMillNight_P1002 run_02 OK poses=650 time=15s
+[2026-10-24 14:00:21] START WaterMillNight_P1002 run_03
+[2026-10-24 14:00:36] END WaterMillNight_P1002 run_03 OK poses=650 time=15s
+[2026-10-24 14:00:36] START WaterMillNight_P1002 run_04
+[2026-10-24 14:00:52] END WaterMillNight_P1002 run_04 OK poses=650 time=15s
+[2026-10-24 14:00:52] ALL DONE

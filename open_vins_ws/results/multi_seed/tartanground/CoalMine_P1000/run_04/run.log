@@ -1,0 +1,12 @@
+sequence: CoalMine_P1000
+run: 4
+seed: 0
+status: OK
+frames: 974
+poses: 974
+time_s: 26.2
+fps: 48.38
+frame_ms_mean: 20.67
+frame_ms_max: 70.19
+finished: 2026-10-24 05:53:02
+config: tartanground_diff

@@ -1,0 +1,12 @@
+sequence: AbandonedSchool_P1001
+run: 3
+seed: 0
+status: OK
+frames: 1462
+poses: 1462
+time_s: 39.1
+fps: 45.94
+frame_ms_mean: 21.77
+frame_ms_max: 76.22
+finished: 2026-10-24 05:05:07
+config: tartanground_diff

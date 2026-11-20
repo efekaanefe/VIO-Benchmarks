@@ -1,0 +1,13 @@
+sequence: AbandonedCable_P1002
+run: 0
+seed: 0
+status: OK
+frames: 1594
+poses: 1594
+time_s: 42.0
+fps: 47.29
+frame_ms_mean: 21.15
+frame_ms_max: 74.25
+finished: 2026-10-20 10:40:16
+config: tartanground_diff
+imported_from: results/tartanground/AbandonedCable_P1002 (run_tartanground.sh)

@@ -1,0 +1,12 @@
+sequence: car_urban_night_city_hall
+run: 1
+seed: 0
+status: OK
+frames: 5353
+poses: 6949
+time_s: 174.3
+fps: 50.44
+frame_ms_mean: 19.83
+frame_ms_max: 49.64
+finished: 2026-10-13 18:12:18
+config: m3ed_car_urban_night

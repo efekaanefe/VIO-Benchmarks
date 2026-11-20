@@ -1,0 +1,12 @@
+sequence: Gascola_P1002
+run: 1
+seed: 0
+status: OK
+frames: 2849
+poses: 2849
+time_s: 74.2
+fps: 46.26
+frame_ms_mean: 21.62
+frame_ms_max: 72.24
+finished: 2026-10-24 07:12:29
+config: tartanground_diff

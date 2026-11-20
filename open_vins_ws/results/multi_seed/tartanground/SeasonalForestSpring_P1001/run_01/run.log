@@ -1,0 +1,12 @@
+sequence: SeasonalForestSpring_P1001
+run: 1
+seed: 0
+status: OK
+frames: 2242
+poses: 2242
+time_s: 78.2
+fps: 32.80
+frame_ms_mean: 30.49
+frame_ms_max: 75.64
+finished: 2026-10-24 12:18:04
+config: tartanground_diff

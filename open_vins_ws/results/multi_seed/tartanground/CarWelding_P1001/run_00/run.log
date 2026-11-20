@@ -1,0 +1,13 @@
+sequence: CarWelding_P1001
+run: 0
+seed: 0
+status: OK
+frames: 867
+poses: 867
+time_s: 25.0
+fps: 46.33
+frame_ms_mean: 21.59
+frame_ms_max: 67.24
+finished: 2026-10-20 10:56:02
+config: tartanground_diff
+imported_from: results/tartanground/CarWelding_P1001 (run_tartanground.sh)

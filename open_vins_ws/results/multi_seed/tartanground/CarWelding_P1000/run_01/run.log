@@ -1,0 +1,12 @@
+sequence: CarWelding_P1000
+run: 1
+seed: 0
+status: OK
+frames: 605
+poses: 605
+time_s: 18.3
+fps: 46.52
+frame_ms_mean: 21.50
+frame_ms_max: 67.02
+finished: 2026-10-24 05:26:05
+config: tartanground_diff

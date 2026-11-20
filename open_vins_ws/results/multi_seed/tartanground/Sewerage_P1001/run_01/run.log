@@ -1,0 +1,12 @@
+sequence: Sewerage_P1001
+run: 1
+seed: 0
+status: OK
+frames: 526
+poses: 526
+time_s: 16.2
+fps: 48.72
+frame_ms_mean: 20.53
+frame_ms_max: 70.83
+finished: 2026-10-24 13:24:55
+config: tartanground_diff

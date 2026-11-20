@@ -1,0 +1,12 @@
+sequence: Downtown_P1002
+run: 4
+seed: 0
+status: OK
+frames: 3026
+poses: 3026
+time_s: 68.2
+fps: 53.01
+frame_ms_mean: 18.86
+frame_ms_max: 70.47
+finished: 2026-10-24 06:37:40
+config: tartanground_diff

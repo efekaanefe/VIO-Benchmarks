@@ -1,0 +1,12 @@
+sequence: GothicIsland_P1000
+run: 4
+seed: 0
+status: OK
+frames: 1011
+poses: 1011
+time_s: 29.9
+fps: 42.77
+frame_ms_mean: 23.38
+frame_ms_max: 74.05
+finished: 2026-10-24 07:18:38
+config: tartanground_diff

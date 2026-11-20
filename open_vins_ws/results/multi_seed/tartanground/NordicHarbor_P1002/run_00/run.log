@@ -1,0 +1,13 @@
+sequence: NordicHarbor_P1002
+run: 0
+seed: 0
+status: OK
+frames: 4822
+poses: 4822
+time_s: 115.0
+fps: 49.96
+frame_ms_mean: 20.02
+frame_ms_max: 70.23
+finished: 2026-10-20 12:49:48
+config: tartanground_diff
+imported_from: results/tartanground/NordicHarbor_P1002 (run_tartanground.sh)

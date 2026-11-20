@@ -1,0 +1,12 @@
+sequence: car_urban_night_penno_big_loop
+run: 7
+seed: 0
+status: OK
+frames: 8144
+poses: 8170
+time_s: 245.3
+fps: 44.46
+frame_ms_mean: 22.49
+frame_ms_max: 85.22
+finished: 2026-10-13 22:50:45
+config: m3ed_car_urban_night

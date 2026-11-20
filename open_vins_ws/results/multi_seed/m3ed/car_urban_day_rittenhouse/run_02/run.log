@@ -1,0 +1,12 @@
+sequence: car_urban_day_rittenhouse
+run: 2
+seed: 0
+status: OK
+frames: 6820
+poses: 9685
+time_s: 238.6
+fps: 47.20
+frame_ms_mean: 21.19
+frame_ms_max: 55.75
+finished: 2026-10-13 18:49:11
+config: m3ed_car_urban_day

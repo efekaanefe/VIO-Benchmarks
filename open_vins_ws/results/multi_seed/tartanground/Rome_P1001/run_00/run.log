@@ -1,0 +1,13 @@
+sequence: Rome_P1001
+run: 0
+seed: 0
+status: OK
+frames: 1421
+poses: 1421
+time_s: 39.0
+fps: 44.93
+frame_ms_mean: 22.26
+frame_ms_max: 76.04
+finished: 2026-10-20 13:31:42
+config: tartanground_diff
+imported_from: results/tartanground/Rome_P1001 (run_tartanground.sh)

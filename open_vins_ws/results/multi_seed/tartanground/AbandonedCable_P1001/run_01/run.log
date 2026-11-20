@@ -1,0 +1,12 @@
+sequence: AbandonedCable_P1001
+run: 1
+seed: 0
+status: OK
+frames: 946
+poses: 946
+time_s: 30.1
+fps: 41.90
+frame_ms_mean: 23.87
+frame_ms_max: 72.02
+finished: 2026-10-24 04:44:53
+config: tartanground_diff

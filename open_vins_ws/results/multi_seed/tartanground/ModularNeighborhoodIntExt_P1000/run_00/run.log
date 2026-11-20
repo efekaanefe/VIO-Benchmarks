@@ -1,0 +1,13 @@
+sequence: ModularNeighborhoodIntExt_P1000
+run: 0
+seed: 0
+status: OK
+frames: 542
+poses: 542
+time_s: 19.0
+fps: 39.10
+frame_ms_mean: 25.58
+frame_ms_max: 87.90
+finished: 2026-10-20 12:23:40
+config: tartanground_diff
+imported_from: results/tartanground/ModularNeighborhoodIntExt_P1000 (run_tartanground.sh)

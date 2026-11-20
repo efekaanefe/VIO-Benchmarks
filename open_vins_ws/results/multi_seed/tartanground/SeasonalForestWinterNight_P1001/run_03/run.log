@@ -1,0 +1,12 @@
+sequence: SeasonalForestWinterNight_P1001
+run: 3
+seed: 0
+status: OK
+frames: 2230
+poses: 2230
+time_s: 58.9
+fps: 45.09
+frame_ms_mean: 22.18
+frame_ms_max: 72.47
+finished: 2026-10-24 12:58:24
+config: tartanground_diff

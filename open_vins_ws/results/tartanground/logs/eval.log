@@ -1,0 +1,1406 @@
+SeasideTown_P1000: RPE trans @100m [m] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+SeasideTown_P1000: RPE rot @100m [deg] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+SeasideTown_P1001: RPE trans @100m [m] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+SeasideTown_P1001: RPE rot @100m [deg] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+Sewerage_P1001: RPE trans @100m [m] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+Sewerage_P1001: RPE rot @100m [deg] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+Sewerage_P1002: RPE trans @100m [m] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+Sewerage_P1002: RPE rot @100m [deg] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+WaterMillDay_P1000: RPE trans @100m [m] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+WaterMillDay_P1000: RPE rot @100m [deg] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+WaterMillDay_P1001: RPE trans @100m [m] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+WaterMillDay_P1001: RPE rot @100m [deg] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+WaterMillDay_P1002: RPE trans @100m [m] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+WaterMillDay_P1002: RPE rot @100m [deg] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+WaterMillNight_P1002: RPE trans @100m [m] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+WaterMillNight_P1002: RPE rot @100m [deg] failed: delta = 100.0 (m) produced an empty index list - try lower values or a less strict tolerance
+
+AbandonedCable_P1000: gt 60.7 s / 178 m, estimate starts at 3.1 s, 576 matched poses, path gt 164 m vs est 166 m, Sim3 scale 0.982
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               576     0.743     0.658     0.742     0.345     0.163     1.246
+  ATE rot [deg]               576     0.590     0.523     0.470     0.273     0.100     1.943
+  ATE trans Sim3 [m]          576     0.395     0.358     0.357     0.168     0.077     0.766
+  RPE trans @10m [m]          556     0.316     0.212     0.144     0.234     0.013     1.261
+  RPE rot @10m [deg]          556     0.485     0.387     0.305     0.292     0.046     1.844
+  RPE trans @50m [m]          430     1.048     0.959     0.930     0.424     0.139     1.554
+  RPE rot @50m [deg]          430     0.493     0.424     0.366     0.252     0.096     1.794
+  RPE trans @100m [m]         240     1.769     1.746     1.865     0.282     1.012     3.049
+  RPE rot @100m [deg]         240     0.644     0.541     0.404     0.350     0.084     1.615
+
+AbandonedCable_P1001: gt 98.2 s / 211 m, estimate starts at 3.6 s, 946 matched poses, path gt 202 m vs est 204 m, Sim3 scale 1.010
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               946     0.411     0.298     0.235     0.283     0.015     1.920
+  ATE rot [deg]               946     1.131     0.873     0.702     0.720     0.236     6.404
+  ATE trans Sim3 [m]          946     0.262     0.213     0.185     0.153     0.012     1.512
+  RPE trans @10m [m]          914     0.244     0.159     0.089     0.185     0.006     1.685
+  RPE rot @10m [deg]          914     1.227     0.590     0.324     1.076     0.021     9.089
+  RPE trans @50m [m]          742     0.651     0.493     0.417     0.425     0.035     3.713
+  RPE rot @50m [deg]          742     1.310     0.879     0.527     0.971     0.041     6.794
+  RPE trans @100m [m]         374     1.551     0.988     0.639     1.195     0.190     8.213
+  RPE rot @100m [deg]         374     1.806     1.539     1.242     0.945     0.588     6.315
+
+AbandonedCable_P1002: gt 162.0 s / 290 m, estimate starts at 2.6 s, 1594 matched poses, path gt 286 m vs est 285 m, Sim3 scale 1.005
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1594     0.190     0.165     0.123     0.093     0.038     0.456
+  ATE rot [deg]              1594     0.467     0.410     0.363     0.223     0.036     1.103
+  ATE trans Sim3 [m]         1594     0.142     0.129     0.127     0.059     0.032     0.347
+  RPE trans @10m [m]         1572     0.074     0.066     0.063     0.032     0.004     0.184
+  RPE rot @10m [deg]         1572     0.382     0.329     0.291     0.195     0.016     0.893
+  RPE trans @50m [m]         1481     0.288     0.250     0.212     0.142     0.017     0.799
+  RPE rot @50m [deg]         1481     0.545     0.480     0.401     0.258     0.063     1.188
+  RPE trans @100m [m]        1300     0.455     0.429     0.410     0.153     0.070     0.820
+  RPE rot @100m [deg]        1300     0.584     0.534     0.532     0.238     0.026     1.259
+
+AbandonedFactory2_P1000: gt 86.3 s / 99 m, estimate starts at 2.6 s, 837 matched poses, path gt 97 m vs est 98 m, Sim3 scale 0.996
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               837     0.109     0.097     0.095     0.049     0.009     0.230
+  ATE rot [deg]               837     0.347     0.313     0.307     0.149     0.026     0.793
+  ATE trans Sim3 [m]          837     0.094     0.087     0.082     0.035     0.014     0.193
+  RPE trans @10m [m]          776     0.141     0.113     0.080     0.085     0.001     0.326
+  RPE rot @10m [deg]          776     0.433     0.365     0.278     0.233     0.014     1.186
+  RPE trans @50m [m]          533     0.206     0.190     0.175     0.080     0.020     0.400
+  RPE rot @50m [deg]          533     0.456     0.403     0.373     0.212     0.019     0.899
+  RPE trans @100m [m]          86     0.250     0.249     0.248     0.027     0.190     0.316
+  RPE rot @100m [deg]          86     0.669     0.664     0.661     0.083     0.515     0.834
+
+AbandonedFactory2_P1001: gt 117.2 s / 105 m, estimate starts at 2.6 s, 1146 matched poses, path gt 102 m vs est 103 m, Sim3 scale 0.999
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1146     0.107     0.089     0.077     0.060     0.006     0.410
+  ATE rot [deg]              1146     0.533     0.512     0.506     0.149     0.119     0.931
+  ATE trans Sim3 [m]         1146     0.106     0.088     0.074     0.060     0.007     0.410
+  RPE trans @10m [m]         1060     0.119     0.095     0.071     0.071     0.008     0.351
+  RPE rot @10m [deg]         1060     0.530     0.435     0.345     0.303     0.030     1.383
+  RPE trans @50m [m]          639     0.316     0.302     0.298     0.094     0.063     0.503
+  RPE rot @50m [deg]          639     0.486     0.422     0.354     0.241     0.058     1.290
+  RPE trans @100m [m]         126     0.419     0.418     0.417     0.025     0.374     0.477
+  RPE rot @100m [deg]         126     0.282     0.241     0.209     0.147     0.021     0.869
+
+AbandonedFactory2_P1002: gt 157.5 s / 154 m, estimate starts at 2.6 s, 1549 matched poses, path gt 152 m vs est 155 m, Sim3 scale 1.002
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1549     0.348     0.323     0.279     0.129     0.074     0.635
+  ATE rot [deg]              1549     1.309     1.262     1.175     0.348     0.527     2.196
+  ATE trans Sim3 [m]         1549     0.347     0.319     0.282     0.135     0.053     0.646
+  RPE trans @10m [m]         1506     0.175     0.136     0.096     0.111     0.009     0.527
+  RPE rot @10m [deg]         1506     0.451     0.402     0.364     0.204     0.018     0.969
+  RPE trans @50m [m]         1219     0.479     0.449     0.489     0.167     0.071     0.723
+  RPE rot @50m [deg]         1219     1.090     1.023     1.114     0.378     0.052     1.783
+  RPE trans @100m [m]         892     0.894     0.841     0.991     0.304     0.353     1.266
+  RPE rot @100m [deg]         892     1.772     1.726     1.642     0.400     1.085     2.623
+
+AbandonedSchool_P1000: gt 242.3 s / 261 m, estimate starts at 2.6 s, 2397 matched poses, path gt 258 m vs est 262 m, Sim3 scale 0.982
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2397     0.390     0.356     0.322     0.160     0.028     0.793
+  ATE rot [deg]              2397     0.906     0.773     0.551     0.473     0.058     1.898
+  ATE trans Sim3 [m]         2397     0.264     0.242     0.235     0.105     0.040     0.551
+  RPE trans @10m [m]         2327     0.207     0.163     0.113     0.128     0.010     0.519
+  RPE rot @10m [deg]         2327     0.418     0.369     0.335     0.196     0.021     1.178
+  RPE trans @50m [m]         2066     0.565     0.523     0.515     0.215     0.086     0.937
+  RPE rot @50m [deg]         2066     0.805     0.661     0.511     0.459     0.035     1.821
+  RPE trans @100m [m]        1733     0.637     0.601     0.636     0.209     0.072     0.946
+  RPE rot @100m [deg]        1733     0.972     0.910     0.968     0.343     0.070     1.696
+
+AbandonedSchool_P1001: gt 148.8 s / 191 m, estimate starts at 2.6 s, 1462 matched poses, path gt 187 m vs est 188 m, Sim3 scale 0.988
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1462     0.267     0.226     0.182     0.142     0.033     0.648
+  ATE rot [deg]              1462     0.771     0.717     0.732     0.284     0.084     1.695
+  ATE trans Sim3 [m]         1462     0.157     0.135     0.120     0.080     0.005     0.441
+  RPE trans @10m [m]         1417     0.149     0.109     0.063     0.102     0.010     0.455
+  RPE rot @10m [deg]         1417     0.388     0.335     0.314     0.194     0.023     1.329
+  RPE trans @50m [m]         1093     0.428     0.333     0.232     0.270     0.014     1.087
+  RPE rot @50m [deg]         1093     1.079     0.908     0.642     0.582     0.076     2.045
+  RPE trans @100m [m]         751     0.573     0.498     0.474     0.284     0.075     1.102
+  RPE rot @100m [deg]         751     1.498     1.214     1.181     0.879     0.030     2.714
+
+AbandonedSchool_P1002: gt 307.2 s / 276 m, estimate starts at 2.6 s, 3046 matched poses, path gt 274 m vs est 274 m, Sim3 scale 0.999
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3046     0.304     0.284     0.276     0.109     0.081     0.766
+  ATE rot [deg]              3046     1.184     1.018     0.835     0.605     0.039     2.463
+  ATE trans Sim3 [m]         3046     0.303     0.282     0.276     0.111     0.076     0.763
+  RPE trans @10m [m]         2975     0.101     0.085     0.068     0.056     0.006     0.275
+  RPE rot @10m [deg]         2975     0.445     0.391     0.339     0.212     0.029     1.249
+  RPE trans @50m [m]         2528     0.265     0.243     0.216     0.107     0.007     0.586
+  RPE rot @50m [deg]         2528     0.790     0.694     0.585     0.378     0.037     1.961
+  RPE trans @100m [m]        1966     0.469     0.442     0.447     0.158     0.054     0.822
+  RPE rot @100m [deg]        1966     1.338     1.260     1.385     0.448     0.218     2.282
+
+Antiquity3D_P1000: gt 278.6 s / 298 m, estimate starts at 2.6 s, 2760 matched poses, path gt 296 m vs est 298 m, Sim3 scale 0.996
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2760     0.246     0.222     0.211     0.106     0.043     0.440
+  ATE rot [deg]              2760     0.384     0.342     0.310     0.173     0.010     0.827
+  ATE trans Sim3 [m]         2760     0.223     0.190     0.178     0.118     0.019     0.511
+  RPE trans @10m [m]         2662     0.107     0.090     0.074     0.058     0.005     0.322
+  RPE rot @10m [deg]         2662     0.327     0.293     0.265     0.145     0.007     0.910
+  RPE trans @50m [m]         2194     0.363     0.312     0.241     0.186     0.038     0.823
+  RPE rot @50m [deg]         2194     0.471     0.436     0.424     0.178     0.030     1.125
+  RPE trans @100m [m]        1756     0.463     0.426     0.425     0.182     0.059     0.716
+  RPE rot @100m [deg]        1756     0.458     0.426     0.413     0.169     0.040     0.944
+
+Antiquity3D_P1001: gt 195.2 s / 304 m, estimate starts at 3.7 s, 1915 matched poses, path gt 299 m vs est 300 m, Sim3 scale 0.996
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1915     0.290     0.260     0.230     0.128     0.018     0.589
+  ATE rot [deg]              1915     0.743     0.657     0.568     0.347     0.111     1.449
+  ATE trans Sim3 [m]         1915     0.275     0.246     0.205     0.123     0.012     0.507
+  RPE trans @10m [m]         1807     0.105     0.082     0.064     0.066     0.003     0.347
+  RPE rot @10m [deg]         1807     0.276     0.252     0.239     0.111     0.014     0.612
+  RPE trans @50m [m]         1570     0.375     0.327     0.279     0.184     0.052     0.760
+  RPE rot @50m [deg]         1570     0.443     0.414     0.405     0.159     0.018     0.970
+  RPE trans @100m [m]        1283     0.517     0.489     0.494     0.167     0.031     0.813
+  RPE rot @100m [deg]        1283     0.691     0.640     0.632     0.261     0.075     1.170
+
+Antiquity3D_P1002: gt 206.8 s / 267 m, estimate starts at 2.7 s, 2041 matched poses, path gt 262 m vs est 264 m, Sim3 scale 0.980
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2041     0.644     0.614     0.662     0.195     0.261     0.971
+  ATE rot [deg]              2041     0.434     0.387     0.349     0.197     0.022     1.114
+  ATE trans Sim3 [m]         2041     0.400     0.338     0.292     0.214     0.075     1.012
+  RPE trans @10m [m]         1927     0.176     0.131     0.085     0.119     0.004     0.504
+  RPE rot @10m [deg]         1927     0.326     0.288     0.260     0.152     0.014     0.921
+  RPE trans @50m [m]         1646     0.605     0.499     0.457     0.342     0.035     1.282
+  RPE rot @50m [deg]         1646     0.706     0.626     0.601     0.326     0.055     1.683
+  RPE trans @100m [m]        1312     0.938     0.916     0.932     0.204     0.438     1.363
+  RPE rot @100m [deg]        1312     0.762     0.666     0.569     0.372     0.072     2.102
+
+CarWelding_P1000: gt 63.1 s / 106 m, estimate starts at 2.6 s, 605 matched poses, path gt 101 m vs est 105 m, Sim3 scale 0.982
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               605     0.389     0.351     0.316     0.168     0.064     1.055
+  ATE rot [deg]               605     0.927     0.860     0.787     0.347     0.313     2.233
+  ATE trans Sim3 [m]          605     0.296     0.272     0.266     0.116     0.053     0.653
+  RPE trans @10m [m]          541     0.335     0.276     0.239     0.190     0.034     0.921
+  RPE rot @10m [deg]          541     0.732     0.527     0.342     0.508     0.053     2.245
+  RPE trans @50m [m]          330     0.887     0.862     0.790     0.211     0.556     1.777
+  RPE rot @50m [deg]          330     0.867     0.680     0.512     0.537     0.024     2.535
+  RPE trans @100m [m]          91     0.745     0.741     0.748     0.084     0.345     1.066
+  RPE rot @100m [deg]          91     1.825     1.785     1.815     0.383     0.622     2.647
+
+CarWelding_P1001: gt 91.7 s / 124 m, estimate starts at 5.0 s, 867 matched poses, path gt 115 m vs est 119 m, Sim3 scale 0.964
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               867     0.515     0.467     0.438     0.216     0.081     0.916
+  ATE rot [deg]               867     0.499     0.458     0.422     0.197     0.064     0.988
+  ATE trans Sim3 [m]          867     0.180     0.169     0.167     0.060     0.031     0.371
+  RPE trans @10m [m]          805     0.343     0.306     0.305     0.156     0.043     0.718
+  RPE rot @10m [deg]          805     0.522     0.490     0.483     0.180     0.068     0.885
+  RPE trans @50m [m]          487     0.926     0.832     0.875     0.407     0.170     1.475
+  RPE rot @50m [deg]          487     0.774     0.726     0.678     0.267     0.176     1.386
+  RPE trans @100m [m]         210     0.917     0.907     0.867     0.132     0.751     1.282
+  RPE rot @100m [deg]         210     0.790     0.738     0.649     0.280     0.159     1.305
+
+CarWelding_P1002: gt 173.8 s / 170 m, estimate starts at 2.6 s, 1712 matched poses, path gt 166 m vs est 170 m, Sim3 scale 0.982
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1712     0.394     0.358     0.303     0.166     0.081     0.793
+  ATE rot [deg]              1712     1.333     1.295     1.308     0.316     0.326     1.976
+  ATE trans Sim3 [m]         1712     0.302     0.260     0.234     0.154     0.023     0.821
+  RPE trans @10m [m]         1652     0.289     0.230     0.195     0.175     0.006     0.756
+  RPE rot @10m [deg]         1652     0.648     0.510     0.399     0.400     0.042     2.168
+  RPE trans @50m [m]         1445     0.621     0.593     0.636     0.182     0.021     0.918
+  RPE rot @50m [deg]         1445     0.712     0.573     0.465     0.422     0.012     2.155
+  RPE trans @100m [m]         940     0.944     0.892     0.875     0.309     0.378     1.368
+  RPE rot @100m [deg]         940     0.988     0.720     0.483     0.677     0.010     2.836
+
+CastleFortress_P1000: gt 305.9 s / 466 m, estimate starts at 2.6 s, 3033 matched poses, path gt 463 m vs est 463 m, Sim3 scale 0.999
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3033     0.523     0.444     0.401     0.276     0.059     0.917
+  ATE rot [deg]              3033     0.677     0.604     0.573     0.306     0.062     1.507
+  ATE trans Sim3 [m]         3033     0.523     0.441     0.399     0.280     0.059     0.931
+  RPE trans @10m [m]         3004     0.216     0.129     0.079     0.173     0.002     0.927
+  RPE rot @10m [deg]         3004     0.431     0.364     0.323     0.229     0.024     1.685
+  RPE trans @50m [m]         2878     0.440     0.354     0.248     0.260     0.021     1.116
+  RPE rot @50m [deg]         2878     0.559     0.491     0.435     0.266     0.023     1.606
+  RPE trans @100m [m]        2646     0.684     0.573     0.406     0.373     0.021     1.687
+  RPE rot @100m [deg]        2646     0.572     0.504     0.475     0.269     0.036     1.666
+
+CastleFortress_P1001: gt 287.9 s / 427 m, estimate starts at 3.5 s, 2844 matched poses, path gt 421 m vs est 426 m, Sim3 scale 0.993
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2844     0.622     0.559     0.494     0.272     0.065     1.572
+  ATE rot [deg]              2844     1.197     1.065     0.907     0.546     0.307     3.306
+  ATE trans Sim3 [m]         2844     0.568     0.524     0.479     0.221     0.030     1.362
+  RPE trans @10m [m]         2767     0.306     0.237     0.177     0.193     0.006     0.922
+  RPE rot @10m [deg]         2767     0.585     0.469     0.390     0.351     0.025     2.414
+  RPE trans @50m [m]         2540     0.760     0.667     0.577     0.364     0.098     1.834
+  RPE rot @50m [deg]         2540     1.081     0.891     0.735     0.612     0.036     3.118
+  RPE trans @100m [m]        1987     1.090     0.929     0.754     0.569     0.053     2.269
+  RPE rot @100m [deg]        1987     1.215     1.064     0.975     0.588     0.061     3.072
+
+CastleFortress_P1002: gt 219.2 s / 403 m, estimate starts at 6.1 s, 2131 matched poses, path gt 393 m vs est 397 m, Sim3 scale 0.977
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2131     1.431     1.347     1.421     0.485     0.176     2.597
+  ATE rot [deg]              2131     0.867     0.799     0.752     0.337     0.105     1.764
+  ATE trans Sim3 [m]         2131     1.033     0.961     0.848     0.379     0.275     1.965
+  RPE trans @10m [m]         2093     0.328     0.260     0.198     0.200     0.008     1.228
+  RPE rot @10m [deg]         2093     0.398     0.348     0.323     0.194     0.028     1.587
+  RPE trans @50m [m]         1930     1.027     0.791     0.481     0.655     0.126     2.657
+  RPE rot @50m [deg]         1930     0.694     0.638     0.640     0.272     0.049     1.303
+  RPE trans @100m [m]        1712     1.572     1.293     1.100     0.895     0.236     3.180
+  RPE rot @100m [deg]        1712     0.856     0.762     0.664     0.389     0.039     1.974
+
+CoalMine_P1000: gt 100.0 s / 108 m, estimate starts at 2.6 s, 974 matched poses, path gt 106 m vs est 107 m, Sim3 scale 0.997
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               974     0.080     0.077     0.076     0.020     0.022     0.126
+  ATE rot [deg]               974     0.470     0.438     0.417     0.171     0.109     0.878
+  ATE trans Sim3 [m]          974     0.051     0.047     0.044     0.020     0.003     0.115
+  RPE trans @10m [m]          899     0.062     0.058     0.058     0.022     0.008     0.112
+  RPE rot @10m [deg]          899     0.445     0.388     0.357     0.217     0.024     0.930
+  RPE trans @50m [m]          556     0.264     0.238     0.211     0.115     0.089     0.554
+  RPE rot @50m [deg]          556     0.436     0.403     0.389     0.166     0.052     0.801
+  RPE trans @100m [m]         187     0.407     0.381     0.360     0.143     0.148     0.634
+  RPE rot @100m [deg]         187     0.388     0.369     0.353     0.121     0.135     0.773
+
+CoalMine_P1001: gt 120.5 s / 137 m, estimate starts at 2.6 s, 1179 matched poses, path gt 133 m vs est 135 m, Sim3 scale 0.985
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1179     0.393     0.361     0.392     0.155     0.043     0.733
+  ATE rot [deg]              1179     0.902     0.776     0.697     0.460     0.043     1.906
+  ATE trans Sim3 [m]         1179     0.198     0.174     0.156     0.096     0.048     0.525
+  RPE trans @10m [m]         1102     0.204     0.160     0.113     0.126     0.002     0.707
+  RPE rot @10m [deg]         1102     0.560     0.486     0.402     0.277     0.055     1.123
+  RPE trans @50m [m]          580     0.683     0.642     0.703     0.235     0.094     1.336
+  RPE rot @50m [deg]          580     0.855     0.726     0.620     0.452     0.092     1.987
+  RPE trans @100m [m]         284     0.755     0.737     0.699     0.161     0.542     1.162
+  RPE rot @100m [deg]         284     0.998     0.972     0.971     0.224     0.520     1.426
+
+ConstructionSite_P1000: gt 254.3 s / 287 m, estimate starts at 2.6 s, 2517 matched poses, path gt 282 m vs est 286 m, Sim3 scale 0.995
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2517     0.473     0.389     0.300     0.270     0.036     1.219
+  ATE rot [deg]              2517     0.845     0.671     0.515     0.514     0.067     2.094
+  ATE trans Sim3 [m]         2517     0.459     0.378     0.344     0.260     0.089     1.229
+  RPE trans @10m [m]         2422     0.174     0.132     0.096     0.112     0.005     0.574
+  RPE rot @10m [deg]         2422     0.465     0.412     0.383     0.216     0.038     1.160
+  RPE trans @50m [m]         2050     0.567     0.491     0.423     0.284     0.018     1.179
+  RPE rot @50m [deg]         2050     0.817     0.724     0.704     0.380     0.022     1.775
+  RPE trans @100m [m]        1692     0.641     0.589     0.595     0.253     0.094     1.061
+  RPE rot @100m [deg]        1692     0.972     0.758     0.534     0.609     0.023     2.768
+
+ConstructionSite_P1001: gt 212.8 s / 194 m, estimate starts at 2.6 s, 2102 matched poses, path gt 188 m vs est 189 m, Sim3 scale 1.003
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2102     0.147     0.107     0.073     0.101     0.009     0.642
+  ATE rot [deg]              2102     0.703     0.604     0.500     0.361     0.089     2.851
+  ATE trans Sim3 [m]         2102     0.132     0.092     0.063     0.094     0.013     0.610
+  RPE trans @10m [m]         2066     0.060     0.052     0.046     0.029     0.004     0.194
+  RPE rot @10m [deg]         2066     0.440     0.401     0.378     0.181     0.031     1.949
+  RPE trans @50m [m]         1886     0.286     0.256     0.218     0.128     0.070     0.702
+  RPE rot @50m [deg]         1886     0.805     0.669     0.560     0.447     0.041     2.659
+  RPE trans @100m [m]        1179     0.633     0.542     0.443     0.327     0.145     1.969
+  RPE rot @100m [deg]        1179     1.145     1.063     0.977     0.426     0.347     2.628
+
+ConstructionSite_P1002: gt 181.4 s / 230 m, estimate starts at 2.6 s, 1788 matched poses, path gt 225 m vs est 228 m, Sim3 scale 0.990
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1788     0.392     0.359     0.341     0.158     0.105     0.860
+  ATE rot [deg]              1788     0.812     0.684     0.551     0.438     0.036     1.831
+  ATE trans Sim3 [m]         1788     0.268     0.233     0.182     0.133     0.024     0.680
+  RPE trans @10m [m]         1759     0.188     0.159     0.125     0.101     0.003     0.450
+  RPE rot @10m [deg]         1759     0.408     0.371     0.353     0.171     0.025     0.879
+  RPE trans @50m [m]         1289     0.623     0.559     0.591     0.277     0.023     1.089
+  RPE rot @50m [deg]         1289     1.005     0.921     0.975     0.403     0.154     1.712
+  RPE trans @100m [m]        1037     1.121     0.959     0.793     0.580     0.118     1.963
+  RPE rot @100m [deg]        1037     1.316     1.134     0.971     0.666     0.107     2.657
+
+CyberPunkDowntown_P1000: gt 146.4 s / 290 m, estimate starts at 2.6 s, 1438 matched poses, path gt 281 m vs est 293 m, Sim3 scale 0.977
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1438     0.952     0.847     0.895     0.435     0.144     2.291
+  ATE rot [deg]              1438     1.024     0.976     0.920     0.308     0.227     2.424
+  ATE trans Sim3 [m]         1438     0.675     0.613     0.590     0.282     0.042     2.051
+  RPE trans @10m [m]         1380     0.519     0.386     0.274     0.347     0.007     1.574
+  RPE rot @10m [deg]         1380     0.504     0.451     0.433     0.224     0.028     1.778
+  RPE trans @50m [m]         1232     1.595     1.331     1.046     0.879     0.170     3.161
+  RPE rot @50m [deg]         1232     0.632     0.562     0.497     0.287     0.056     1.861
+  RPE trans @100m [m]        1080     2.005     1.821     2.161     0.839     0.356     3.099
+  RPE rot @100m [deg]        1080     0.646     0.589     0.569     0.266     0.119     2.310
+
+CyberPunkDowntown_P1001: gt 200.3 s / 329 m, estimate starts at 2.6 s, 1977 matched poses, path gt 323 m vs est 339 m, Sim3 scale 0.983
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1977     0.985     0.903     0.922     0.395     0.062     2.194
+  ATE rot [deg]              1977     1.181     1.065     1.092     0.511     0.094     4.101
+  ATE trans Sim3 [m]         1977     0.898     0.841     0.777     0.315     0.199     1.764
+  RPE trans @10m [m]         1952     0.598     0.477     0.410     0.360     0.004     2.754
+  RPE rot @10m [deg]         1952     0.759     0.518     0.391     0.554     0.038     4.103
+  RPE trans @50m [m]         1796     1.159     0.960     0.820     0.649     0.044     2.522
+  RPE rot @50m [deg]         1796     1.057     0.925     0.879     0.513     0.064     3.786
+  RPE trans @100m [m]        1569     1.593     1.448     1.395     0.664     0.141     2.937
+  RPE rot @100m [deg]        1569     1.200     1.023     0.872     0.626     0.121     4.056
+
+CyberPunkDowntown_P1002: gt 169.7 s / 204 m, estimate starts at 3.3 s, 1664 matched poses, path gt 200 m vs est 211 m, Sim3 scale 0.950
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1664     1.832     1.631     1.473     0.835     0.482     3.731
+  ATE rot [deg]              1664     1.046     0.941     1.019     0.459     0.088     2.883
+  ATE trans Sim3 [m]         1664     1.246     1.003     0.683     0.740     0.154     2.623
+  RPE trans @10m [m]         1634     1.371     0.834     0.507     1.088     0.043     5.560
+  RPE rot @10m [deg]         1634     0.811     0.660     0.540     0.472     0.022     2.190
+  RPE trans @50m [m]         1316     2.592     2.188     1.720     1.389     0.208     5.316
+  RPE rot @50m [deg]         1316     1.124     0.989     0.851     0.534     0.159     2.814
+  RPE trans @100m [m]         922     3.181     3.093     3.007     0.744     1.897     5.010
+  RPE rot @100m [deg]         922     1.206     1.055     0.925     0.584     0.071     3.159
+
+Downtown_P1000: gt 348.7 s / 795 m, estimate starts at 2.6 s, 3461 matched poses, path gt 785 m vs est 815 m, Sim3 scale 0.968
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3461     3.640     2.982     2.362     2.087     0.522    11.017
+  ATE rot [deg]              3461     1.331     1.132     1.032     0.699     0.056    11.619
+  ATE trans Sim3 [m]         3461     2.133     1.709     1.388     1.276     0.061     6.274
+  RPE trans @10m [m]         3422     0.524     0.328     0.189     0.409     0.007     4.039
+  RPE rot @10m [deg]         3422     0.619     0.435     0.349     0.441     0.010    12.265
+  RPE trans @50m [m]         3342     1.911     1.390     1.133     1.312     0.019     8.224
+  RPE rot @50m [deg]         3342     0.911     0.762     0.679     0.499     0.017    11.567
+  RPE trans @100m [m]        3148     3.467     2.711     2.175     2.162     0.274    13.355
+  RPE rot @100m [deg]        3148     1.169     1.022     0.975     0.568     0.029    11.035
+
+Downtown_P1001: gt 236.6 s / 595 m, estimate starts at 2.6 s, 2340 matched poses, path gt 587 m vs est 593 m, Sim3 scale 0.994
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2340     1.006     0.791     0.607     0.622     0.072     3.006
+  ATE rot [deg]              2340     0.773     0.677     0.686     0.374     0.007     2.272
+  ATE trans Sim3 [m]         2340     0.913     0.709     0.539     0.576     0.110     2.524
+  RPE trans @10m [m]         2316     0.244     0.189     0.143     0.154     0.010     1.168
+  RPE rot @10m [deg]         2316     0.490     0.403     0.334     0.278     0.009     2.001
+  RPE trans @50m [m]         2231     0.606     0.534     0.475     0.286     0.067     1.649
+  RPE rot @50m [deg]         2231     0.891     0.720     0.556     0.525     0.022     2.344
+  RPE trans @100m [m]        2069     1.128     1.044     1.116     0.428     0.135     2.770
+  RPE rot @100m [deg]        2069     0.961     0.829     0.722     0.487     0.014     2.751
+
+Downtown_P1002: gt 305.2 s / 586 m, estimate starts at 2.6 s, 3026 matched poses, path gt 582 m vs est 581 m, Sim3 scale 1.004
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3026     0.565     0.503     0.445     0.258     0.061     1.262
+  ATE rot [deg]              3026     0.711     0.591     0.488     0.397     0.018     2.160
+  ATE trans Sim3 [m]         3026     0.481     0.415     0.344     0.243     0.075     1.399
+  RPE trans @10m [m]         2991     0.236     0.173     0.113     0.161     0.005     0.896
+  RPE rot @10m [deg]         2991     0.584     0.454     0.321     0.367     0.004     2.022
+  RPE trans @50m [m]         2872     0.733     0.579     0.413     0.450     0.069     2.378
+  RPE rot @50m [deg]         2872     0.949     0.727     0.440     0.610     0.061     2.574
+  RPE trans @100m [m]        2737     1.142     0.971     0.814     0.602     0.066     2.868
+  RPE rot @100m [deg]        2737     1.110     0.927     0.741     0.609     0.032     2.524
+
+Fantasy_P1000: gt 159.2 s / 215 m, estimate starts at 2.7 s, 1565 matched poses, path gt 206 m vs est 205 m, Sim3 scale 1.004
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1565     0.172     0.130     0.099     0.112     0.010     0.692
+  ATE rot [deg]              1565     0.622     0.533     0.457     0.320     0.032     1.463
+  ATE trans Sim3 [m]         1565     0.155     0.111     0.072     0.107     0.011     0.645
+  RPE trans @10m [m]         1528     0.068     0.061     0.057     0.030     0.007     0.255
+  RPE rot @10m [deg]         1528     0.421     0.385     0.384     0.171     0.030     1.054
+  RPE trans @50m [m]         1369     0.187     0.171     0.168     0.075     0.026     0.637
+  RPE rot @50m [deg]         1369     0.724     0.656     0.624     0.308     0.046     1.506
+  RPE trans @100m [m]         884     0.431     0.404     0.394     0.149     0.082     0.741
+  RPE rot @100m [deg]         884     1.164     1.126     1.142     0.295     0.133     1.769
+
+Fantasy_P1001: gt 126.4 s / 167 m, estimate starts at 2.6 s, 1238 matched poses, path gt 161 m vs est 163 m, Sim3 scale 0.986
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1238     0.297     0.272     0.256     0.120     0.038     0.632
+  ATE rot [deg]              1238     0.515     0.437     0.355     0.272     0.020     2.154
+  ATE trans Sim3 [m]         1238     0.195     0.154     0.113     0.119     0.015     0.489
+  RPE trans @10m [m]         1207     0.140     0.119     0.102     0.073     0.011     0.351
+  RPE rot @10m [deg]         1207     0.404     0.341     0.279     0.217     0.014     2.169
+  RPE trans @50m [m]          923     0.448     0.432     0.428     0.122     0.155     1.044
+  RPE rot @50m [deg]          923     0.663     0.623     0.618     0.226     0.026     2.070
+  RPE trans @100m [m]         412     0.796     0.779     0.781     0.165     0.485     1.071
+  RPE rot @100m [deg]         412     1.017     0.956     0.836     0.347     0.409     2.349
+
+Fantasy_P1002: gt 173.5 s / 222 m, estimate starts at 7.3 s, 1662 matched poses, path gt 215 m vs est 216 m, Sim3 scale 0.995
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1662     0.301     0.257     0.264     0.156     0.033     0.671
+  ATE rot [deg]              1662     1.394     1.191     1.241     0.725     0.038     2.308
+  ATE trans Sim3 [m]         1662     0.290     0.259     0.258     0.131     0.047     0.633
+  RPE trans @10m [m]         1632     0.203     0.142     0.088     0.145     0.005     0.616
+  RPE rot @10m [deg]         1632     0.426     0.373     0.319     0.207     0.020     1.002
+  RPE trans @50m [m]         1497     0.622     0.504     0.333     0.365     0.038     1.158
+  RPE rot @50m [deg]         1497     0.793     0.729     0.708     0.312     0.027     1.731
+  RPE trans @100m [m]        1222     0.936     0.815     0.629     0.460     0.124     1.609
+  RPE rot @100m [deg]        1222     1.349     1.284     1.329     0.413     0.341     2.167
+
+ForestEnv_P1000: gt 205.9 s / 374 m, estimate starts at 2.7 s, 2032 matched poses, path gt 365 m vs est 369 m, Sim3 scale 1.005
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2032     0.537     0.482     0.433     0.238     0.114     2.054
+  ATE rot [deg]              2032     1.182     1.043     0.882     0.558     0.304     7.038
+  ATE trans Sim3 [m]         2032     0.447     0.378     0.329     0.237     0.008     2.220
+  RPE trans @10m [m]         2003     0.329     0.230     0.138     0.235     0.010     1.854
+  RPE rot @10m [deg]         2003     0.712     0.547     0.429     0.456     0.033     6.092
+  RPE trans @50m [m]         1845     0.784     0.597     0.544     0.509     0.013     6.692
+  RPE rot @50m [deg]         1845     1.049     0.782     0.600     0.700     0.025     8.156
+  RPE trans @100m [m]        1459     1.278     0.961     0.823     0.842     0.144    12.324
+  RPE rot @100m [deg]        1459     1.206     1.022     0.959     0.640     0.035     7.238
+
+ForestEnv_P1001: gt 80.8 s / 205 m, estimate starts at 2.7 s, 781 matched poses, path gt 197 m vs est 196 m, Sim3 scale 1.007
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               781     0.375     0.294     0.229     0.232     0.027     1.375
+  ATE rot [deg]               781     0.928     0.858     0.829     0.353     0.246     2.824
+  ATE trans Sim3 [m]          781     0.329     0.275     0.229     0.181     0.064     1.210
+  RPE trans @10m [m]          750     0.281     0.215     0.162     0.180     0.023     0.842
+  RPE rot @10m [deg]          750     0.652     0.552     0.477     0.347     0.043     2.327
+  RPE trans @50m [m]          642     0.583     0.480     0.366     0.332     0.029     2.338
+  RPE rot @50m [deg]          642     0.910     0.767     0.627     0.490     0.036     2.742
+  RPE trans @100m [m]         470     0.777     0.612     0.453     0.478     0.197     3.952
+  RPE rot @100m [deg]         470     1.197     1.022     0.800     0.624     0.148     3.147
+
+ForestEnv_P1002: gt 225.5 s / 626 m, estimate starts at 2.6 s, 2229 matched poses, path gt 617 m vs est 631 m, Sim3 scale 0.992
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2229     1.218     0.989     0.770     0.711     0.071     3.346
+  ATE rot [deg]              2229     1.119     0.793     0.529     0.789     0.018     9.226
+  ATE trans Sim3 [m]         2229     1.034     0.894     0.763     0.520     0.137     3.481
+  RPE trans @10m [m]         2166     0.415     0.324     0.251     0.259     0.014     2.111
+  RPE rot @10m [deg]         2166     0.802     0.555     0.415     0.580     0.020     8.335
+  RPE trans @50m [m]         1986     1.185     0.943     0.759     0.717     0.013     6.220
+  RPE rot @50m [deg]         1986     1.137     0.898     0.683     0.698     0.052     7.236
+  RPE trans @100m [m]        1712     1.781     1.449     0.997     1.035     0.064     4.270
+  RPE rot @100m [deg]        1712     1.387     1.047     0.732     0.910     0.059     8.905
+
+Gascola_P1000: gt 322.2 s / 463 m, estimate starts at 2.6 s, 3196 matched poses, path gt 458 m vs est 460 m, Sim3 scale 1.004
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3196     0.397     0.365     0.353     0.158     0.042     0.807
+  ATE rot [deg]              3196     0.455     0.404     0.370     0.209     0.018     2.236
+  ATE trans Sim3 [m]         3196     0.347     0.322     0.340     0.129     0.048     0.726
+  RPE trans @10m [m]         3156     0.169     0.144     0.126     0.088     0.006     0.511
+  RPE rot @10m [deg]         3156     0.488     0.415     0.355     0.256     0.014     2.834
+  RPE trans @50m [m]         2676     0.415     0.360     0.283     0.206     0.042     1.912
+  RPE rot @50m [deg]         2676     0.569     0.486     0.454     0.296     0.017     2.289
+  RPE trans @100m [m]        2373     0.542     0.500     0.498     0.209     0.106     2.286
+  RPE rot @100m [deg]        2373     0.500     0.441     0.418     0.236     0.014     2.092
+
+Gascola_P1001: gt 84.8 s / 168 m, estimate starts at 2.6 s, 822 matched poses, path gt 164 m vs est 165 m, Sim3 scale 0.998
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               822     0.128     0.113     0.107     0.061     0.013     0.430
+  ATE rot [deg]               822     0.472     0.414     0.364     0.228     0.058     1.078
+  ATE trans Sim3 [m]          822     0.121     0.106     0.104     0.058     0.010     0.384
+  RPE trans @10m [m]          788     0.135     0.113     0.101     0.074     0.007     0.461
+  RPE rot @10m [deg]          788     0.372     0.316     0.258     0.196     0.018     1.041
+  RPE trans @50m [m]          616     0.369     0.308     0.212     0.202     0.030     0.771
+  RPE rot @50m [deg]          616     0.567     0.505     0.450     0.257     0.040     1.169
+  RPE trans @100m [m]         424     0.471     0.427     0.386     0.198     0.129     1.005
+  RPE rot @100m [deg]         424     0.845     0.768     0.652     0.353     0.125     1.564
+
+Gascola_P1002: gt 291.3 s / 542 m, estimate starts at 6.4 s, 2849 matched poses, path gt 535 m vs est 29170 m, Sim3 scale 0.005
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2849  7934.817  6632.153  6374.831  4356.129   659.373 20591.564
+  ATE rot [deg]              2849    73.571    67.191    66.543    29.968    14.785   119.313
+  ATE trans Sim3 [m]         2849    33.266    29.565    30.661    15.248     4.008    85.500
+  RPE trans @10m [m]         2806   951.428   661.402   478.393   683.932    11.209  3620.656
+  RPE rot @10m [deg]         2806     3.432     2.870     2.158     1.882     0.206     8.966
+  RPE trans @50m [m]         2490  3525.002  2649.891  2568.942  2324.589    99.785  9404.585
+  RPE rot @50m [deg]         2490    12.194    10.996     9.570     5.269     1.227    22.862
+  RPE trans @100m [m]        2274  5959.147  4803.250  5146.711  3527.069   217.234 14774.864
+  RPE rot @100m [deg]        2274    21.406    20.061    20.135     7.468     6.589    32.083
+
+GothicIsland_P1000: gt 103.7 s / 220 m, estimate starts at 2.6 s, 1011 matched poses, path gt 213 m vs est 213 m, Sim3 scale 1.005
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1011     0.263     0.234     0.209     0.120     0.042     0.568
+  ATE rot [deg]              1011     0.592     0.529     0.509     0.267     0.026     1.471
+  ATE trans Sim3 [m]         1011     0.152     0.145     0.141     0.046     0.033     0.262
+  RPE trans @10m [m]          990     0.072     0.063     0.061     0.034     0.004     0.260
+  RPE rot @10m [deg]          990     0.339     0.301     0.284     0.155     0.007     1.344
+  RPE trans @50m [m]          884     0.260     0.239     0.219     0.104     0.038     0.612
+  RPE rot @50m [deg]          884     0.497     0.450     0.433     0.210     0.058     1.155
+  RPE trans @100m [m]         766     0.758     0.729     0.723     0.207     0.334     1.288
+  RPE rot @100m [deg]         766     0.699     0.654     0.651     0.246     0.099     1.512
+
+GothicIsland_P1001: gt 143.6 s / 343 m, estimate starts at 4.1 s, 1395 matched poses, path gt 330 m vs est 331 m, Sim3 scale 0.999
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1395     0.340     0.295     0.233     0.169     0.090     0.734
+  ATE rot [deg]              1395     0.587     0.575     0.567     0.121     0.268     1.701
+  ATE trans Sim3 [m]         1395     0.336     0.289     0.249     0.170     0.077     0.718
+  RPE trans @10m [m]         1372     0.117     0.098     0.079     0.064     0.011     0.406
+  RPE rot @10m [deg]         1372     0.307     0.276     0.262     0.135     0.015     1.991
+  RPE trans @50m [m]         1274     0.347     0.318     0.309     0.140     0.007     0.823
+  RPE rot @50m [deg]         1274     0.413     0.376     0.352     0.173     0.032     1.370
+  RPE trans @100m [m]        1119     0.576     0.533     0.515     0.219     0.081     1.342
+  RPE rot @100m [deg]        1119     0.478     0.418     0.353     0.231     0.016     1.463
+
+GothicIsland_P1002: gt 140.4 s / 271 m, estimate starts at 2.7 s, 1377 matched poses, path gt 262 m vs est 261 m, Sim3 scale 1.005
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1377     0.214     0.185     0.166     0.109     0.027     0.475
+  ATE rot [deg]              1377     0.635     0.563     0.466     0.294     0.057     1.172
+  ATE trans Sim3 [m]         1377     0.143     0.118     0.084     0.081     0.013     0.375
+  RPE trans @10m [m]         1306     0.089     0.076     0.066     0.045     0.007     0.517
+  RPE rot @10m [deg]         1306     0.335     0.293     0.263     0.162     0.038     1.200
+  RPE trans @50m [m]         1023     0.254     0.238     0.249     0.090     0.023     0.959
+  RPE rot @50m [deg]         1023     0.654     0.611     0.611     0.234     0.064     1.208
+  RPE trans @100m [m]         759     0.469     0.432     0.438     0.181     0.042     0.939
+  RPE rot @100m [deg]         759     0.604     0.563     0.526     0.220     0.152     1.276
+
+GreatMarsh_P1000: gt 260.9 s / 983 m, estimate starts at 2.6 s, 2583 matched poses, path gt 973 m vs est 15874 m, Sim3 scale 0.050
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2583  3563.714  2959.340  2597.297  1985.537   211.373  9205.340
+  ATE rot [deg]              2583   177.185   177.174   177.018     1.888   172.237   179.999
+  ATE trans Sim3 [m]         2583   102.205    88.546    83.024    51.044     9.739   231.342
+  RPE trans @10m [m]         2557   228.417   163.378    93.284   159.630     0.059   979.667
+  RPE rot @10m [deg]         2557     0.940     0.482     0.254     0.808     0.033     9.611
+  RPE trans @50m [m]         2467   984.065   748.526   515.249   638.821     0.865  2103.561
+  RPE rot @50m [deg]         2467     2.676     1.675     1.069     2.087     0.084    11.036
+  RPE trans @100m [m]        2342  1911.889  1472.624  1213.534  1219.303     6.648  3468.577
+  RPE rot @100m [deg]        2342     3.041     2.436     1.921     1.819     0.654    10.484
+
+GreatMarsh_P1001: gt 672.4 s / 1756 m, estimate starts at 88.0 s, 5844 matched poses, path gt 1421 m vs est 1453467 m, Sim3 scale 0.000
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              5844 416596.825 354345.937 345557.765 219070.473 40874.019 1047106.055
+  ATE rot [deg]              5844   112.250   102.779   103.447    45.128    29.587   179.981
+  ATE trans Sim3 [m]         5844   147.520   120.038   116.275    85.750     9.377   423.003
+  RPE trans @10m [m]         5826 22232.874 16259.013 12977.067 15163.944     3.029 56640.012
+  RPE rot @10m [deg]         5826    14.803    12.550    10.134     7.850     1.434    34.059
+  RPE trans @50m [m]         5747 96528.482 74578.288 65865.926 61284.801    25.207 236549.039
+  RPE rot @50m [deg]         5747    61.807    55.601    51.805    26.994    19.559   109.717
+  RPE trans @100m [m]        5590 184862.689 148871.330 167195.604 109597.176   138.896 371098.266
+  RPE rot @100m [deg]        5590   114.340   105.135   106.390    44.947    41.916   179.961
+
+GreatMarsh_P1002: gt 612.1 s / 1179 m, estimate starts at 3.1 s, 6090 matched poses, path gt 1173 m vs est 259373 m, Sim3 scale 0.005
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              6090 48579.175 42871.143 41792.353 22847.349 13525.409 114029.738
+  ATE rot [deg]              6090   103.514    94.707    86.442    41.784    36.242   179.986
+  ATE trans Sim3 [m]         6090   125.720   110.861   102.601    59.290     3.183   309.285
+  RPE trans @10m [m]         6070  3536.667  2603.329  1792.362  2393.886    18.518 11588.995
+  RPE rot @10m [deg]         6070    11.294    10.110     9.514     5.035     0.958    24.332
+  RPE trans @50m [m]         5983 13587.569 10917.942  8440.586  8088.299   742.213 31892.621
+  RPE rot @50m [deg]         5983    46.929    44.491    45.141    14.930    16.281    79.425
+  RPE trans @100m [m]        5851 25856.487 21299.911 15931.949 14658.504  4347.183 54575.267
+  RPE rot @100m [deg]        5851    89.218    85.725    89.616    24.721    35.976   136.433
+
+Hospital_P1000: gt 317.6 s / 291 m, estimate starts at 2.6 s, 3150 matched poses, path gt 289 m vs est 302 m, Sim3 scale 0.927
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3150     1.444     0.918     0.564     1.114     0.057     5.359
+  ATE rot [deg]              3150     3.387     3.323     3.484     0.658     1.173     4.390
+  ATE trans Sim3 [m]         3150     1.149     0.835     0.554     0.790     0.057     3.648
+  RPE trans @10m [m]         3046     1.081     0.538     0.185     0.937     0.008     4.642
+  RPE rot @10m [deg]         3046     0.495     0.424     0.365     0.256     0.029     1.384
+  RPE trans @50m [m]         2668     1.636     0.919     0.559     1.354     0.029     6.105
+  RPE rot @50m [deg]         2668     0.846     0.702     0.613     0.472     0.020     2.220
+  RPE trans @100m [m]        2291     2.084     1.367     0.840     1.574     0.075     6.020
+  RPE rot @100m [deg]        2291     1.240     1.013     0.902     0.716     0.034     3.836
+
+Hospital_P1001: gt 332.4 s / 284 m, estimate starts at 2.7 s, 3297 matched poses, path gt 282 m vs est 305 m, Sim3 scale 0.913
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3297     2.400     2.201     2.239     0.955     0.597     4.404
+  ATE rot [deg]              3297     2.254     2.023     1.664     0.994     0.473     4.288
+  ATE trans Sim3 [m]         3297     1.940     1.788     1.594     0.753     0.624     3.740
+  RPE trans @10m [m]         3182     1.027     0.796     0.559     0.649     0.009     2.224
+  RPE rot @10m [deg]         3182     0.643     0.570     0.528     0.299     0.044     1.629
+  RPE trans @50m [m]         2769     2.589     2.238     1.884     1.302     0.496     5.750
+  RPE rot @50m [deg]         2769     1.842     1.641     1.680     0.837     0.023     3.529
+  RPE trans @100m [m]        2174     3.587     3.145     2.766     1.725     0.815     6.369
+  RPE rot @100m [deg]        2174     2.961     2.729     3.175     1.148     0.193     4.548
+
+Hospital_P1002: gt 287.2 s / 296 m, estimate starts at 2.6 s, 2846 matched poses, path gt 294 m vs est 304 m, Sim3 scale 0.966
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2846     0.708     0.607     0.477     0.365     0.044     1.606
+  ATE rot [deg]              2846     1.024     0.888     0.744     0.510     0.266     2.994
+  ATE trans Sim3 [m]         2846     0.376     0.344     0.326     0.153     0.050     0.857
+  RPE trans @10m [m]         2752     0.468     0.365     0.267     0.293     0.003     1.214
+  RPE rot @10m [deg]         2752     0.470     0.418     0.377     0.215     0.038     1.682
+  RPE trans @50m [m]         2518     0.938     0.802     0.663     0.487     0.044     1.898
+  RPE rot @50m [deg]         2518     0.839     0.696     0.575     0.469     0.025     2.311
+  RPE trans @100m [m]        2167     1.066     0.981     0.801     0.417     0.364     1.962
+  RPE rot @100m [deg]        2167     1.011     0.826     0.696     0.584     0.017     2.616
+
+IndustrialHangar_P1000: gt 229.7 s / 329 m, estimate starts at 2.7 s, 2270 matched poses, path gt 322 m vs est 54401 m, Sim3 scale 0.002
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2270 15605.269 13304.223 12789.457  8156.107   378.302 37129.576
+  ATE rot [deg]              2270   169.010   168.951   169.517     4.491   159.732   179.992
+  ATE trans Sim3 [m]         2270    31.253    29.202    29.519    11.137     1.781    52.040
+  RPE trans @10m [m]         2244  2421.540  1896.267  1348.551  1505.996    30.612  5902.737
+  RPE rot @10m [deg]         2244     9.131     8.392     8.255     3.596     2.577    16.636
+  RPE trans @50m [m]         1996 10131.360  8552.576  4291.349  5431.197  2563.124 17875.184
+  RPE rot @50m [deg]         1996    36.824    35.618    36.960     9.345    15.938    54.577
+  RPE trans @100m [m]        1807 19218.171 16709.494 10801.441  9493.728  6755.038 30645.920
+  RPE rot @100m [deg]        1807    64.721    63.874    65.236    10.441    41.469    81.383
+
+IndustrialHangar_P1001: gt 299.9 s / 426 m, estimate starts at 20.4 s, 2795 matched poses, path gt 407 m vs est 409 m, Sim3 scale 0.987
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2795     1.554     1.165     0.663     1.029     0.133     4.478
+  ATE rot [deg]              2795     2.776     2.102     2.086     1.814     0.079     9.111
+  ATE trans Sim3 [m]         2795     1.484     1.200     0.826     0.873     0.061     4.184
+  RPE trans @10m [m]         2768     0.131     0.111     0.098     0.068     0.003     0.900
+  RPE rot @10m [deg]         2768     0.769     0.604     0.433     0.476     0.028     4.906
+  RPE trans @50m [m]         2645     0.915     0.751     0.597     0.522     0.094     2.754
+  RPE rot @50m [deg]         2645     2.105     1.691     1.290     1.253     0.031     6.373
+  RPE trans @100m [m]        2493     1.844     1.514     1.140     1.052     0.031     5.325
+  RPE rot @100m [deg]        2493     3.275     2.583     2.440     2.013     0.047     8.597
+
+IndustrialHangar_P1002: gt 208.1 s / 271 m, estimate starts at 2.6 s, 2055 matched poses, path gt 263 m vs est 266 m, Sim3 scale 1.002
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2055     0.902     0.818     0.814     0.382     0.026     1.784
+  ATE rot [deg]              2055     3.242     2.761     2.523     1.699     0.106     6.014
+  ATE trans Sim3 [m]         2055     0.899     0.819     0.822     0.372     0.109     1.730
+  RPE trans @10m [m]         1918     0.463     0.344     0.223     0.310     0.009     1.286
+  RPE rot @10m [deg]         1918     1.119     0.924     0.724     0.632     0.013     5.043
+  RPE trans @50m [m]         1533     1.221     1.043     0.829     0.634     0.019     3.261
+  RPE rot @50m [deg]         1533     2.794     2.397     2.248     1.437     0.302     5.667
+  RPE trans @100m [m]        1024     2.378     2.176     2.159     0.959     0.341     4.333
+  RPE rot @100m [deg]        1024     3.767     3.327     2.924     1.766     0.287     6.836
+
+JapaneseAlley_P1000: gt 138.1 s / 209 m, estimate starts at 22.9 s, 1152 matched poses, path gt 167 m vs est 174 m, Sim3 scale 0.957
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1152     1.168     1.049     1.106     0.515     0.112     1.987
+  ATE rot [deg]              1152     1.833     1.828     1.800     0.135     1.552     3.238
+  ATE trans Sim3 [m]         1152     0.328     0.297     0.285     0.141     0.050     0.665
+  RPE trans @10m [m]         1041     0.504     0.442     0.413     0.243     0.049     1.029
+  RPE rot @10m [deg]         1041     0.357     0.323     0.316     0.151     0.028     1.576
+  RPE trans @50m [m]          711     1.967     1.828     1.677     0.727     0.163     3.125
+  RPE rot @50m [deg]          711     0.546     0.497     0.456     0.226     0.104     1.672
+  RPE trans @100m [m]         389     2.094     1.920     2.113     0.836     0.427     3.258
+  RPE rot @100m [deg]         389     0.641     0.601     0.567     0.223     0.263     1.510
+
+JapaneseAlley_P1001: gt 112.6 s / 180 m, estimate starts at 2.6 s, 1100 matched poses, path gt 177 m vs est 190 m, Sim3 scale 0.927
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1100     1.641     1.400     1.396     0.855     0.073     3.988
+  ATE rot [deg]              1100     0.647     0.541     0.502     0.355     0.063     1.773
+  ATE trans Sim3 [m]         1100     0.374     0.321     0.278     0.191     0.026     0.879
+  RPE trans @10m [m]         1051     0.714     0.635     0.611     0.327     0.022     1.642
+  RPE rot @10m [deg]         1051     0.529     0.419     0.311     0.323     0.010     1.578
+  RPE trans @50m [m]          885     3.163     2.856     3.253     1.360     0.237     4.991
+  RPE rot @50m [deg]          885     0.815     0.737     0.664     0.347     0.181     1.856
+  RPE trans @100m [m]         440     2.352     2.017     1.949     1.210     0.220     5.083
+  RPE rot @100m [deg]         440     1.181     1.079     1.198     0.480     0.088     1.975
+
+JapaneseAlley_P1002: gt 155.4 s / 177 m, estimate starts at 2.6 s, 1528 matched poses, path gt 175 m vs est 187 m, Sim3 scale 0.937
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1528     1.750     1.488     1.591     0.920     0.105     3.741
+  ATE rot [deg]              1528     0.606     0.594     0.598     0.120     0.337     0.935
+  ATE trans Sim3 [m]         1528     0.548     0.468     0.386     0.285     0.069     1.323
+  RPE trans @10m [m]         1479     0.718     0.617     0.610     0.368     0.074     1.696
+  RPE rot @10m [deg]         1479     0.403     0.353     0.321     0.196     0.012     1.053
+  RPE trans @50m [m]         1030     2.745     2.526     2.662     1.074     0.171     4.540
+  RPE rot @50m [deg]         1030     0.653     0.576     0.513     0.308     0.092     1.330
+  RPE trans @100m [m]         628     3.356     3.108     3.408     1.266     0.651     5.687
+  RPE rot @100m [deg]         628     0.603     0.558     0.585     0.228     0.044     1.019
+
+MiddleEast_P1000: gt 135.6 s / 137 m, estimate starts at 8.1 s, 1275 matched poses, path gt 127 m vs est 128 m, Sim3 scale 0.994
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1275     0.248     0.226     0.236     0.102     0.032     0.422
+  ATE rot [deg]              1275     0.601     0.567     0.572     0.200     0.166     1.147
+  ATE trans Sim3 [m]         1275     0.238     0.217     0.205     0.096     0.042     0.367
+  RPE trans @10m [m]         1225     0.107     0.093     0.086     0.053     0.002     0.281
+  RPE rot @10m [deg]         1225     0.598     0.535     0.506     0.267     0.053     1.329
+  RPE trans @50m [m]          937     0.471     0.423     0.484     0.206     0.103     0.965
+  RPE rot @50m [deg]          937     0.787     0.735     0.696     0.282     0.197     1.473
+  RPE trans @100m [m]         385     0.609     0.605     0.614     0.069     0.464     0.761
+  RPE rot @100m [deg]         385     0.673     0.650     0.637     0.178     0.290     1.097
+
+MiddleEast_P1001: gt 79.8 s / 158 m, estimate starts at 9.2 s, 706 matched poses, path gt 150 m vs est 151 m, Sim3 scale 1.000
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               706     0.233     0.220     0.224     0.076     0.069     0.501
+  ATE rot [deg]               706     0.568     0.493     0.433     0.282     0.080     1.453
+  ATE trans Sim3 [m]          706     0.233     0.221     0.223     0.074     0.068     0.501
+  RPE trans @10m [m]          658     0.149     0.125     0.102     0.081     0.009     0.399
+  RPE rot @10m [deg]          658     0.390     0.352     0.338     0.169     0.018     0.840
+  RPE trans @50m [m]          466     0.341     0.309     0.329     0.143     0.018     0.644
+  RPE rot @50m [deg]          466     0.645     0.542     0.423     0.351     0.032     1.431
+  RPE trans @100m [m]         238     0.423     0.421     0.420     0.043     0.264     0.551
+  RPE rot @100m [deg]         238     1.018     0.928     0.911     0.417     0.231     1.721
+
+MiddleEast_P1002: gt 119.2 s / 144 m, estimate starts at 2.6 s, 1166 matched poses, path gt 140 m vs est 145 m, Sim3 scale 0.964
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1166     0.865     0.769     0.720     0.397     0.238     2.651
+  ATE rot [deg]              1166     0.760     0.677     0.676     0.346     0.094     1.881
+  ATE trans Sim3 [m]         1166     0.694     0.553     0.394     0.419     0.115     2.444
+  RPE trans @10m [m]         1104     0.545     0.490     0.517     0.238     0.006     1.362
+  RPE rot @10m [deg]         1104     0.635     0.533     0.455     0.345     0.034     2.541
+  RPE trans @50m [m]          837     1.605     1.460     1.569     0.667     0.235     2.732
+  RPE rot @50m [deg]          837     1.328     1.228     1.338     0.506     0.037     2.131
+  RPE trans @100m [m]         346     1.326     1.267     1.221     0.391     0.603     3.029
+  RPE rot @100m [deg]         346     1.259     1.172     1.189     0.458     0.218     2.285
+
+ModernCityDowntown_P1000: gt 174.5 s / 257 m, estimate starts at 3.3 s, 1712 matched poses, path gt 247 m vs est 248 m, Sim3 scale 0.997
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1712     0.228     0.202     0.187     0.105     0.005     0.443
+  ATE rot [deg]              1712     0.395     0.360     0.322     0.161     0.072     1.218
+  ATE trans Sim3 [m]         1712     0.214     0.188     0.147     0.102     0.028     0.505
+  RPE trans @10m [m]         1670     0.137     0.099     0.065     0.095     0.008     0.580
+  RPE rot @10m [deg]         1670     0.367     0.318     0.291     0.184     0.033     1.550
+  RPE trans @50m [m]         1389     0.406     0.367     0.346     0.175     0.037     0.830
+  RPE rot @50m [deg]         1389     0.527     0.476     0.446     0.226     0.040     1.565
+  RPE trans @100m [m]         926     0.587     0.512     0.433     0.287     0.062     1.000
+  RPE rot @100m [deg]         926     0.648     0.557     0.510     0.332     0.002     1.471
+
+ModernCityDowntown_P1001: gt 185.7 s / 350 m, estimate starts at 2.8 s, 1829 matched poses, path gt 346 m vs est 345 m, Sim3 scale 1.004
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1829     0.210     0.190     0.163     0.089     0.044     0.561
+  ATE rot [deg]              1829     0.487     0.439     0.409     0.212     0.054     1.432
+  ATE trans Sim3 [m]         1829     0.181     0.163     0.149     0.078     0.035     0.413
+  RPE trans @10m [m]         1777     0.082     0.068     0.057     0.045     0.005     0.266
+  RPE rot @10m [deg]         1777     0.372     0.327     0.289     0.179     0.025     1.048
+  RPE trans @50m [m]         1510     0.259     0.240     0.237     0.097     0.064     0.507
+  RPE rot @50m [deg]         1510     0.743     0.636     0.586     0.385     0.025     1.973
+  RPE trans @100m [m]        1052     0.440     0.412     0.416     0.155     0.126     0.836
+  RPE rot @100m [deg]        1052     0.519     0.458     0.407     0.244     0.024     1.317
+
+ModernCityDowntown_P1002: gt 180.6 s / 331 m, estimate starts at 3.7 s, 1769 matched poses, path gt 325 m vs est 329 m, Sim3 scale 0.995
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1769     0.891     0.745     0.602     0.488     0.127     2.480
+  ATE rot [deg]              1769     1.512     1.431     1.469     0.487     0.062     2.385
+  ATE trans Sim3 [m]         1769     0.879     0.729     0.581     0.491     0.200     2.585
+  RPE trans @10m [m]         1737     0.329     0.233     0.133     0.232     0.003     0.936
+  RPE rot @10m [deg]         1737     0.597     0.461     0.353     0.379     0.024     2.553
+  RPE trans @50m [m]         1646     0.873     0.706     0.626     0.514     0.028     1.829
+  RPE rot @50m [deg]         1646     1.590     1.193     0.610     1.052     0.024     3.126
+  RPE trans @100m [m]        1538     0.821     0.719     0.630     0.395     0.047     1.675
+  RPE rot @100m [deg]        1538     2.085     1.696     1.993     1.212     0.040     3.574
+
+ModularNeighborhoodIntExt_P1000: gt 56.8 s / 164 m, estimate starts at 2.6 s, 542 matched poses, path gt 156 m vs est 156 m, Sim3 scale 1.005
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               542     0.174     0.152     0.125     0.085     0.022     0.472
+  ATE rot [deg]               542     0.397     0.375     0.364     0.131     0.103     0.928
+  ATE trans Sim3 [m]          542     0.119     0.097     0.073     0.068     0.011     0.395
+  RPE trans @10m [m]          524     0.113     0.089     0.064     0.069     0.010     0.397
+  RPE rot @10m [deg]          524     0.285     0.253     0.234     0.130     0.024     0.798
+  RPE trans @50m [m]          400     0.293     0.270     0.271     0.113     0.062     0.661
+  RPE rot @50m [deg]          400     0.512     0.466     0.433     0.212     0.061     1.035
+  RPE trans @100m [m]         235     0.516     0.499     0.505     0.133     0.158     0.807
+  RPE rot @100m [deg]         235     0.731     0.722     0.721     0.116     0.438     1.119
+
+ModularNeighborhoodIntExt_P1001: gt 75.7 s / 191 m, estimate starts at 3.9 s, 718 matched poses, path gt 185 m vs est 187 m, Sim3 scale 0.991
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               718     0.416     0.397     0.399     0.125     0.089     0.604
+  ATE rot [deg]               718     0.423     0.386     0.365     0.172     0.080     1.208
+  ATE trans Sim3 [m]          718     0.211     0.185     0.160     0.102     0.039     0.824
+  RPE trans @10m [m]          684     0.204     0.126     0.079     0.161     0.004     1.041
+  RPE rot @10m [deg]          684     0.364     0.322     0.283     0.171     0.035     1.101
+  RPE trans @50m [m]          568     0.505     0.453     0.431     0.224     0.056     1.184
+  RPE rot @50m [deg]          568     0.614     0.590     0.604     0.169     0.189     1.073
+  RPE trans @100m [m]         384     0.963     0.947     0.915     0.174     0.502     1.506
+  RPE rot @100m [deg]         384     0.732     0.666     0.717     0.305     0.093     1.424
+
+ModularNeighborhoodIntExt_P1002: gt 94.4 s / 240 m, estimate starts at 2.6 s, 918 matched poses, path gt 229 m vs est 229 m, Sim3 scale 1.001
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               918     0.160     0.146     0.144     0.065     0.026     0.315
+  ATE rot [deg]               918     0.502     0.467     0.450     0.185     0.057     1.371
+  ATE trans Sim3 [m]          918     0.159     0.144     0.138     0.069     0.022     0.321
+  RPE trans @10m [m]          897     0.157     0.126     0.089     0.093     0.013     0.452
+  RPE rot @10m [deg]          897     0.427     0.383     0.366     0.191     0.027     0.948
+  RPE trans @50m [m]          783     0.329     0.292     0.258     0.152     0.031     0.678
+  RPE rot @50m [deg]          783     0.650     0.583     0.519     0.287     0.043     1.586
+  RPE trans @100m [m]         584     0.512     0.435     0.363     0.269     0.076     1.215
+  RPE rot @100m [deg]         584     0.598     0.541     0.517     0.254     0.084     1.333
+
+ModularNeighborhood_P1000: gt 609.2 s / 1307 m, estimate starts at 2.6 s, 6066 matched poses, path gt 1294 m vs est 1292 m, Sim3 scale 1.008
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              6066     1.229     1.114     1.022     0.520     0.293     2.290
+  ATE rot [deg]              6066     0.722     0.618     0.563     0.372     0.021     1.607
+  ATE trans Sim3 [m]         6066     0.986     0.841     0.789     0.514     0.056     3.385
+  RPE trans @10m [m]         6044     0.140     0.119     0.104     0.073     0.001     0.547
+  RPE rot @10m [deg]         6044     0.393     0.342     0.300     0.195     0.011     1.912
+  RPE trans @50m [m]         5951     0.374     0.345     0.331     0.145     0.029     0.959
+  RPE rot @50m [deg]         5951     0.699     0.619     0.592     0.324     0.016     1.859
+  RPE trans @100m [m]        5836     0.794     0.710     0.659     0.356     0.018     1.970
+  RPE rot @100m [deg]        5836     0.995     0.875     0.793     0.474     0.020     2.231
+
+ModularNeighborhood_P1001: gt 274.2 s / 638 m, estimate starts at 2.6 s, 2716 matched poses, path gt 633 m vs est 676 m, Sim3 scale 0.989
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2716     4.118     2.383     1.273     3.358     0.386    20.465
+  ATE rot [deg]              2716     1.754     1.366     1.011     1.100     0.110     5.522
+  ATE trans Sim3 [m]         2716     3.945     2.253     1.131     3.238     0.158    19.457
+  RPE trans @10m [m]         2687     2.309     1.048     0.216     2.057     0.015    10.510
+  RPE rot @10m [deg]         2687     1.396     0.799     0.367     1.145     0.016     5.511
+  RPE trans @50m [m]         2577     5.061     2.074     0.589     4.617     0.052    27.782
+  RPE rot @50m [deg]         2577     2.146     1.264     0.573     1.734     0.009     8.210
+  RPE trans @100m [m]        2439     5.005     2.482     1.022     4.347     0.077    26.229
+  RPE rot @100m [deg]        2439     1.854     1.305     0.852     1.317     0.092     6.469
+
+ModularNeighborhood_P1002: gt 539.0 s / 1269 m, estimate starts at 3.1 s, 5359 matched poses, path gt 1256 m vs est 1281 m, Sim3 scale 1.011
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              5359     3.544     3.158     3.108     1.607     0.437     9.978
+  ATE rot [deg]              5359     2.150     1.913     2.101     0.982     0.105     4.207
+  ATE trans Sim3 [m]         5359     3.342     2.938     2.897     1.592     0.485     9.882
+  RPE trans @10m [m]         5318     0.486     0.267     0.166     0.406     0.011     3.459
+  RPE rot @10m [deg]         5318     0.658     0.406     0.311     0.518     0.024     5.488
+  RPE trans @50m [m]         5184     1.036     0.760     0.604     0.703     0.021     5.728
+  RPE rot @50m [deg]         5184     0.891     0.729     0.643     0.513     0.020     4.980
+  RPE trans @100m [m]        5002     1.590     1.272     1.032     0.954     0.101     7.198
+  RPE rot @100m [deg]        5002     1.236     1.061     0.941     0.635     0.020     4.625
+
+NordicHarbor_P1000: gt 436.1 s / 724 m, estimate starts at 21.2 s, 4149 matched poses, path gt 709 m vs est 708 m, Sim3 scale 1.002
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              4149     0.310     0.298     0.316     0.086     0.006     0.503
+  ATE rot [deg]              4149     0.389     0.349     0.318     0.172     0.026     1.156
+  ATE trans Sim3 [m]         4149     0.292     0.278     0.283     0.087     0.062     0.454
+  RPE trans @10m [m]         4107     0.073     0.066     0.061     0.031     0.003     0.177
+  RPE rot @10m [deg]         4107     0.301     0.272     0.252     0.129     0.016     1.000
+  RPE trans @50m [m]         3786     0.260     0.236     0.220     0.111     0.004     0.652
+  RPE rot @50m [deg]         3786     0.427     0.375     0.332     0.205     0.011     1.120
+  RPE trans @100m [m]        3597     0.504     0.457     0.416     0.214     0.022     1.656
+  RPE rot @100m [deg]        3597     0.544     0.481     0.425     0.254     0.016     1.413
+
+NordicHarbor_P1001: gt 334.3 s / 628 m, estimate starts at 6.3 s, 3280 matched poses, path gt 624 m vs est 665 m, Sim3 scale 0.915
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3280     8.839     8.377     9.134     2.818     0.678    13.567
+  ATE rot [deg]              3280     1.671     1.640     1.571     0.319     0.927     2.383
+  ATE trans Sim3 [m]         3280     2.292     1.912     1.623     1.265     0.225     6.770
+  RPE trans @10m [m]         3256     0.995     0.795     0.652     0.598     0.004     2.192
+  RPE rot @10m [deg]         3256     0.443     0.361     0.283     0.257     0.018     1.468
+  RPE trans @50m [m]         3168     3.910     3.123     2.115     2.353     0.043     8.492
+  RPE rot @50m [deg]         3168     0.594     0.525     0.475     0.276     0.026     1.516
+  RPE trans @100m [m]        3043     6.663     5.470     4.724     3.805     0.399    15.015
+  RPE rot @100m [deg]        3043     0.688     0.623     0.584     0.293     0.049     1.600
+
+NordicHarbor_P1002: gt 492.7 s / 771 m, estimate starts at 10.5 s, 4822 matched poses, path gt 748 m vs est 749 m, Sim3 scale 0.997
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              4822     0.900     0.642     0.418     0.630     0.194     3.181
+  ATE rot [deg]              4822     0.669     0.512     0.325     0.430     0.025     2.516
+  ATE trans Sim3 [m]         4822     0.864     0.654     0.398     0.565     0.230     2.911
+  RPE trans @10m [m]         4755     0.067     0.059     0.053     0.031     0.002     0.370
+  RPE rot @10m [deg]         4755     0.298     0.256     0.225     0.153     0.007     3.032
+  RPE trans @50m [m]         4530     0.239     0.213     0.201     0.107     0.021     0.783
+  RPE rot @50m [deg]         4530     0.418     0.358     0.302     0.215     0.016     2.544
+  RPE trans @100m [m]        4188     0.420     0.371     0.338     0.195     0.049     1.584
+  RPE rot @100m [deg]        4188     0.480     0.408     0.332     0.252     0.021     2.791
+
+OldIndustrialCity_P1000: gt 447.0 s / 1011 m, estimate starts at 2.6 s, 4444 matched poses, path gt 1003 m vs est 1000 m, Sim3 scale 1.003
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              4444     0.783     0.554     0.315     0.554     0.025     2.682
+  ATE rot [deg]              4444     0.996     0.859     0.788     0.504     0.012     2.168
+  ATE trans Sim3 [m]         4444     0.747     0.539     0.389     0.517     0.024     2.596
+  RPE trans @10m [m]         4421     0.099     0.084     0.072     0.052     0.005     0.379
+  RPE rot @10m [deg]         4421     0.328     0.294     0.272     0.145     0.020     0.883
+  RPE trans @50m [m]         4305     0.331     0.298     0.265     0.145     0.007     0.904
+  RPE rot @50m [deg]         4305     0.641     0.560     0.500     0.312     0.034     1.526
+  RPE trans @100m [m]        4181     0.644     0.571     0.474     0.299     0.071     1.517
+  RPE rot @100m [deg]        4181     0.875     0.789     0.809     0.380     0.049     1.678
+
+OldIndustrialCity_P1001: gt 67.9 s / 212 m, estimate starts at 2.6 s, 653 matched poses, path gt 205 m vs est 210 m, Sim3 scale 0.987
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               653     0.774     0.587     0.403     0.504     0.090     2.804
+  ATE rot [deg]               653     0.718     0.650     0.705     0.304     0.067     1.285
+  ATE trans Sim3 [m]          653     0.435     0.337     0.270     0.274     0.034     1.670
+  RPE trans @10m [m]          634     0.317     0.269     0.227     0.167     0.014     0.941
+  RPE rot @10m [deg]          634     0.354     0.316     0.301     0.159     0.012     0.835
+  RPE trans @50m [m]          552     1.110     0.930     0.772     0.606     0.141     2.782
+  RPE rot @50m [deg]          552     0.712     0.650     0.697     0.292     0.101     1.188
+  RPE trans @100m [m]         414     1.588     1.396     1.151     0.756     0.387     3.139
+  RPE rot @100m [deg]         414     1.032     0.965     0.885     0.367     0.317     1.674
+
+OldIndustrialCity_P1002: gt 732.0 s / 1171 m, estimate starts at 2.6 s, 7294 matched poses, path gt 1164 m vs est 1173 m, Sim3 scale 1.002
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              7294     0.999     0.905     0.857     0.422     0.045     2.420
+  ATE rot [deg]              7294     1.077     0.867     0.648     0.639     0.026     3.136
+  ATE trans Sim3 [m]         7294     0.989     0.886     0.818     0.440     0.075     2.470
+  RPE trans @10m [m]         7260     0.218     0.169     0.129     0.138     0.003     0.928
+  RPE rot @10m [deg]         7260     0.448     0.380     0.330     0.238     0.012     2.410
+  RPE trans @50m [m]         7144     0.659     0.539     0.429     0.379     0.021     1.852
+  RPE rot @50m [deg]         7144     0.833     0.697     0.590     0.456     0.033     2.167
+  RPE trans @100m [m]        7006     1.013     0.860     0.777     0.535     0.030     2.972
+  RPE rot @100m [deg]        7006     1.097     0.894     0.661     0.636     0.016     3.113
+
+OldScandinavia_P1000: gt 108.9 s / 414 m, estimate starts at 2.6 s, 1063 matched poses, path gt 403 m vs est 413 m, Sim3 scale 0.982
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1063     1.619     1.509     1.599     0.587     0.426     2.809
+  ATE rot [deg]              1063     0.662     0.612     0.611     0.250     0.014     1.677
+  ATE trans Sim3 [m]         1063     0.623     0.525     0.443     0.336     0.048     1.577
+  RPE trans @10m [m]         1043     0.447     0.343     0.252     0.286     0.008     1.625
+  RPE rot @10m [deg]         1043     0.393     0.322     0.255     0.226     0.027     1.939
+  RPE trans @50m [m]          935     0.855     0.813     0.784     0.263     0.285     1.600
+  RPE rot @50m [deg]          935     0.604     0.536     0.487     0.278     0.016     2.167
+  RPE trans @100m [m]         789     1.489     1.431     1.452     0.412     0.451     2.523
+  RPE rot @100m [deg]         789     0.616     0.561     0.511     0.255     0.060     2.202
+
+OldScandinavia_P1001: gt 389.2 s / 868 m, estimate starts at 5.3 s, 3839 matched poses, path gt 847 m vs est 163674 m, Sim3 scale 0.001
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3839 37301.102 32303.405 30250.157 18651.065  8820.174 92017.140
+  ATE rot [deg]              3839   146.919   146.040   152.249    16.044   113.604   171.865
+  ATE trans Sim3 [m]         3839    50.547    46.026    43.710    20.896     2.207    91.874
+  RPE trans @10m [m]         3820  2721.617  2070.625  2123.444  1766.271     2.342 13074.117
+  RPE rot @10m [deg]         3820     2.784     2.146     1.549     1.773     0.490    13.524
+  RPE trans @50m [m]         3723 10778.603  9284.237  9244.406  5475.513   134.250 21641.697
+  RPE rot @50m [deg]         3723     9.134     8.346     7.898     3.712     1.419    17.973
+  RPE trans @100m [m]        3585 20440.930 18184.955 19510.591  9334.829   562.113 32718.486
+  RPE rot @100m [deg]        3585    15.532    14.482    14.157     5.612     3.521    25.232
+
+OldScandinavia_P1002: gt 67.2 s / 216 m, estimate starts at 2.6 s, 646 matched poses, path gt 206 m vs est 207 m, Sim3 scale 1.001
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               646     0.187     0.166     0.165     0.087     0.023     0.479
+  ATE rot [deg]               646     0.544     0.481     0.419     0.253     0.060     1.739
+  ATE trans Sim3 [m]          646     0.185     0.163     0.161     0.087     0.018     0.509
+  RPE trans @10m [m]          599     0.143     0.122     0.099     0.076     0.014     0.470
+  RPE rot @10m [deg]          599     0.424     0.351     0.292     0.237     0.034     2.046
+  RPE trans @50m [m]          497     0.403     0.339     0.283     0.216     0.064     1.642
+  RPE rot @50m [deg]          497     0.623     0.565     0.476     0.261     0.150     1.814
+  RPE trans @100m [m]         344     0.857     0.711     0.627     0.479     0.091     2.645
+  RPE rot @100m [deg]         344     0.699     0.646     0.672     0.268     0.186     1.813
+
+OldTownFall_P1000: gt 258.1 s / 290 m, estimate starts at 2.6 s, 2555 matched poses, path gt 286 m vs est 307 m, Sim3 scale 0.926
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2555     1.941     1.788     1.741     0.754     0.375     3.290
+  ATE rot [deg]              2555     0.795     0.621     0.435     0.495     0.031     2.222
+  ATE trans Sim3 [m]         2555     1.000     0.911     0.935     0.411     0.090     2.111
+  RPE trans @10m [m]         2497     0.797     0.609     0.510     0.514     0.012     2.605
+  RPE rot @10m [deg]         2497     0.499     0.460     0.447     0.193     0.018     1.223
+  RPE trans @50m [m]         2122     1.978     1.633     1.365     1.116     0.077     4.210
+  RPE rot @50m [deg]         2122     0.868     0.717     0.576     0.490     0.060     2.471
+  RPE trans @100m [m]        1697     2.973     2.607     2.755     1.428     0.227     4.798
+  RPE rot @100m [deg]        1697     0.812     0.723     0.745     0.369     0.084     1.774
+
+OldTownNight_P1000: gt 252.8 s / 293 m, estimate starts at 2.7 s, 2501 matched poses, path gt 290 m vs est 307 m, Sim3 scale 0.956
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2501     1.304     1.190     1.107     0.532     0.371     2.619
+  ATE rot [deg]              2501     1.363     1.252     1.356     0.537     0.047     2.579
+  ATE trans Sim3 [m]         2501     0.716     0.666     0.656     0.264     0.060     1.653
+  RPE trans @10m [m]         2459     0.617     0.502     0.377     0.358     0.018     1.539
+  RPE rot @10m [deg]         2459     0.486     0.425     0.388     0.235     0.017     1.845
+  RPE trans @50m [m]         2074     1.654     1.433     1.088     0.826     0.421     3.292
+  RPE rot @50m [deg]         2074     0.864     0.747     0.601     0.435     0.031     1.787
+  RPE trans @100m [m]        1616     2.129     1.888     1.646     0.983     0.693     3.561
+  RPE rot @100m [deg]        1616     1.097     0.986     0.892     0.481     0.113     2.560
+
+OldTownSummer_P1000: gt 209.4 s / 268 m, estimate starts at 2.6 s, 2068 matched poses, path gt 261 m vs est 270 m, Sim3 scale 0.984
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2068     0.540     0.493     0.435     0.221     0.048     1.458
+  ATE rot [deg]              2068     0.561     0.481     0.369     0.289     0.058     1.973
+  ATE trans Sim3 [m]         2068     0.425     0.357     0.311     0.230     0.060     1.358
+  RPE trans @10m [m]         1983     0.360     0.298     0.277     0.203     0.023     1.233
+  RPE rot @10m [deg]         1983     0.404     0.345     0.294     0.211     0.022     1.962
+  RPE trans @50m [m]         1703     0.919     0.840     0.786     0.374     0.327     2.197
+  RPE rot @50m [deg]         1703     0.619     0.534     0.460     0.313     0.022     2.079
+  RPE trans @100m [m]        1438     0.918     0.843     0.852     0.362     0.123     1.987
+  RPE rot @100m [deg]        1438     0.569     0.500     0.471     0.271     0.017     1.965
+
+OldTownSummer_P1001: gt 130.2 s / 212 m, estimate starts at 2.6 s, 1276 matched poses, path gt 207 m vs est 215 m, Sim3 scale 0.971
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1276     0.770     0.708     0.646     0.302     0.122     1.386
+  ATE rot [deg]              1276     0.500     0.461     0.445     0.195     0.019     1.124
+  ATE trans Sim3 [m]         1276     0.460     0.409     0.389     0.210     0.036     1.218
+  RPE trans @10m [m]         1246     0.505     0.394     0.287     0.316     0.012     1.288
+  RPE rot @10m [deg]         1246     0.368     0.323     0.281     0.178     0.035     1.018
+  RPE trans @50m [m]         1089     0.904     0.793     0.686     0.434     0.235     2.211
+  RPE rot @50m [deg]         1089     0.479     0.433     0.394     0.206     0.036     1.053
+  RPE trans @100m [m]         737     1.176     1.036     1.204     0.558     0.132     1.822
+  RPE rot @100m [deg]         737     0.416     0.386     0.362     0.155     0.043     0.878
+
+OldTownWinter_P1000: gt 170.0 s / 254 m, estimate starts at 2.6 s, 1674 matched poses, path gt 250 m vs est 259 m, Sim3 scale 0.999
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1674     0.793     0.681     0.611     0.407     0.085     1.816
+  ATE rot [deg]              1674     0.770     0.702     0.666     0.316     0.064     1.546
+  ATE trans Sim3 [m]         1674     0.793     0.681     0.586     0.406     0.109     1.801
+  RPE trans @10m [m]         1625     0.476     0.378     0.280     0.291     0.009     1.083
+  RPE rot @10m [deg]         1625     0.475     0.429     0.400     0.205     0.036     1.083
+  RPE trans @50m [m]         1342     1.109     0.917     0.733     0.624     0.098     2.547
+  RPE rot @50m [deg]         1342     0.738     0.652     0.633     0.346     0.024     1.703
+  RPE trans @100m [m]        1117     1.066     0.979     0.909     0.420     0.254     2.203
+  RPE rot @100m [deg]        1117     0.676     0.620     0.562     0.269     0.073     1.274
+
+OldTownWinter_P1001: gt 159.6 s / 260 m, estimate starts at 3.9 s, 1557 matched poses, path gt 249 m vs est 254 m, Sim3 scale 0.987
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1557     0.428     0.402     0.368     0.147     0.095     0.828
+  ATE rot [deg]              1557     1.002     0.820     0.577     0.576     0.026     2.100
+  ATE trans Sim3 [m]         1557     0.318     0.280     0.268     0.150     0.015     0.771
+  RPE trans @10m [m]         1515     0.219     0.183     0.144     0.119     0.014     0.645
+  RPE rot @10m [deg]         1515     0.475     0.387     0.321     0.275     0.042     1.912
+  RPE trans @50m [m]         1288     0.596     0.532     0.507     0.269     0.048     1.218
+  RPE rot @50m [deg]         1288     0.860     0.739     0.643     0.441     0.025     1.775
+  RPE trans @100m [m]         998     1.005     0.919     1.046     0.407     0.045     1.459
+  RPE rot @100m [deg]         998     0.968     0.842     0.702     0.477     0.107     1.994
+
+Prison_P1000: gt 454.2 s / 698 m, estimate starts at 6.9 s, 4473 matched poses, path gt 676 m vs est 681 m, Sim3 scale 1.005
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              4473     2.030     1.694     1.312     1.118     0.032     5.340
+  ATE rot [deg]              4473     1.727     1.499     1.466     0.857     0.045     5.760
+  ATE trans Sim3 [m]         4473     2.017     1.711     1.481     1.069     0.024     5.096
+  RPE trans @10m [m]         4435     0.447     0.305     0.222     0.327     0.010     3.555
+  RPE rot @10m [deg]         4435     0.701     0.504     0.412     0.488     0.030     6.171
+  RPE trans @50m [m]         4060     1.293     1.096     0.999     0.686     0.071     5.975
+  RPE rot @50m [deg]         4060     1.290     1.092     0.919     0.687     0.045     5.554
+  RPE trans @100m [m]        3521     2.023     1.849     1.793     0.819     0.464     7.976
+  RPE rot @100m [deg]        3521     1.833     1.532     1.372     1.006     0.100     5.865
+
+Prison_P1001: gt 249.0 s / 483 m, estimate starts at 2.6 s, 2464 matched poses, path gt 477 m vs est 489 m, Sim3 scale 0.983
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2464     1.066     0.978     0.950     0.423     0.216     2.153
+  ATE rot [deg]              2464     1.161     0.959     0.840     0.654     0.044     6.399
+  ATE trans Sim3 [m]         2464     0.847     0.720     0.694     0.446     0.041     2.115
+  RPE trans @10m [m]         2435     0.481     0.366     0.263     0.312     0.012     2.252
+  RPE rot @10m [deg]         2435     0.589     0.487     0.441     0.330     0.037     5.459
+  RPE trans @50m [m]         2277     1.161     1.002     0.951     0.586     0.066     3.512
+  RPE rot @50m [deg]         2277     1.150     1.035     1.018     0.503     0.084     6.728
+  RPE trans @100m [m]        2140     1.788     1.704     1.737     0.541     0.396     4.818
+  RPE rot @100m [deg]        2140     1.497     1.299     1.146     0.743     0.099     6.173
+
+Prison_P1002: gt 455.6 s / 748 m, estimate starts at 2.8 s, 4528 matched poses, path gt 744 m vs est 750 m, Sim3 scale 0.989
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              4528     2.140     1.863     1.504     1.052     0.161     4.475
+  ATE rot [deg]              4528     1.987     1.687     1.326     1.050     0.150     4.766
+  ATE trans Sim3 [m]         4528     2.081     1.785     1.540     1.070     0.184     4.563
+  RPE trans @10m [m]         4502     0.258     0.190     0.131     0.175     0.009     1.274
+  RPE rot @10m [deg]         4502     0.557     0.455     0.369     0.320     0.014     2.481
+  RPE trans @50m [m]         4311     0.868     0.674     0.516     0.547     0.020     2.466
+  RPE rot @50m [deg]         4311     0.942     0.817     0.714     0.469     0.062     2.326
+  RPE trans @100m [m]        3871     1.471     1.289     1.190     0.710     0.084     4.118
+  RPE rot @100m [deg]        3871     1.442     1.282     1.245     0.659     0.053     3.505
+
+Rome_P1000: gt 138.1 s / 136 m, estimate starts at 2.6 s, 1355 matched poses, path gt 131 m vs est 132 m, Sim3 scale 0.996
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1355     0.125     0.108     0.088     0.064     0.009     0.281
+  ATE rot [deg]              1355     0.382     0.331     0.296     0.191     0.021     1.085
+  ATE trans Sim3 [m]         1355     0.105     0.097     0.087     0.039     0.008     0.183
+  RPE trans @10m [m]         1312     0.117     0.095     0.079     0.068     0.013     0.286
+  RPE rot @10m [deg]         1312     0.397     0.349     0.300     0.190     0.016     1.222
+  RPE trans @50m [m]          957     0.257     0.226     0.206     0.122     0.022     0.517
+  RPE rot @50m [deg]          957     0.383     0.356     0.346     0.140     0.084     1.011
+  RPE trans @100m [m]         530     0.330     0.288     0.255     0.162     0.026     0.739
+  RPE rot @100m [deg]         530     0.486     0.445     0.454     0.195     0.046     0.845
+
+Rome_P1001: gt 144.7 s / 197 m, estimate starts at 2.6 s, 1421 matched poses, path gt 190 m vs est 190 m, Sim3 scale 0.996
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1421     0.265     0.186     0.110     0.189     0.024     1.295
+  ATE rot [deg]              1421     0.827     0.770     0.708     0.302     0.303     2.466
+  ATE trans Sim3 [m]         1421     0.258     0.178     0.100     0.187     0.031     1.310
+  RPE trans @10m [m]         1393     0.205     0.130     0.087     0.158     0.004     1.204
+  RPE rot @10m [deg]         1393     0.510     0.403     0.314     0.312     0.039     2.525
+  RPE trans @50m [m]         1227     0.378     0.299     0.247     0.231     0.008     1.638
+  RPE rot @50m [deg]         1227     0.946     0.775     0.660     0.543     0.018     2.863
+  RPE trans @100m [m]         801     0.673     0.633     0.580     0.229     0.197     1.407
+  RPE rot @100m [deg]         801     1.085     0.948     0.757     0.528     0.457     2.884
+
+SeasideTown_P1000: gt 103.7 s / 90 m, estimate starts at 2.6 s, 1011 matched poses, path gt 87 m vs est 94 m, Sim3 scale 0.924
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1011     0.884     0.730     0.546     0.499     0.115     2.401
+  ATE rot [deg]              1011     0.971     0.927     0.820     0.290     0.388     1.657
+  ATE trans Sim3 [m]         1011     0.439     0.415     0.387     0.144     0.123     0.861
+  RPE trans @10m [m]          907     0.694     0.599     0.548     0.352     0.030     1.293
+  RPE rot @10m [deg]          907     0.545     0.440     0.352     0.323     0.047     1.531
+  RPE trans @50m [m]          518     1.761     1.542     1.175     0.850     0.441     2.953
+  RPE rot @50m [deg]          518     0.728     0.701     0.684     0.196     0.249     1.175
+
+SeasideTown_P1001: gt 45.3 s / 77 m, estimate starts at 3.1 s, 422 matched poses, path gt 72 m vs est 72 m, Sim3 scale 1.004
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               422     0.205     0.162     0.105     0.127     0.017     0.593
+  ATE rot [deg]               422     0.602     0.582     0.569     0.154     0.300     1.191
+  ATE trans Sim3 [m]          422     0.201     0.162     0.112     0.119     0.012     0.527
+  RPE trans @10m [m]          362     0.202     0.164     0.124     0.119     0.013     0.575
+  RPE rot @10m [deg]          362     0.396     0.355     0.339     0.175     0.028     1.087
+  RPE trans @50m [m]          173     0.431     0.411     0.402     0.129     0.232     0.724
+  RPE rot @50m [deg]          173     0.455     0.403     0.379     0.211     0.043     1.055
+
+SeasonalForestAutumn_P1000: gt 137.5 s / 442 m, estimate starts at 2.6 s, 1349 matched poses, path gt 437 m vs est 442 m, Sim3 scale 0.996
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1349     1.420     1.288     1.267     0.599     0.327     3.572
+  ATE rot [deg]              1349     1.323     1.161     0.974     0.634     0.217     2.357
+  ATE trans Sim3 [m]         1349     1.389     1.250     1.200     0.605     0.279     3.373
+  RPE trans @10m [m]         1325     0.441     0.341     0.247     0.280     0.003     1.270
+  RPE rot @10m [deg]         1325     0.456     0.389     0.339     0.239     0.026     1.286
+  RPE trans @50m [m]         1245     1.175     0.980     0.758     0.649     0.118     2.708
+  RPE rot @50m [deg]         1245     0.930     0.769     0.627     0.523     0.028     2.447
+  RPE trans @100m [m]        1068     1.607     1.386     1.187     0.814     0.159     3.682
+  RPE rot @100m [deg]        1068     1.312     1.084     0.745     0.740     0.071     2.634
+
+SeasonalForestAutumn_P1001: gt 226.5 s / 442 m, estimate starts at 3.3 s, 2232 matched poses, path gt 435 m vs est 71978 m, Sim3 scale 0.003
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2232 20645.857 18041.481 18029.256 10037.748  3360.715 47064.406
+  ATE rot [deg]              2232    94.522    94.306    92.120     6.377    85.371   107.136
+  ATE trans Sim3 [m]         2232    39.727    34.027    30.015    20.503     2.738    99.991
+  RPE trans @10m [m]         2168  3055.455  2245.510  1160.572  2072.074     3.871  6788.755
+  RPE rot @10m [deg]         2168     3.621     3.180     2.794     1.732     0.614     8.478
+  RPE trans @50m [m]         1914 12887.269  9734.743  5208.413  8444.909   130.002 22940.934
+  RPE rot @50m [deg]         1914    12.282    11.312    10.201     4.783     3.152    21.094
+  RPE trans @100m [m]        1520 21249.762 15912.412 10200.399 14083.591   547.524 43612.972
+  RPE rot @100m [deg]        1520    19.619    18.138    15.620     7.477     8.612    35.180
+
+SeasonalForestAutumn_P1002: gt 53.0 s / 173 m, estimate starts at 2.6 s, 504 matched poses, path gt 165 m vs est 166 m, Sim3 scale 1.010
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               504     0.589     0.526     0.449     0.264     0.133     1.415
+  ATE rot [deg]               504     0.889     0.819     0.766     0.345     0.266     1.828
+  ATE trans Sim3 [m]          504     0.485     0.414     0.342     0.252     0.072     1.353
+  RPE trans @10m [m]          472     0.304     0.236     0.211     0.191     0.019     1.009
+  RPE rot @10m [deg]          472     0.387     0.350     0.331     0.165     0.040     1.042
+  RPE trans @50m [m]          389     0.814     0.697     0.736     0.420     0.061     1.590
+  RPE rot @50m [deg]          389     0.890     0.831     0.849     0.321     0.226     1.597
+  RPE trans @100m [m]         285     1.474     1.434     1.414     0.340     0.786     2.049
+  RPE rot @100m [deg]         285     1.629     1.588     1.506     0.360     0.881     2.076
+
+SeasonalForestSpring_P1000: gt 482.6 s / 1135 m, estimate starts at 2.6 s, 4800 matched poses, path gt 1133 m vs est 1157 m, Sim3 scale 1.017
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              4800     4.204     3.966     4.146     1.394     1.020     7.045
+  ATE rot [deg]              4800     1.348     1.190     1.079     0.634     0.081     2.631
+  ATE trans Sim3 [m]         4800     3.761     3.481     3.296     1.424     0.480     8.174
+  RPE trans @10m [m]         4777     0.646     0.474     0.316     0.439     0.011     2.548
+  RPE rot @10m [deg]         4777     0.484     0.389     0.317     0.289     0.013     1.855
+  RPE trans @50m [m]         4671     1.831     1.437     1.101     1.135     0.071     7.219
+  RPE rot @50m [deg]         4671     0.750     0.637     0.548     0.395     0.034     2.085
+  RPE trans @100m [m]        4482     2.607     2.206     1.971     1.389     0.130     7.177
+  RPE rot @100m [deg]        4482     1.018     0.860     0.675     0.545     0.055     2.411
+
+SeasonalForestSpring_P1001: gt 227.2 s / 664 m, estimate starts at 3.0 s, 2242 matched poses, path gt 655 m vs est 665 m, Sim3 scale 0.985
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2242     2.746     2.345     1.879     1.428     0.319     7.072
+  ATE rot [deg]              2242     1.552     1.343     1.178     0.778     0.071     3.338
+  ATE trans Sim3 [m]         2242     2.382     2.002     1.839     1.290     0.104     6.288
+  RPE trans @10m [m]         2220     0.447     0.334     0.243     0.297     0.010     1.524
+  RPE rot @10m [deg]         2220     0.609     0.444     0.312     0.417     0.030     3.540
+  RPE trans @50m [m]         2080     1.100     0.928     0.764     0.590     0.026     3.325
+  RPE rot @50m [deg]         2080     0.818     0.664     0.542     0.478     0.015     3.368
+  RPE trans @100m [m]        1932     1.823     1.548     1.129     0.962     0.045     4.608
+  RPE rot @100m [deg]        1932     1.144     0.982     0.849     0.587     0.154     3.476
+
+SeasonalForestSpring_P1002: gt 145.6 s / 161 m, estimate starts at 2.7 s, 1429 matched poses, path gt 156 m vs est 158 m, Sim3 scale 0.992
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1429     0.377     0.303     0.234     0.223     0.051     1.289
+  ATE rot [deg]              1429     0.554     0.452     0.364     0.322     0.023     1.935
+  ATE trans Sim3 [m]         1429     0.214     0.182     0.151     0.113     0.026     0.709
+  RPE trans @10m [m]         1385     0.157     0.139     0.124     0.072     0.013     0.384
+  RPE rot @10m [deg]         1385     0.478     0.403     0.330     0.257     0.044     1.530
+  RPE trans @50m [m]         1231     0.665     0.602     0.676     0.283     0.026     1.142
+  RPE rot @50m [deg]         1231     0.918     0.764     0.582     0.509     0.122     2.085
+  RPE trans @100m [m]         719     1.090     1.023     1.135     0.375     0.363     1.648
+  RPE rot @100m [deg]         719     1.121     0.964     1.019     0.571     0.100     2.024
+
+SeasonalForestSummerNight_P1000: gt 397.7 s / 731 m, estimate starts at 2.6 s, 3951 matched poses, path gt 727 m vs est 742 m, Sim3 scale 0.989
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3951     1.608     1.528     1.498     0.500     0.441     2.917
+  ATE rot [deg]              3951     0.715     0.615     0.540     0.366     0.036     1.729
+  ATE trans Sim3 [m]         3951     0.911     0.817     0.771     0.403     0.090     2.013
+  RPE trans @10m [m]         3759     0.349     0.274     0.215     0.216     0.005     1.234
+  RPE rot @10m [deg]         3759     0.426     0.358     0.309     0.231     0.009     1.706
+  RPE trans @50m [m]         3370     0.980     0.866     0.778     0.458     0.076     2.102
+  RPE rot @50m [deg]         3370     0.669     0.599     0.566     0.298     0.016     1.621
+  RPE trans @100m [m]        3103     1.690     1.521     1.518     0.737     0.147     3.255
+  RPE rot @100m [deg]        3103     0.883     0.740     0.630     0.483     0.028     2.222
+
+SeasonalForestSummerNight_P1001: gt 293.0 s / 938 m, estimate starts at 2.7 s, 2903 matched poses, path gt 932 m vs est 934 m, Sim3 scale 1.004
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2903     0.990     0.860     0.737     0.490     0.234     2.310
+  ATE rot [deg]              2903     0.707     0.638     0.568     0.306     0.053     1.495
+  ATE trans Sim3 [m]         2903     0.891     0.713     0.534     0.534     0.057     2.328
+  RPE trans @10m [m]         2884     0.204     0.168     0.138     0.115     0.007     0.703
+  RPE rot @10m [deg]         2884     0.380     0.309     0.265     0.221     0.019     1.927
+  RPE trans @50m [m]         2810     0.462     0.416     0.399     0.200     0.031     1.369
+  RPE rot @50m [deg]         2810     0.526     0.479     0.447     0.218     0.039     1.396
+  RPE trans @100m [m]        2716     0.698     0.620     0.616     0.321     0.029     2.428
+  RPE rot @100m [deg]        2716     0.573     0.512     0.454     0.257     0.030     1.543
+
+SeasonalForestSummerNight_P1002: gt 171.3 s / 464 m, estimate starts at 4.3 s, 1670 matched poses, path gt 456 m vs est 456 m, Sim3 scale 1.005
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1670     0.517     0.467     0.427     0.221     0.098     0.961
+  ATE rot [deg]              1670     0.651     0.576     0.504     0.302     0.071     1.983
+  ATE trans Sim3 [m]         1670     0.306     0.272     0.256     0.140     0.015     0.872
+  RPE trans @10m [m]         1643     0.162     0.137     0.117     0.087     0.011     0.489
+  RPE rot @10m [deg]         1643     0.431     0.340     0.272     0.265     0.021     1.893
+  RPE trans @50m [m]         1541     0.452     0.389     0.335     0.229     0.027     1.235
+  RPE rot @50m [deg]         1541     0.549     0.480     0.430     0.266     0.083     1.835
+  RPE trans @100m [m]        1408     0.860     0.749     0.710     0.424     0.050     2.512
+  RPE rot @100m [deg]        1408     0.760     0.687     0.641     0.326     0.078     1.875
+
+SeasonalForestWinterNight_P1000: gt 324.7 s / 697 m, estimate starts at 2.6 s, 3221 matched poses, path gt 684 m vs est 686 m, Sim3 scale 1.007
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3221     0.967     0.803     0.670     0.539     0.142     3.044
+  ATE rot [deg]              3221     1.004     0.888     0.759     0.469     0.079     4.006
+  ATE trans Sim3 [m]         3221     0.842     0.721     0.588     0.434     0.124     2.613
+  RPE trans @10m [m]         3198     0.333     0.254     0.193     0.215     0.010     1.192
+  RPE rot @10m [deg]         3198     0.728     0.530     0.392     0.500     0.020     4.429
+  RPE trans @50m [m]         3126     0.800     0.707     0.651     0.373     0.021     3.825
+  RPE rot @50m [deg]         3126     1.265     1.062     0.878     0.687     0.028     4.506
+  RPE trans @100m [m]        3024     1.294     1.147     1.021     0.599     0.120     7.263
+  RPE rot @100m [deg]        3024     1.184     1.006     0.912     0.623     0.025     4.279
+
+SeasonalForestWinterNight_P1001: gt 225.6 s / 394 m, estimate starts at 2.6 s, 2230 matched poses, path gt 386 m vs est 388 m, Sim3 scale 1.002
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2230     0.646     0.596     0.579     0.251     0.054     1.412
+  ATE rot [deg]              2230     1.077     0.946     0.889     0.515     0.045     2.183
+  ATE trans Sim3 [m]         2230     0.620     0.577     0.571     0.227     0.019     1.309
+  RPE trans @10m [m]         2197     0.219     0.184     0.152     0.119     0.003     0.576
+  RPE rot @10m [deg]         2197     0.656     0.549     0.443     0.359     0.015     2.112
+  RPE trans @50m [m]         2037     0.769     0.722     0.748     0.267     0.034     1.495
+  RPE rot @50m [deg]         2037     1.060     0.997     1.052     0.360     0.104     2.041
+  RPE trans @100m [m]        1664     1.632     1.469     1.345     0.710     0.307     3.654
+  RPE rot @100m [deg]        1664     1.532     1.357     1.259     0.713     0.080     2.844
+
+SeasonalForestWinterNight_P1002: gt 328.0 s / 703 m, estimate starts at 3.8 s, 3242 matched poses, path gt 698 m vs est 708 m, Sim3 scale 0.988
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3242     2.205     2.021     1.892     0.883     0.571     5.316
+  ATE rot [deg]              3242     1.306     1.189     1.046     0.538     0.255     2.524
+  ATE trans Sim3 [m]         3242     1.988     1.786     1.630     0.873     0.173     5.649
+  RPE trans @10m [m]         3211     1.076     0.678     0.350     0.836     0.011     3.789
+  RPE rot @10m [deg]         3211     0.583     0.503     0.449     0.296     0.017     1.836
+  RPE trans @50m [m]         2834     1.938     1.446     1.014     1.290     0.013     7.263
+  RPE rot @50m [deg]         2834     1.191     1.025     0.867     0.607     0.057     2.648
+  RPE trans @100m [m]        2557     2.317     2.094     2.046     0.992     0.103     4.327
+  RPE rot @100m [deg]        2557     1.287     1.170     1.158     0.536     0.142     2.598
+
+SeasonalForestWinter_P1000: gt 133.6 s / 227 m, estimate starts at 2.6 s, 1310 matched poses, path gt 224 m vs est 237 m, Sim3 scale 0.940
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1310     3.477     3.168     2.471     1.433     0.746     7.114
+  ATE rot [deg]              1310     1.170     0.989     0.811     0.625     0.056     2.323
+  ATE trans Sim3 [m]         1310     1.101     0.941     0.774     0.572     0.230     2.388
+  RPE trans @10m [m]         1227     0.760     0.548     0.428     0.527     0.035     3.867
+  RPE rot @10m [deg]         1227     0.451     0.397     0.364     0.214     0.050     1.101
+  RPE trans @50m [m]         1058     2.837     2.357     1.840     1.579     0.477     7.120
+  RPE rot @50m [deg]         1058     0.823     0.746     0.719     0.349     0.150     1.770
+  RPE trans @100m [m]         923     5.138     4.791     4.602     1.856     2.210     8.636
+  RPE rot @100m [deg]         923     1.196     1.146     1.206     0.340     0.448     1.815
+
+SeasonalForestWinter_P1001: gt 387.4 s / 693 m, estimate starts at 3.2 s, 3842 matched poses, path gt 690 m vs est 723 m, Sim3 scale 0.979
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              3842     8.384     6.951     5.842     4.687     0.319    16.887
+  ATE rot [deg]              3842     3.974     3.829     3.674     1.063     0.732     6.513
+  ATE trans Sim3 [m]         3842     8.090     6.562     4.863     4.732     0.646    17.763
+  RPE trans @10m [m]         3821     1.051     0.694     0.335     0.789     0.013     4.537
+  RPE rot @10m [deg]         3821     1.137     0.794     0.594     0.814     0.047     5.213
+  RPE trans @50m [m]         3718     4.190     3.031     1.320     2.892     0.070    12.354
+  RPE rot @50m [deg]         3718     2.377     1.696     1.170     1.666     0.076     7.883
+  RPE trans @100m [m]        3622     7.079     5.554     3.244     4.389     0.385    14.311
+  RPE rot @100m [deg]        3622     2.907     2.212     1.677     1.886     0.104     7.541
+
+SeasonalForestWinter_P1002: gt 148.2 s / 389 m, estimate starts at 2.6 s, 1456 matched poses, path gt 386 m vs est 386 m, Sim3 scale 0.999
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1456     0.438     0.403     0.384     0.172     0.159     0.965
+  ATE rot [deg]              1456     0.877     0.788     0.693     0.384     0.113     1.654
+  ATE trans Sim3 [m]         1456     0.436     0.398     0.388     0.177     0.140     0.951
+  RPE trans @10m [m]         1435     0.228     0.159     0.117     0.163     0.006     1.473
+  RPE rot @10m [deg]         1435     0.392     0.355     0.347     0.167     0.026     0.890
+  RPE trans @50m [m]         1334     0.531     0.449     0.353     0.284     0.061     1.538
+  RPE rot @50m [deg]         1334     0.575     0.523     0.501     0.238     0.039     1.164
+  RPE trans @100m [m]        1171     0.785     0.657     0.517     0.430     0.091     1.871
+  RPE rot @100m [deg]        1171     0.846     0.780     0.769     0.326     0.016     1.458
+
+Sewerage_P1000: gt 112.1 s / 122 m, estimate starts at 2.6 s, 1095 matched poses, path gt 116 m vs est 117 m, Sim3 scale 1.012
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1095     0.477     0.450     0.455     0.158     0.048     0.741
+  ATE rot [deg]              1095     1.857     1.730     1.686     0.676     0.145     2.960
+  ATE trans Sim3 [m]         1095     0.458     0.437     0.452     0.138     0.077     0.722
+  RPE trans @10m [m]         1027     0.211     0.169     0.141     0.127     0.007     0.498
+  RPE rot @10m [deg]         1027     1.411     1.054     0.557     0.938     0.057     3.283
+  RPE trans @50m [m]          732     0.908     0.845     0.797     0.332     0.070     1.350
+  RPE rot @50m [deg]          732     3.441     3.320     3.510     0.906     0.362     5.163
+  RPE trans @100m [m]         217     1.069     0.980     0.777     0.427     0.539     1.874
+  RPE rot @100m [deg]         217     1.541     1.225     0.953     0.935     0.078     3.210
+
+Sewerage_P1001: gt 55.2 s / 64 m, estimate starts at 2.6 s, 526 matched poses, path gt 60 m vs est 60 m, Sim3 scale 0.997
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               526     0.115     0.103     0.111     0.051     0.018     0.297
+  ATE rot [deg]               526     1.373     1.174     1.306     0.713     0.088     2.202
+  ATE trans Sim3 [m]          526     0.112     0.102     0.109     0.045     0.018     0.271
+  RPE trans @10m [m]          428     0.110     0.094     0.080     0.056     0.006     0.242
+  RPE rot @10m [deg]          428     0.690     0.539     0.429     0.430     0.036     1.924
+  RPE trans @50m [m]          102     0.286     0.280     0.259     0.062     0.119     0.372
+  RPE rot @50m [deg]          102     1.950     1.927     1.899     0.300     1.477     2.507
+
+Sewerage_P1002: gt 56.1 s / 74 m, estimate starts at 4.4 s, 517 matched poses, path gt 66 m vs est 67 m, Sim3 scale 1.007
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               517     0.234     0.214     0.188     0.094     0.054     0.593
+  ATE rot [deg]               517     1.241     1.089     0.907     0.595     0.207     2.493
+  ATE trans Sim3 [m]          517     0.224     0.207     0.185     0.087     0.019     0.539
+  RPE trans @10m [m]          457     0.231     0.209     0.185     0.098     0.077     0.510
+  RPE rot @10m [deg]          457     1.159     1.042     0.950     0.506     0.101     2.943
+  RPE trans @50m [m]          133     0.692     0.677     0.701     0.141     0.382     0.921
+  RPE rot @50m [deg]          133     0.901     0.845     0.764     0.315     0.264     1.934
+
+Supermarket_P1000: gt 132.9 s / 150 m, estimate starts at 21.1 s, 1118 matched poses, path gt 133 m vs est 136 m, Sim3 scale 0.977
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1118     0.401     0.342     0.297     0.208     0.016     0.995
+  ATE rot [deg]              1118     1.580     1.478     1.416     0.559     0.507     2.858
+  ATE trans Sim3 [m]         1118     0.302     0.264     0.241     0.146     0.050     0.875
+  RPE trans @10m [m]         1046     0.273     0.219     0.187     0.163     0.035     0.954
+  RPE rot @10m [deg]         1046     0.627     0.569     0.545     0.264     0.037     1.517
+  RPE trans @50m [m]          812     0.653     0.586     0.459     0.289     0.146     1.216
+  RPE rot @50m [deg]          812     0.956     0.840     0.757     0.457     0.045     1.948
+  RPE trans @100m [m]         385     1.304     1.276     1.341     0.269     0.568     1.668
+  RPE rot @100m [deg]         385     1.369     1.205     1.308     0.649     0.196     2.359
+
+Supermarket_P1001: gt 111.7 s / 131 m, estimate starts at 2.6 s, 1091 matched poses, path gt 128 m vs est 132 m, Sim3 scale 0.961
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              1091     0.722     0.677     0.630     0.251     0.281     1.218
+  ATE rot [deg]              1091     1.107     0.910     0.713     0.631     0.155     3.807
+  ATE trans Sim3 [m]         1091     0.447     0.414     0.434     0.168     0.088     1.009
+  RPE trans @10m [m]         1004     0.517     0.368     0.206     0.363     0.023     1.353
+  RPE rot @10m [deg]         1004     0.800     0.659     0.574     0.454     0.011     3.167
+  RPE trans @50m [m]          597     1.017     0.917     0.781     0.439     0.382     1.599
+  RPE rot @50m [deg]          597     1.151     0.974     0.909     0.613     0.066     3.498
+  RPE trans @100m [m]         276     1.488     1.462     1.403     0.276     1.107     2.349
+  RPE rot @100m [deg]         276     1.519     1.122     0.694     1.024     0.056     3.970
+
+Supermarket_P1002: gt 95.7 s / 139 m, estimate starts at 2.6 s, 931 matched poses, path gt 133 m vs est 135 m, Sim3 scale 0.993
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               931     0.165     0.133     0.110     0.097     0.018     0.529
+  ATE rot [deg]               931     0.548     0.475     0.406     0.273     0.087     1.892
+  ATE trans Sim3 [m]          931     0.139     0.107     0.080     0.088     0.009     0.428
+  RPE trans @10m [m]          882     0.160     0.111     0.068     0.115     0.008     0.555
+  RPE rot @10m [deg]          882     0.586     0.498     0.461     0.307     0.021     2.242
+  RPE trans @50m [m]          560     0.272     0.251     0.242     0.106     0.025     0.580
+  RPE rot @50m [deg]          560     0.712     0.624     0.506     0.344     0.078     1.484
+  RPE trans @100m [m]         275     0.457     0.407     0.354     0.208     0.094     1.092
+  RPE rot @100m [deg]         275     1.152     1.058     1.061     0.458     0.099     2.465
+
+UrbanConstruction_P1000: gt 218.6 s / 407 m, estimate starts at 2.6 s, 2160 matched poses, path gt 401 m vs est 403 m, Sim3 scale 0.998
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2160     0.473     0.329     0.231     0.340     0.075     1.965
+  ATE rot [deg]              2160     1.171     0.865     0.667     0.789     0.055     8.256
+  ATE trans Sim3 [m]         2160     0.466     0.328     0.249     0.330     0.035     1.938
+  RPE trans @10m [m]         2126     0.179     0.101     0.064     0.148     0.001     1.390
+  RPE rot @10m [deg]         2126     0.759     0.414     0.300     0.636     0.024     8.911
+  RPE trans @50m [m]         1905     0.388     0.297     0.226     0.250     0.031     1.980
+  RPE rot @50m [deg]         1905     0.903     0.681     0.547     0.592     0.025     7.780
+  RPE trans @100m [m]        1609     0.690     0.555     0.465     0.410     0.004     4.300
+  RPE rot @100m [deg]        1609     1.154     0.923     0.912     0.693     0.088     8.074
+
+UrbanConstruction_P1001: gt 236.8 s / 356 m, estimate starts at 8.7 s, 2281 matched poses, path gt 348 m vs est 350 m, Sim3 scale 0.996
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2281     0.273     0.260     0.261     0.083     0.025     0.448
+  ATE rot [deg]              2281     0.633     0.583     0.583     0.247     0.053     1.342
+  ATE trans Sim3 [m]         2281     0.210     0.188     0.176     0.095     0.024     0.414
+  RPE trans @10m [m]         2248     0.124     0.094     0.066     0.081     0.008     0.530
+  RPE rot @10m [deg]         2248     0.315     0.279     0.258     0.147     0.006     0.759
+  RPE trans @50m [m]         2114     0.424     0.343     0.265     0.250     0.013     0.969
+  RPE rot @50m [deg]         2114     0.676     0.578     0.468     0.350     0.018     1.645
+  RPE trans @100m [m]        1909     0.573     0.525     0.529     0.231     0.062     1.206
+  RPE rot @100m [deg]        1909     0.801     0.726     0.720     0.339     0.040     1.750
+
+UrbanConstruction_P1002: gt 234.7 s / 330 m, estimate starts at 2.6 s, 2321 matched poses, path gt 326 m vs est 326 m, Sim3 scale 0.998
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2321     0.479     0.328     0.192     0.350     0.088     1.538
+  ATE rot [deg]              2321     1.160     0.860     0.380     0.779     0.011     2.926
+  ATE trans Sim3 [m]         2321     0.475     0.330     0.201     0.342     0.059     1.510
+  RPE trans @10m [m]         2268     0.089     0.077     0.064     0.045     0.005     0.221
+  RPE rot @10m [deg]         2268     0.373     0.302     0.231     0.219     0.023     1.198
+  RPE trans @50m [m]         1821     0.377     0.293     0.201     0.236     0.011     1.054
+  RPE rot @50m [deg]         1821     0.764     0.617     0.468     0.450     0.028     1.991
+  RPE trans @100m [m]        1562     0.858     0.714     0.504     0.476     0.086     1.780
+  RPE rot @100m [deg]        1562     1.225     1.048     0.841     0.634     0.081     2.368
+
+WaterMillDay_P1000: gt 83.8 s / 60 m, estimate starts at 2.8 s, 810 matched poses, path gt 57 m vs est 134 m, Sim3 scale 0.313
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               810    16.611    15.172    13.742     6.763     3.903    35.271
+  ATE rot [deg]               810    14.923    14.814    14.318     1.802    13.035    20.263
+  ATE trans Sim3 [m]          810     4.567     3.864     3.473     2.435     0.102    10.598
+  RPE trans @10m [m]          720    18.482    15.772    18.814     9.635     0.128    29.039
+  RPE rot @10m [deg]          720     2.495     1.896     1.126     1.622     0.149     5.437
+  RPE trans @50m [m]          131    37.338    37.323    37.046     1.058    36.216    39.728
+  RPE rot @50m [deg]          131     5.678     5.610     5.526     0.875     4.428     7.029
+
+WaterMillDay_P1001: gt 67.3 s / 66 m, estimate starts at 3.7 s, 636 matched poses, path gt 63 m vs est 65 m, Sim3 scale 0.976
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               636     0.231     0.220     0.218     0.070     0.065     0.404
+  ATE rot [deg]               636     0.455     0.389     0.309     0.237     0.032     1.116
+  ATE trans Sim3 [m]          636     0.104     0.097     0.090     0.040     0.016     0.313
+  RPE trans @10m [m]          543     0.207     0.188     0.184     0.087     0.041     0.394
+  RPE rot @10m [deg]          543     0.532     0.462     0.405     0.263     0.031     1.056
+  RPE trans @50m [m]          163     0.537     0.531     0.569     0.082     0.259     0.620
+  RPE rot @50m [deg]          163     0.542     0.524     0.518     0.141     0.275     0.827
+
+WaterMillDay_P1002: gt 71.5 s / 66 m, estimate starts at 2.6 s, 689 matched poses, path gt 63 m vs est 65 m, Sim3 scale 0.945
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               689     0.500     0.456     0.426     0.206     0.023     0.893
+  ATE rot [deg]               689     0.518     0.432     0.320     0.287     0.051     1.315
+  ATE trans Sim3 [m]          689     0.168     0.140     0.126     0.092     0.023     0.493
+  RPE trans @10m [m]          595     0.358     0.307     0.273     0.185     0.035     0.848
+  RPE rot @10m [deg]          595     0.535     0.461     0.393     0.271     0.061     1.324
+  RPE trans @50m [m]          176     1.060     1.053     1.025     0.128     0.872     1.322
+  RPE rot @50m [deg]          176     0.883     0.842     0.870     0.267     0.275     1.221
+
+WaterMillNight_P1000: gt 207.2 s / 180 m, estimate starts at 3.4 s, 2038 matched poses, path gt 174 m vs est 178 m, Sim3 scale 0.981
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]              2038     0.741     0.639     0.562     0.375     0.049     1.420
+  ATE rot [deg]              2038     1.327     1.209     1.182     0.547     0.111     2.403
+  ATE trans Sim3 [m]         2038     0.700     0.633     0.602     0.299     0.094     1.303
+  RPE trans @10m [m]         1973     0.266     0.222     0.173     0.146     0.009     0.656
+  RPE rot @10m [deg]         1973     0.914     0.710     0.476     0.577     0.023     2.624
+  RPE trans @50m [m]         1581     0.727     0.700     0.718     0.198     0.142     1.128
+  RPE rot @50m [deg]         1581     1.680     1.409     1.122     0.916     0.077     3.358
+  RPE trans @100m [m]        1072     1.375     1.302     1.197     0.440     0.630     2.171
+  RPE rot @100m [deg]        1072     2.468     2.310     2.240     0.870     0.041     3.846
+
+WaterMillNight_P1001: gt 73.4 s / 103 m, estimate starts at 2.6 s, 708 matched poses, path gt 99 m vs est 101 m, Sim3 scale 0.986
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               708     0.246     0.193     0.135     0.153     0.024     0.803
+  ATE rot [deg]               708     0.764     0.725     0.683     0.243     0.205     1.386
+  ATE trans Sim3 [m]          708     0.197     0.167     0.131     0.105     0.015     0.562
+  RPE trans @10m [m]          592     0.273     0.206     0.117     0.178     0.005     0.708
+  RPE rot @10m [deg]          592     0.497     0.431     0.372     0.247     0.033     1.284
+  RPE trans @50m [m]          360     0.398     0.357     0.348     0.176     0.101     0.910
+  RPE rot @50m [deg]          360     0.834     0.781     0.778     0.293     0.192     1.565
+  RPE trans @100m [m]          60     0.578     0.571     0.549     0.089     0.450     0.770
+  RPE rot @100m [deg]          60     0.536     0.507     0.500     0.173     0.123     0.931
+
+WaterMillNight_P1002: gt 67.9 s / 77 m, estimate starts at 2.9 s, 650 matched poses, path gt 77 m vs est 211 m, Sim3 scale 0.297
+  metric                    pairs      rmse      mean    median       std       min       max
+  ATE trans [m]               650    17.671    15.720    16.154     8.071     2.884    37.249
+  ATE rot [deg]               650   160.393   160.390   160.510     0.941   158.657   163.654
+  ATE trans Sim3 [m]          650     5.572     5.066     4.784     2.320     0.569    10.554
+  RPE trans @10m [m]          522    17.416    15.501    16.169     7.940     1.072    37.530
+  RPE rot @10m [deg]          522     6.064     5.693     5.820     2.090     1.159     9.466
+  RPE trans @50m [m]          247    29.772    26.457    25.227    13.653     3.171    51.019
+  RPE rot @50m [deg]          247    10.376     8.927     8.224     5.288     2.366    20.237
+
+saved /home/efe/coding/VIO/open_vins_ws/results/tartanground/evo_results.csv

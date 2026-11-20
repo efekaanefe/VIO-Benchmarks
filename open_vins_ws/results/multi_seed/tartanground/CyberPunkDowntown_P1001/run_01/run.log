@@ -1,0 +1,12 @@
+sequence: CyberPunkDowntown_P1001
+run: 1
+seed: 0
+status: OK
+frames: 1977
+poses: 1977
+time_s: 53.9
+fps: 43.54
+frame_ms_mean: 22.97
+frame_ms_max: 73.00
+finished: 2026-10-24 06:13:37
+config: tartanground_diff

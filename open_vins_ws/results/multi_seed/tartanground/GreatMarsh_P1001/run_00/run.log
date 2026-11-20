@@ -1,0 +1,13 @@
+sequence: GreatMarsh_P1001
+run: 0
+seed: 0
+status: OK
+frames: 5844
+poses: 5844
+time_s: 232.0
+fps: 31.23
+frame_ms_mean: 32.02
+frame_ms_max: 78.70
+finished: 2026-10-20 11:52:03
+config: tartanground_diff
+imported_from: results/tartanground/GreatMarsh_P1001 (run_tartanground.sh)

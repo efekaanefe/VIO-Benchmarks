@@ -1,0 +1,12 @@
+sequence: AbandonedFactory2_P1000
+run: 4
+seed: 0
+status: OK
+frames: 837
+poses: 837
+time_s: 23.0
+fps: 48.47
+frame_ms_mean: 20.63
+frame_ms_max: 67.10
+finished: 2026-10-24 04:51:50
+config: tartanground_diff

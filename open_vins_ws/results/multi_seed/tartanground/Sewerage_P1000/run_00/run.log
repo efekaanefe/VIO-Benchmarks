@@ -1,0 +1,13 @@
+sequence: Sewerage_P1000
+run: 0
+seed: 0
+status: OK
+frames: 1095
+poses: 1095
+time_s: 30.0
+fps: 46.09
+frame_ms_mean: 21.70
+frame_ms_max: 67.15
+finished: 2026-10-20 14:09:39
+config: tartanground_diff
+imported_from: results/tartanground/Sewerage_P1000 (run_tartanground.sh)

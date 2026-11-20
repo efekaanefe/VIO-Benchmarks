@@ -1,0 +1,25 @@
+# catkin and container state
+/build/
+/devel/
+/logs/
+/install/
+/.catkin_tools/
+/.home/*
+!/.home/.bashrc
+/tmp_bags/
+__pycache__/
+*.pyc
+*.bag
+
+# large raw outputs; the TUM trajectories, run.log summaries and metrics stay
+results/**/estimator.log
+results/**/traj_estimate.txt
+!results/kitti_repeat/**/traj_estimate.txt
+results/**/traj_timing.txt
+!results/kitti/*/traj_timing.txt
+results/*/*/run.log
+results/kitti_repeat/**/run.log
+results/kitti_mle_iter200/
+results/tartanground/*/traj_estimate_tum.txt
+results/tartanground/*/groundtruth_tum.txt
+results/multi_seed/tartanground/*/*_traj.png

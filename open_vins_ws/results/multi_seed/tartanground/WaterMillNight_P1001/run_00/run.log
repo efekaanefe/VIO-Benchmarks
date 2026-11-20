@@ -1,0 +1,13 @@
+sequence: WaterMillNight_P1001
+run: 0
+seed: 0
+status: OK
+frames: 708
+poses: 708
+time_s: 19.0
+fps: 52.45
+frame_ms_mean: 19.07
+frame_ms_max: 50.94
+finished: 2026-10-20 14:24:19
+config: tartanground_diff
+imported_from: results/tartanground/WaterMillNight_P1001 (run_tartanground.sh)

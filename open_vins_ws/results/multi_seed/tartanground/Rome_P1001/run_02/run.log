@@ -1,0 +1,12 @@
+sequence: Rome_P1001
+run: 2
+seed: 0
+status: OK
+frames: 1421
+poses: 1421
+time_s: 39.3
+fps: 44.79
+frame_ms_mean: 22.33
+frame_ms_max: 69.95
+finished: 2026-10-24 11:48:01
+config: tartanground_diff

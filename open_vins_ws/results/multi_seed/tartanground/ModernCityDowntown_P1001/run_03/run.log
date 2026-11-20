@@ -1,0 +1,12 @@
+sequence: ModernCityDowntown_P1001
+run: 3
+seed: 0
+status: OK
+frames: 1829
+poses: 1829
+time_s: 44.7
+fps: 51.26
+frame_ms_mean: 19.51
+frame_ms_max: 69.26
+finished: 2026-10-24 09:04:41
+config: tartanground_diff

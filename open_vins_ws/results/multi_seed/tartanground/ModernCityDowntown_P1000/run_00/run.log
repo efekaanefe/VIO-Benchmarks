@@ -1,0 +1,13 @@
+sequence: ModernCityDowntown_P1000
+run: 0
+seed: 0
+status: OK
+frames: 1712
+poses: 1712
+time_s: 42.0
+fps: 52.36
+frame_ms_mean: 19.10
+frame_ms_max: 75.56
+finished: 2026-10-20 12:20:01
+config: tartanground_diff
+imported_from: results/tartanground/ModernCityDowntown_P1000 (run_tartanground.sh)

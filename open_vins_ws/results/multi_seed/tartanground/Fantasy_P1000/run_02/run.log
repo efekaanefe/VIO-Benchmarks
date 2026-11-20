@@ -1,0 +1,12 @@
+sequence: Fantasy_P1000
+run: 2
+seed: 0
+status: OK
+frames: 1565
+poses: 1565
+time_s: 38.3
+fps: 51.08
+frame_ms_mean: 19.58
+frame_ms_max: 70.88
+finished: 2026-10-24 06:39:35
+config: tartanground_diff

@@ -1,0 +1,12 @@
+sequence: Hospital_P1000
+run: 1
+seed: 0
+status: OK
+frames: 3150
+poses: 3150
+time_s: 77.8
+fps: 47.57
+frame_ms_mean: 21.02
+frame_ms_max: 74.39
+finished: 2026-10-24 08:10:50
+config: tartanground_diff

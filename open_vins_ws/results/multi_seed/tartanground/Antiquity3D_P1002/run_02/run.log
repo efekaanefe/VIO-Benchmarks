@@ -1,0 +1,12 @@
+sequence: Antiquity3D_P1002
+run: 2
+seed: 0
+status: OK
+frames: 2041
+poses: 2041
+time_s: 49.3
+fps: 50.69
+frame_ms_mean: 19.73
+frame_ms_max: 70.88
+finished: 2026-10-24 05:23:53
+config: tartanground_diff
