@@ -157,7 +157,7 @@ Main points:
 
 - DPVO has no IMU. Its scale is different in each run. Thus its $SE(3)$ ATE is 3-14 times its $Sim(3)$ ATE.
 - On M3ED and TartanGround, the two VIO methods have a $Sim(3)$ ATE of 0.2-0.5 % of the path.
-- KITTI is the most difficult dataset for the VIO methods. The OXTS IMU has timestamp errors and gaps of up to 1.9 s, and long straight drives make the scale and the IMU biases difficult to observe.
+- KITTI is the most difficult dataset for the VIO methods. The OXTS IMU has timestamp errors and gaps of up to 1.9 s. Long straight drives make the scale and the IMU biases difficult to observe.
 - VINS-Mono: the wall-clock solver limit (`max_solver_time`) causes run-to-run differences. With a limit of 1000 s, runs are bit-identical.
 - OpenVINS: 8 TartanGround sequences diverge in all 5 runs. The scale goes to 0-0.05.
 - On the i7-5930K and GTX 1080 Ti, DPVO (all datasets) and VINS-Mono (KITTI) are slower than the camera. OpenVINS processes 2-8 times faster than the camera rate.
